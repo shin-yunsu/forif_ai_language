@@ -237,6 +237,7 @@ def apply_deletion(text: str, num_errors: int = 1, used_positions: Set[int] = No
                 errors_applied += 1
     
     return ''.join(text_list), used_positions
+
 def delete_jamo(text_list: List[str], used_positions: Set[int]) -> Tuple[List[str], Set[int]]:
     """자모를 삭제"""
     hangul_positions = [i for i, char in enumerate(text_list) if is_hangul(char) and i not in used_positions]
@@ -285,6 +286,7 @@ def delete_jamo(text_list: List[str], used_positions: Set[int]) -> Tuple[List[st
         used_positions.add(pos)
     
     return text_list, used_positions
+
 def delete_syllable(text_list: List[str], used_positions: Set[int]) -> Tuple[List[str], Set[int]]:
     """음절을 삭제"""
     if len(text_list) <= 1:
@@ -456,25 +458,74 @@ def transpose_syllable(text_list: List[str], used_positions: Set[int]) -> Tuple[
     
     return None
 
-# 5. 띄어쓰기 오류 (Spacing) 함수들
+# 5. 띄어쓰기 오류 (Spacing) 함수들 - 개선된 버전
 def apply_spacing_error(text: str, num_errors: int = 1, used_positions: Set[int] = None) -> Tuple[str, Set[int]]:
-    """띄어쓰기 오타를 적용"""
+    """띄어쓰기 오타를 적용 (자모 분리 포함)"""
     if used_positions is None:
         used_positions = set()
     
     for _ in range(num_errors):
-        if ' ' in text and random.random() < 0.5:
+        error_type = random.choice(['remove_space', 'add_space_between_syllables', 'add_space_in_jamo'])
+        
+        if error_type == 'remove_space' and ' ' in text:
             # 공백 삭제
             text, new_pos = remove_space(text, used_positions)
             if new_pos:
                 used_positions.update(new_pos)
-        else:
-            # 공백 추가
+        elif error_type == 'add_space_between_syllables':
+            # 음절 사이에 공백 추가
             text, new_pos = add_space(text, used_positions)
+            if new_pos:
+                used_positions.update(new_pos)
+        else:  # add_space_in_jamo
+            # 자모 사이에 공백 추가 (예: 국 → ㄱ ㅜ ㄱ)
+            text, new_pos = add_space_in_jamo(text, used_positions)
             if new_pos:
                 used_positions.update(new_pos)
     
     return text, used_positions
+
+def add_space_in_jamo(text: str, used_positions: Set[int]) -> Tuple[str, Set[int]]:
+    """자모 사이에 공백을 추가 (예: 국 → 구ㄱ 또는 ㄱㅜㄱ)"""
+    text_list = list(text)
+    hangul_positions = [i for i, char in enumerate(text_list) if is_hangul(char) and i not in used_positions]
+    
+    if not hangul_positions:
+        return text, set()
+    
+    # 랜덤하게 한글 글자 선택
+    pos = random.choice(hangul_positions)
+    char = text_list[pos]
+    cho, jung, jong = decompose_hangul(char)
+    
+    if cho == -1:
+        return text, set()
+    
+    # 분리 스타일 선택
+    style = random.choice(['all_spaces', 'some_spaces', 'no_spaces_but_separated'])
+    
+    if style == 'some_spaces':
+        # 일부 자모 사이에만 공백
+        if jong != 0:
+            if random.random() < 0.5:
+                # 초성과 중성 사이에 공백
+                jamo_str = CHOSUNG_LIST[cho]  + JUNGSUNG_LIST[jung] + JONGSUNG_LIST[jong]
+            else:
+                # 중성과 종성 사이에 공백
+                jamo_str = CHOSUNG_LIST[cho] + JUNGSUNG_LIST[jung]  + JONGSUNG_LIST[jong]
+        else:
+            # 초성과 중성 사이에 공백
+            jamo_str = CHOSUNG_LIST[cho] + JUNGSUNG_LIST[jung]
+    else:  # no_spaces_but_separated
+        # 공백 없이 자모만 분리 (예: ㄱㅜㄱ)
+        jamo_str = CHOSUNG_LIST[cho] + JUNGSUNG_LIST[jung]
+        if jong != 0:
+            jamo_str += JONGSUNG_LIST[jong]
+    
+    # 원래 글자를 분리된 자모로 교체
+    text_list[pos] = jamo_str
+    
+    return ''.join(text_list), {pos}
 
 def remove_space(text: str, used_positions: Set[int]) -> Tuple[str, Set[int]]:
     """공백을 제거"""
@@ -486,7 +537,7 @@ def remove_space(text: str, used_positions: Set[int]) -> Tuple[str, Set[int]]:
     return text, set()
 
 def add_space(text: str, used_positions: Set[int]) -> Tuple[str, Set[int]]:
-    """불필요한 공백을 추가"""
+    """불필요한 공백을 추가 (음절 사이)"""
     # 조사 앞에 공백 추가
     particles = ['을', '를', '이', '가', '은', '는', '와', '과', '에', '에서', '으로', '로', '의']
     
