@@ -6,24 +6,33 @@ MKQA 데이터셋을 활용한 한국어-영어 코드 스위칭 및 오타 데�
 
 ```
 forif_ai/
-├── code-switching/          # 코드 스위칭 생성
-│   └── make_code_switching_gpt.py
-├── refine/                  # 한국어 번역 개선
-│   └── refine_korean_with_gpt.py
-├── typo/                    # 오타 생성
-│   ├── generate_typos_with_gpt.py
-│   ├── generate_typos_with_gpt_improved.py
-│   ├── generate_typos_from_korean.py
-│   └── korean_typo_generator.py
-├── format/                  # 데이터 형식 변환
-│   ├── filter_mkqa_*.py
-│   ├── convert_*.py
-│   └── analyze_*.py
-├── data/                   # 데이터 파일
-│   ├── mkqa_refined_full.json    # 정제된 전체 데이터
-│   ├── mkqa_filtered.json        # 필터링된 데이터
-│   └── mkqa_kr_only.json         # 한국어만 추출
-└── ml-mkqa/                 # MKQA 평가 도구
+├── src/
+│   ├── code-switching/          # 코드 스위칭 생성
+│   │   └── make_code_switching_gpt.py
+│   ├── refine/                  # 한국어 번역 개선
+│   │   └── refine_korean_with_gpt.py
+│   ├── typo/                    # 오타 생성
+│   │   ├── generate_typos_*.py
+│   │   └── korean_typo_generator.py
+│   └── utils/                   # 유틸리티 스크립트
+│       └── extract_ko_only.py
+├── config/
+│   ├── format/                  # 데이터 형식 변환 및 필터링
+│   │   ├── filter_mkqa_*.py
+│   │   ├── convert_*.py
+│   │   └── analyze_*.py
+│   └── ml-mkqa/                 # MKQA 평가 도구
+├── data/
+│   ├── processed/               # 처리된 데이터
+│   │   ├── refined/
+│   │   │   └── mkqa_refined_full.json
+│   │   ├── filtered/
+│   │   │   └── mkqa_filtered.json
+│   │   └── mkqa_kr_only.json
+│   ├── outputs/                 # 생성된 최종 데이터
+│   │   └── code_switched_full.json
+│   └── test/                    # 테스트용 데이터
+└── README.md
 ```
 
 ## 🚀 설치 및 설정
@@ -34,7 +43,7 @@ forif_ai/
 python3 -m venv venv
 source venv/bin/activate  # Mac/Linux
 # or
-venv\Scripts\activate  # Windows
+virtualenv\Scripts\activate  # Windows
 
 # 패키지 설치
 pip install openai tqdm jamo
@@ -53,7 +62,7 @@ export OPENAI_API_KEY="your-openai-api-key"
 
 #### 코드 스위칭 케이스
 | Case | 설명 | 예시 |
-|------|------|------|
+|------|------|------||
 | Case1 | 완전 한국어 | 대한민국의 대통령은 누구인가? |
 | Case2 | 키워드 레벨 switch | 대한민국의 president는 누구인가? |
 | Case3 | 구조 혼합 | Who is 대한민국 대통령? |
@@ -63,19 +72,19 @@ export OPENAI_API_KEY="your-openai-api-key"
 #### 실행 방법
 ```bash
 # 기본 실행 (100개 샘플, 5개 스레드)
-python code-switching/make_code_switching_gpt.py
+python src/code-switching/make_code_switching_gpt.py
 
 # 전체 데이터 처리
-python code-switching/make_code_switching_gpt.py \
-    --input data/refined/mkqa_refined_full.json \
-    --output code_switched_full.json \
+python src/code-switching/make_code_switching_gpt.py \
+    --input data/processed/refined/mkqa_refined_full.json \
+    --output data/outputs/code_switched_full.json \
     --sample-size -1 \
     --threads 8
 
 # 커스텀 설정
-python code-switching/make_code_switching_gpt.py \
-    --input data/refined/mkqa_refined_full.json \
-    --output custom_output.json \
+python src/code-switching/make_code_switching_gpt.py \
+    --input data/processed/refined/mkqa_refined_full.json \
+    --output data/outputs/custom_output.json \
     --sample-size 500 \
     --model gpt-4o-mini \
     --threads 10 \
@@ -84,8 +93,8 @@ python code-switching/make_code_switching_gpt.py \
 ```
 
 #### 옵션 설명
-- `--input`: 입력 JSON 파일 경로 (기본값: ../jsons/mkqa_refined_full.json)
-- `--output`: 출력 JSON 파일 경로 (기본값: code_switched_data.json)
+- `--input`: 입력 JSON 파일 경로 (기본값: `data/processed/refined/mkqa_refined_full.json`)
+- `--output`: 출력 JSON 파일 경로 (기본값: `data/outputs/code_switched_data.json`)
 - `--sample-size`: 처리할 샘플 수, -1이면 전체 (기본값: 100)
 - `--model`: OpenAI 모델 선택 [gpt-4o-mini, gpt-4, gpt-3.5-turbo] (기본값: gpt-4o-mini)
 - `--threads`: 병렬 처리 스레드 수 (기본값: 5)
@@ -99,19 +108,19 @@ MKQA 데이터셋의 한국어 번역을 자연스럽게 개선합니다.
 ```bash
 # 기본 실행
 python src/refine/refine_korean_with_gpt.py \
-    --input data/mkqa_filtered.json \
-    --output data/mkqa_refined_full.json
+    --input data/processed/filtered/mkqa_filtered.json \
+    --output data/processed/refined/mkqa_refined_full.json
 
 # 테스트 모드 (20개 샘플)
 python src/refine/refine_korean_with_gpt.py \
     --test \
-    --input data/mkqa_filtered.json \
+    --input data/processed/filtered/mkqa_filtered.json \
     --sample-size 20
 
 # 병렬 처리 최적화
 python src/refine/refine_korean_with_gpt.py \
-    --input jsons/mkqa_filtered.json \
-    --output jsons/mkqa_refined_v2.json \
+    --input data/processed/filtered/mkqa_filtered.json \
+    --output data/processed/refined/mkqa_refined_v2.json \
     --batch-size 20 \
     --max-workers 10
 ```
@@ -133,18 +142,18 @@ python src/refine/refine_korean_with_gpt.py \
 # 기본 실행
 python src/typo/generate_typos_with_gpt.py \
     --input data/processed/mkqa_kr_only.json \
-    --output korean_with_typos.json
+    --output data/outputs/korean_with_typos.json
 
 # 개선된 버전 (더 자연스러운 오타)
 python src/typo/generate_typos_with_gpt_improved.py \
     --input data/processed/mkqa_kr_only.json \
-    --output korean_typos_improved.json \
+    --output data/outputs/korean_typos_improved.json \
     --batch-size 15
 
 # 오타 비율 조절
 python src/typo/generate_typos_with_gpt.py \
     --input data/processed/mkqa_kr_only.json \
-    --output korean_typos_30.json \
+    --output data/outputs/korean_typos_30.json \
     --typo-ratio 0.3
 ```
 
@@ -152,8 +161,8 @@ python src/typo/generate_typos_with_gpt.py \
 ```bash
 # 한국어 오타 생성 (5가지 유형)
 python src/typo/korean_typo_generator.py \
-    --input data/mkqa_kr_only.json \
-    --output korean_typos_rule.json
+    --input data/processed/mkqa_kr_only.json \
+    --output data/outputs/korean_typos_rule.json
 
 # 한국어 데이터에서 오타 생성
 python src/typo/generate_typos_from_korean.py
@@ -171,34 +180,34 @@ python src/typo/generate_typos_from_korean.py
 #### MKQA 데이터 필터링
 ```bash
 # 긴 답변만 필터링
-python format/filter_mkqa_long_only.py
+python config/format/filter_mkqa_long_only.py
 
 # 의미있는 답변만 필터링
-python format/filter_mkqa_meaningful.py
+python config/format/filter_mkqa_meaningful.py
 
 # 설명형 답변만 필터링
-python format/filter_mkqa_descriptive.py
+python config/format/filter_mkqa_descriptive.py
 
 # 최종 필터링
-python format/filter_mkqa_final.py
+python config/format/filter_mkqa_final.py
 ```
 
 #### 형식 변환
 ```bash
 # MKQA를 JSON으로 변환
-python format/convert_mkqa_to_json.py
+python config/format/convert_mkqa_to_json.py
 
 # 정제된 형식으로 변환
-python format/convert_refined_format.py
+python config/format/convert_refined_format.py
 ```
 
 #### 데이터 분석
 ```bash
 # 답변 유형 분석
-python format/analyze_answer_types.py
+python config/format/analyze_answer_types.py
 
 # MKQA 데이터 분석
-python format/analyze_mkqa.py
+python config/format/analyze_mkqa.py
 ```
 
 ## 📊 데이터 형식
@@ -277,7 +286,7 @@ export OPENAI_API_KEY="sk-..."  # 올바른 API 키 설정
 ```python
 # 파일 상단에 추가
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*- 
 ```
 
 ## 📝 워크플로우
@@ -285,25 +294,25 @@ export OPENAI_API_KEY="sk-..."  # 올바른 API 키 설정
 1. **데이터 준비**
    ```bash
    # MKQA 데이터 필터링
-   python format/filter_mkqa_final.py
+   python config/format/filter_mkqa_final.py
    ```
 
 2. **한국어 정제**
    ```bash
    # GPT로 한국어 번역 개선
-   python refine/refine_korean_with_gpt.py --input mkqa_filtered.json
+   python src/refine/refine_korean_with_gpt.py --input data/processed/filtered/mkqa_filtered.json
    ```
 
 3. **코드 스위칭 생성**
    ```bash
    # 5가지 케이스로 코드 스위칭
-   python code-switching/make_code_switching_gpt.py --input mkqa_refined.json
+   python src/code-switching/make_code_switching_gpt.py --input data/processed/refined/mkqa_refined.json
    ```
 
 4. **오타 생성**
    ```bash
    # 한국어 오타 추가
-   python typo/generate_typos_with_gpt_improved.py --input mkqa_kr_only.json
+   python src/typo/generate_typos_with_gpt_improved.py --input data/processed/mkqa_kr_only.json
    ```
 
 ## 📄 라이선스
