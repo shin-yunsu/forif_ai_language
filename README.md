@@ -19,7 +19,7 @@ forif_ai/
 │   ├── filter_mkqa_*.py
 │   ├── convert_*.py
 │   └── analyze_*.py
-├── jsons/                   # 데이터 파일
+├── data/                   # 데이터 파일
 │   ├── mkqa_refined_full.json    # 정제된 전체 데이터
 │   ├── mkqa_filtered.json        # 필터링된 데이터
 │   └── mkqa_kr_only.json         # 한국어만 추출
@@ -67,14 +67,14 @@ python code-switching/make_code_switching_gpt.py
 
 # 전체 데이터 처리
 python code-switching/make_code_switching_gpt.py \
-    --input jsons/mkqa_refined_full.json \
+    --input data/refined/mkqa_refined_full.json \
     --output code_switched_full.json \
     --sample-size -1 \
     --threads 8
 
 # 커스텀 설정
 python code-switching/make_code_switching_gpt.py \
-    --input jsons/mkqa_refined_full.json \
+    --input data/refined/mkqa_refined_full.json \
     --output custom_output.json \
     --sample-size 500 \
     --model gpt-4o-mini \
@@ -98,18 +98,18 @@ MKQA 데이터셋의 한국어 번역을 자연스럽게 개선합니다.
 
 ```bash
 # 기본 실행
-python refine/refine_korean_with_gpt.py \
-    --input jsons/mkqa_filtered.json \
-    --output jsons/mkqa_refined_full.json
+python src/refine/refine_korean_with_gpt.py \
+    --input data/mkqa_filtered.json \
+    --output data/mkqa_refined_full.json
 
 # 테스트 모드 (20개 샘플)
-python refine/refine_korean_with_gpt.py \
+python src/refine/refine_korean_with_gpt.py \
     --test \
-    --input jsons/mkqa_filtered.json \
+    --input data/mkqa_filtered.json \
     --sample-size 20
 
 # 병렬 처리 최적화
-python refine/refine_korean_with_gpt.py \
+python src/refine/refine_korean_with_gpt.py \
     --input jsons/mkqa_filtered.json \
     --output jsons/mkqa_refined_v2.json \
     --batch-size 20 \
@@ -131,19 +131,19 @@ python refine/refine_korean_with_gpt.py \
 #### 3.1 GPT 기반 오타 생성
 ```bash
 # 기본 실행
-python typo/generate_typos_with_gpt.py \
-    --input jsons/mkqa_kr_only.json \
+python src/typo/generate_typos_with_gpt.py \
+    --input data/processed/mkqa_kr_only.json \
     --output korean_with_typos.json
 
 # 개선된 버전 (더 자연스러운 오타)
-python typo/generate_typos_with_gpt_improved.py \
-    --input jsons/mkqa_kr_only.json \
+python src/typo/generate_typos_with_gpt_improved.py \
+    --input data/processed/mkqa_kr_only.json \
     --output korean_typos_improved.json \
     --batch-size 15
 
 # 오타 비율 조절
-python typo/generate_typos_with_gpt.py \
-    --input jsons/mkqa_kr_only.json \
+python src/typo/generate_typos_with_gpt.py \
+    --input data/processed/mkqa_kr_only.json \
     --output korean_typos_30.json \
     --typo-ratio 0.3
 ```
@@ -151,12 +151,12 @@ python typo/generate_typos_with_gpt.py \
 #### 3.2 규칙 기반 오타 생성
 ```bash
 # 한국어 오타 생성 (5가지 유형)
-python typo/korean_typo_generator.py \
-    --input jsons/mkqa_kr_only.json \
+python src/typo/korean_typo_generator.py \
+    --input data/mkqa_kr_only.json \
     --output korean_typos_rule.json
 
 # 한국어 데이터에서 오타 생성
-python typo/generate_typos_from_korean.py
+python src/typo/generate_typos_from_korean.py
 ```
 
 #### 오타 유형
