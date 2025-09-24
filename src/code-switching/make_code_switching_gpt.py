@@ -23,62 +23,78 @@ def load_mkqa_data(file_path: str) -> List[Dict[str, str]]:
         return json.load(f)
 
 def create_code_switching_prompt(ko_text: str, en_text: str, case_type: str) -> str:
-    """Create a prompt for GPT to generate code-switched text based on specific case type."""
+    """Create a prompt for GPT to generate code-switched text based on specific case type with few-shot examples."""
 
     case_prompts = {
-        "Case1": f"""Generate a pure Korean sentence. Keep everything in Korean.
-
-Korean original: {ko_text}
-English original: {en_text}
-
-Output: The complete Korean version only.""",
-
         "Case2": f"""Generate Korean sentence with keyword-level English switching.
 Replace 1-2 key nouns or verbs with English while keeping Korean sentence structure and particles.
 
+Examples:
+Korean original: 미국의 수도는 어디인가?
+English original: What is the capital of the United States?
+Output: 미국의 capital은 어디인가?
+
+Korean original: 프랑스의 대통령은 누구인가?
+English original: Who is the president of France?
+Output: France의 대통령은 누구인가?
+
+Korean original: 태양계에서 가장 큰 행성은 무엇인가?
+English original: What is the largest planet in the solar system?
+Output: solar system에서 가장 큰 planet은 무엇인가?
+
+Now generate:
 Korean original: {ko_text}
 English original: {en_text}
-
-Pattern: Keep Korean structure but switch 1-2 important content words to English.
-Example pattern: "대한민국의 president는 누구인가?" (noun switching)
-
-Output only the code-switched sentence.""",
+Output: """,
 
         "Case3": f"""Generate a mixed structure sentence.
 Use English sentence structure for the main clause but keep Korean nouns/phrases.
 
+Examples:
+Korean original: 미국의 수도는 어디인가?
+English original: What is the capital of the United States?
+Output: What is 미국의 수도?
+
+Korean original: 프랑스의 대통령은 누구인가?
+English original: Who is the president of France?
+Output: Who is 프랑스의 대통령?
+
+Korean original: 태양계에서 가장 큰 행성은 무엇인가?
+English original: What is the largest planet in the solar system?
+Output: What is 태양계에서 가장 큰 행성?
+
+Now generate:
 Korean original: {ko_text}
 English original: {en_text}
-
-Pattern: English structure + Korean key terms
-Example pattern: "Who is 대한민국 대통령?" (English question structure with Korean terms)
-
-Output only the code-switched sentence.""",
+Output: """,
 
         "Case4": f"""Generate English sentence with keyword-level Korean switching.
 Use English sentence structure but keep 1-2 Korean key terms.
 
+Examples:
+Korean original: 미국의 수도는 어디인가?
+English original: What is the capital of the United States?
+Output: What is the 수도 of the United States?
+
+Korean original: 프랑스의 대통령은 누구인가?
+English original: Who is the president of France?
+Output: Who is the 대통령 of France?
+
+Korean original: 태양계에서 가장 큰 행성은 무엇인가?
+English original: What is the largest planet in the solar system?
+Output: What is the largest 행성 in the solar system?
+
+Now generate:
 Korean original: {ko_text}
 English original: {en_text}
-
-Pattern: Mostly English with 1-2 Korean keywords
-Example pattern: "Who is the 대통령 of Korea?" (English with Korean noun)
-
-Output only the code-switched sentence.""",
-
-        "Case5": f"""Generate a pure English sentence. Keep everything in English.
-
-Korean original: {ko_text}
-English original: {en_text}
-
-Output: The complete English version only."""
+Output: """
     }
 
     return case_prompts[case_type]
 
 def generate_code_switched_text(ko_text: str, en_text: str, case_type: str,
                                model: str = "gpt-4o-mini") -> str:
-    """Generate code-switched text using GPT."""
+    """Generate code-switched text using GPT with few-shot prompting."""
 
     prompt = create_code_switching_prompt(ko_text, en_text, case_type)
 
@@ -86,10 +102,10 @@ def generate_code_switched_text(ko_text: str, en_text: str, case_type: str,
         response = client.chat.completions.create(
             model=model,
             messages=[
-                {"role": "system", "content": "You are a Korean-English bilingual speaker who naturally code-switches between languages. Always maintain the original meaning while creating natural-sounding mixed sentences."},
+                {"role": "system", "content": "You are a Korean-English bilingual speaker who naturally code-switches between languages. Follow the pattern shown in the examples exactly. Always maintain the original meaning while creating natural-sounding mixed sentences. Only output the final result without any additional explanation."},
                 {"role": "user", "content": prompt}
             ],
-            temperature=0.7,
+            temperature=0.3,  # Lower temperature for more consistent pattern following
             max_tokens=200
         )
 
