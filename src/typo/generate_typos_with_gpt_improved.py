@@ -27,81 +27,113 @@ def generate_typos_batch(client, entries: List[Dict], batch_size: int = 5) -> Li
     """GPT를 사용해서 오타 생성"""
 
     # 배치 데이터 준비
-    batch_text = json.dumps(entries, ensure_ascii=False, indent=2)
+    # batch_text = json.dumps(entries, ensure_ascii=False, indent=2)
+    korean_texts = [entry["ko"] for entry in entries]
+    batch_text = json.dumps(korean_texts, ensure_ascii=False, indent=2)
 
-    prompt = f"""한국어 문장에 오타를 생성해주세요.
+    prompt = f"""
+한국어 문장에 의도적인 오타를 생성하는 작업입니다. 각 오타 유형별로 정확히 1개 또는 2개의 오류를 생성해야 합니다.
 
-오타 생성 규칙과 예시:
+## 오타 생성 규칙
 
-1. 교체(Substitution): 자모나 발음이 비슷한 것끼리 교체
-   - 모음 교체: ㅐ↔ㅔ, ㅓ↔ㅏ, ㅗ↔ㅜ, ㅡ↔ㅓ, ㅣ↔ㅡ
-   - 자음 교체: ㄹ↔ㄴ, ㅂ↔ㅁ, ㄱ↔ㅋ, ㄷ↔ㅌ, ㅈ↔ㅊ, ㅅ↔ㅆ
-   예시: "어디에서" → "어디애서" (ㅔ→ㅐ)
-   예시: "나왔나요" → "나왔라요" (ㄴ→ㄹ)
+### 1. 교체(Substitution) - 비슷한 자모를 다른 것으로 바꾸기
+- **모음 교체 가능 쌍**: ㅐ↔ㅔ, ㅓ↔ㅏ, ㅗ↔ㅜ, ㅡ↔ㅓ, ㅣ↔ㅡ, ㅕ↔ㅓ, ㅛ↔ㅗ, ㅠ↔ㅜ
+- **자음 교체 가능 쌍**: ㄹ↔ㄴ, ㅂ↔ㅁ, ㄱ↔ㅋ, ㄷ↔ㅌ, ㅈ↔ㅊ, ㅅ↔ㅆ, ㅇ↔ㄹ, ㅃ↔ㅂ, ㄸ↔ㄷ
+- 예: "가장" → "가잘" (ㅇ→ㄹ)
 
-2. 삭제(Deletion): 자모 또는 음절 단위 누락
-   - 음절 삭제: "어디에서" → "어디서" (에 삭제)
-   - 자모 삭제: "했습니다" → "했습니다" (종성 ㅆ 삭제 → "했스니다")
-   예시: "인구는?" → "인구ㅡㄴ" (ㄴ 삭제)
-   예시: "서울" → "서" (울 삭제)
+### 2. 삭제(Deletion) - 자모 또는 음절 빼기
+- **자모 삭제**: 받침이나 모음 일부를 제거
+- **음절 삭제**: 전체 글자를 제거
+- 예: "가장" → "가ㅈㅇ" (모음 ㅏ 삭제) 또는 "가" (음절 삭제)
 
-3. 추가(Insertion): 불필요한 자모나 음절 삽입
-   - 음절 중복: "스타벅스" → "스타벅스스" (스 중복)
-   - 자모 추가: "나왔나요" → "나왔ㅅ나요" (ㅅ 추가)
-   예시: "로고는" → "로고고는" (고 중복)
-   예시: "어디" → "어디ㅣ" (ㅣ 추가)
+### 3. 추가(Insertion) - 불필요한 자모나 음절 넣기
+- **자모 추가**: 받침이나 모음을 추가
+- **음절 추가**: 전체 글자를 추가
+- 예: "가장" → "가장ㅇ" (자모 추가) 또는 "가장장" (음절 추가)
 
-4. 전치(Transposition): 인접한 자모나 음절 순서 바뀜
-   - 음절 전치: "스타벅스" → "스벅타스" (타벅 순서 변경)
-   - 자모 전치: "서울" → "서ㅜㅇㄹ" (ㅇ,ㅜ 순서 변경)
-   예시: "로고는" → "고로는" (로고 순서 변경)
-   예시: "나왔나요" → "나왔ㅏㄴ요" (ㄴ,ㅏ 순서 변경)
+### 4. 전치(Transposition) - 인접한 요소의 순서 바꾸기
+- **자모 전치**: 한 글자 내에서 자모 순서 변경
+- **음절 전치**: 인접한 두 글자의 순서 변경
+- 예: "가장" → "가ㅏㅈㅇ" (자모 전치) 또는 "장가" (음절 전치)
 
-5. 띄어쓰기 오류(Spacing): 공백 추가/제거
-   - 공백 제거: "어디에서 나왔나요" → "어디에서나왔나요"
-   - 공백 추가: "스타벅스" → "스타 벅스"
-   예시: "그들만의 리그" → "그들만의리그" (공백 제거)
-   예시: "라이온킹" → "라이온 킹" (공백 추가)
+### 5. 띄어쓰기(Spacing) - 공백 추가 또는 제거
+- **공백 제거**: 띄어쓰기 삭제
+- **공백 추가**: 단어 중간에 불필요한 공백 삽입
+- 예: "가장 큰" → "가장큰" (공백 제거) 또는 "가 장 큰" (공백 추가)
 
-각 오타 유형별로 2개 버전 생성:
-- 1 error: 해당 오타 유형 1번 적용
-- 2 errors: 해당 오타 유형 2번 적용 (1 error 버전에 추가하여)
+## 중요 규칙
+1. **오류 개수 엄수**: 
+   - "1_error": 해당 유형의 오타를 정확히 1개만 적용
+   - "2_errors": 해당 유형의 오타를 정확히 2개 적용 (1에서 추가하여)
 
-입력 데이터:
-{batch_text}
+2. **원문 보존**: 오타를 제외한 나머지 부분은 원문과 동일해야 함
 
-출력 형식:
+3. **자연스러운 오타**: 실제 타이핑 실수처럼 보이도록 생성
+
+## 출력 형식
+각 문장에 대해 다음 JSON 구조로 출력:
 [{{
-  "original": "원본 한국어 텍스트",
+  "original": "원본 문장",
   "substitution": {{
-    "1_error": "교체 오타 하나",
-    "2_errors": "교체 오타 둘"
+    "1_error": "교체 오타 1개 적용된 문장",
+    "2_errors": "교체 오타 2개 적용된 문장"
   }},
   "deletion": {{
-    "1_error": "삭제 오타 하나",
-    "2_errors": "삭제 오타 둘"
+    "1_error": "삭제 오타 1개 적용된 문장",
+    "2_errors": "삭제 오타 2개 적용된 문장"
   }},
   "insertion": {{
-    "1_error": "추가 오타 하나",
-    "2_errors": "추가 오타 둘"
+    "1_error": "추가 오타 1개 적용된 문장",
+    "2_errors": "추가 오타 2개 적용된 문장"
   }},
   "transposition": {{
-    "1_error": "전치 오타 하나",
-    "2_errors": "전치 오타 둘"
+    "1_error": "전치 오타 1개 적용된 문장",
+    "2_errors": "전치 오타 2개 적용된 문장"
   }},
   "spacing": {{
-    "1_error": "띄어쓰기 오타 하나",
-    "2_errors": "띄어쓰기 오타 둘"
+    "1_error": "띄어쓰기 오타 1개 적용된 문장",
+    "2_errors": "띄어쓰기 오타 2개 적용된 문장"
   }}
 }}]
 
-JSON 배열 형식으로만 응답해주세요."""
+## 실제 예시
+입력: "미국의 수도는 어디인가"
+출력:
+{{
+  "original": "미국의 수도는 어디인가",
+  "substitution": {{
+    "1_error": "미국의 수도는 어다인가",
+     "2_errors": "미국의 수두는 어다인가"  
+  }},
+  "deletion": {{
+    "1_error": "미국의 수도는 어디가",  
+    "2_errors": "미국의 수도ㅡㄴ 어디가"
+  }},
+  "insertion": {{
+    "1_error": "미국의 수도도는 어디인가", 
+    "2_errors": "미국의 수도도는 어디인가ㅏ"
+  }},
+  "transposition": {{
+    "1_error": "미국의 수도는 어인디가",  
+    "2_errors": "미국의 도수는 어디ㅣㅇㄴ가"
+  }},
+  "spacing": {{
+    "1_error": "미국의수도는 어디인가",  
+    "2_errors": "미국의수도는 어 디인가" 
+  }}
+}}
+
+입력 텍스트:
+{batch_text}
+
+위 규칙과 형식에 따라 JSON 배열로만 응답하세요.
+"""
 
     try:
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
-                {"role": "system", "content": "당신은 한국어 오타를 생성하는 전문가입니다. 각 오타 유형별로 명확하고 구분 가능한 오타를 만들어주세요."},
+                {"role": "system", "content": "당신은 한국어 오타를 생성하는 전문가입니다. 제공된 예시와 같은 패턴과 형식으로 오타를 생성해주세요. JSON 형식만 출력하고 다른 설명은 하지 마세요."},
                 {"role": "user", "content": prompt}
             ],
             temperature=0.7,
@@ -139,14 +171,27 @@ def process_dataset(input_file: str, output_file: str, batch_size: int = 5, max_
 
     # 데이터 형식 확인 및 변환
     simple_data = []
-    for entry in data:
-        if "query" in entry:
-            simple_data.append({
-                "en": entry["query"],
-                "ko": entry["queries"]["ko"]
-            })
-        else:
-            simple_data.append(entry)
+    
+    # 입력이 문자열 리스트인 경우 처리
+    if isinstance(data, list) and all(isinstance(item, str) for item in data):
+        for text in data:
+            simple_data.append({"ko": text})
+    # 기존 딕셔너리 형태도 지원
+    else:
+        for entry in data:
+            if isinstance(entry, dict):
+                if "ko" in entry:
+                    simple_data.append({
+                        "en": entry.get("en", ""),
+                        "ko": entry["ko"]
+                    })
+                elif "query" in entry and "queries" in entry and "ko" in entry["queries"]:
+                    simple_data.append({
+                        "en": entry["query"],
+                        "ko": entry["queries"]["ko"]
+                    })
+            elif isinstance(entry, str):
+                simple_data.append({"ko": entry})
 
     print(f"📊 Total entries to process: {len(simple_data)}")
 

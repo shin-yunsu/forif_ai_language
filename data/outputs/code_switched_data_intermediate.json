@@ -1,0 +1,122 @@
+[
+  {
+    "id": 0,
+    "original_ko": "어디에서 용어 '그레이트 스콧'이 나왔나요",
+    "original_en": "where did the phrase great scott come from",
+    "code_switched_versions": {
+      "Case1": "어디에서 용어 '그레이트 스콧'이 나왔나요",
+      "Case2": "어디에서 phrase '그레이트 스콧'이 나왔나요?",
+      "Case3": "Where did 용어 '그레이트 스콧'이 나왔나요?",
+      "Case4": "Where did the 용어 '그레이트 스콧' come from?",
+      "Case5": "where did the phrase great scott come from"
+    }
+  },
+  {
+    "id": 1,
+    "original_ko": "스타벅스 로고는 어디에서 나왔나요",
+    "original_en": "where did the logo for starbucks come from",
+    "code_switched_versions": {
+      "Case1": "스타벅스 로고는 어디에서 나왔나요",
+      "Case2": "스타벅스 logo는 어디에서 나왔나요?",
+      "Case3": "Where did 스타벅스 로고 come from?",
+      "Case4": "Where did the 스타벅스 logo come from?",
+      "Case5": "where did the logo for starbucks come from"
+    }
+  },
+  {
+    "id": 2,
+    "original_ko": "어느 깃발에 유니언 잭이 있나요",
+    "original_en": "what flags have the union jack in them",
+    "code_switched_versions": {
+      "Case1": "어느 깃발에 유니언 잭이 있나요",
+      "Case2": "어느 flag에 유니언 잭이 있나요?",
+      "Case3": "What 깃발에 유니언 잭이 있나요?",
+      "Case4": "What 깃발 have the union jack in them?",
+      "Case5": "what flags have the union jack in them"
+    }
+  },
+  {
+    "id": 3,
+    "original_ko": "제1차 세계 대전은 어디에서 일어났나요",
+    "original_en": "where did the first world war take place",
+    "code_switched_versions": {
+      "Case1": "제1차 세계 대전은 어디에서 일어났나요",
+      "Case2": "제1차 world war는 어디에서 일어났나요?",
+      "Case3": "Where did 제1차 세계 대전 일어났나요?",
+      "Case4": "Where did the 제1차 세계 대전 take place?",
+      "Case5": "where did the first world war take place"
+    }
+  },
+  {
+    "id": 4,
+    "original_ko": "아이오와의 클리어 레이크에 어떻게 가죠",
+    "original_en": "how do i get to clear lake iowa",
+    "code_switched_versions": {
+      "Case1": "아이오와의 클리어 레이크에 어떻게 가죠",
+      "Case2": "아이오와의 Clear Lake에 어떻게 가죠?",
+      "Case3": "How do I get to 아이오와의 클리어 레이크?",
+      "Case4": "How do I get to 클리어 레이크, 아이오와?",
+      "Case5": "how do i get to clear lake iowa"
+    }
+  },
+  {
+    "id": 5,
+    "original_ko": "어디에서 '지옥으로 가는 바구니'라는 표현이 나왔나요",
+    "original_en": "where does the expression going to hell in a handbasket come from",
+    "code_switched_versions": {
+      "Case1": "어디에서 '지옥으로 가는 바구니'라는 표현이 나왔나요",
+      "Case2": "어디에서 'going to hell in a handbasket'라는 표현이 나왔나요?",
+      "Case3": "Where does '지옥으로 가는 바구니'라는 표현이 나왔나요?",
+      "Case4": "Where does the 표현 going to hell in a handbasket come from?",
+      "Case5": "where does the expression going to hell in a handbasket come from"
+    }
+  },
+  {
+    "id": 6,
+    "original_ko": "라이온 킹에서 등장하는 캐릭터의 이름은 무엇인가요",
+    "original_en": "what are the names of the characters in the lion king",
+    "code_switched_versions": {
+      "Case1": "라이온 킹에서 등장하는 캐릭터의 이름은 무엇인가요",
+      "Case2": "라이온 킹에서 등장하는 character의 이름은 무엇인가요?",
+      "Case3": "What are 라이온 킹에서 등장하는 캐릭터의 이름?",
+      "Case4": "What are the 이름 of the characters in the Lion King?",
+      "Case5": "what are the names of the characters in the lion king"
+    }
+  },
+  {
+    "id": 7,
+    "original_ko": "그들만의 리그 영화의 출연진",
+    "original_en": "cast of the movie league of their own",
+    "code_switched_versions": {
+      "Case1": "그들만의 리그 영화의 출연진",
+      "Case2": "그들만의 league 영화의 출연진",
+      "Case3": "What is 그들만의 리그 영화의 출연진?",
+      "Case4": "cast of the 영화 league of their own",
+      "Case5": "cast of the movie league of their own"
+    }
+  },
+  {
+    "id": 8,
+    "original_ko": "순서대로 해리 포터 영화는 무엇인가요",
+    "original_en": "what are the harry potter's in order",
+    "code_switched_versions": {
+      "Case1": "순서대로 해리 포터 영화는 무엇인가요",
+      "Case2": "순서대로 Harry Potter 영화는 무엇인가요?",
+      "Case3": "What are 순서대로 해리 포터 영화?",
+      "Case4": "What are the 해리 포터 영화 in order?",
+      "Case5": "what are the harry potter's in order"
+    }
+  },
+  {
+    "id": 9,
+    "original_ko": "모든 퍼피 구조대 캐릭터의 이름은 무엇인가요",
+    "original_en": "what are all the paw patrol characters names",
+    "code_switched_versions": {
+      "Case1": "모든 퍼피 구조대 캐릭터의 이름은 무엇인가요",
+      "Case2": "모든 paw patrol 캐릭터의 이름은 무엇인가요?",
+      "Case3": "What are 모든 퍼피 구조대 캐릭터의 이름?",
+      "Case4": "What are all the 퍼피 구조대 characters' names?",
+      "Case5": "what are all the paw patrol characters names"
+    }
+  }
+]
