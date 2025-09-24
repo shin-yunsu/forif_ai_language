@@ -1,7 +1,7 @@
 import json
 import random
 import argparse
-from typing import List, Dict, Tuple, Set
+from typing import List, Dict, Tuple, Set, Optional
 import re
 import copy
 
@@ -117,14 +117,24 @@ def get_hangul_positions(text: str) -> List[int]:
     """문장에서 한글 문자의 위치를 반환"""
     return [i for i, char in enumerate(text) if is_hangul(char)]
 
+def get_context_string(text: str, pos: int, window: int = 1) -> str:
+    """위치 주변의 문자열 컨텍스트를 가져옴"""
+    start = max(0, pos - window)
+    end = min(len(text), pos + window + 1)
+    context = text[start:pos] + text[pos:end]
+    return context
+
 # 1. 교체 (Substitution) 함수들
-def apply_substitution(text: str, num_errors: int = 1, used_positions: Set[int] = None) -> Tuple[str, Set[int]]:
+def apply_substitution(text: str, num_errors: int = 1, used_positions: Set[int] = None, errors_list: List[str] = None) -> Tuple[str, Set[int], List[str]]:
     """교체 오타를 적용"""
     text_list = list(text)
     hangul_positions = get_hangul_positions(text)
     
+    if errors_list is None:
+        errors_list = []
+    
     if not hangul_positions:
-        return text, set()
+        return text, set(), errors_list
     
     if used_positions:
         available_positions = [pos for pos in hangul_positions if pos not in used_positions]
@@ -133,69 +143,164 @@ def apply_substitution(text: str, num_errors: int = 1, used_positions: Set[int] 
         used_positions = set()
     
     if not available_positions:
-        return text, used_positions
+        return text, used_positions, errors_list
     
-    num_errors = min(num_errors, len(available_positions))
-    selected_positions = random.sample(available_positions, num_errors)
+    # 실제로 교체된 개수를 추적
+    errors_applied = 0
+    attempts = 0
+    max_attempts = len(available_positions) * 5  # 충분한 재시도 횟수
     
-    for pos in selected_positions:
-        char = text_list[pos]
-        substitution_type = random.choice(['similar_jamo', 'keyboard_adjacent', 'phonetic'])
+    while errors_applied < num_errors and available_positions and attempts < max_attempts:
+        pos = random.choice(available_positions)
+        original_char = text_list[pos]
         
-        if substitution_type == 'similar_jamo':
-            text_list[pos] = substitute_similar_jamo(char)
-        elif substitution_type == 'keyboard_adjacent':
-            text_list[pos] = substitute_keyboard_adjacent(char)
-        else:  # phonetic
-            text_list[pos] = substitute_phonetic(char)
+        # 모든 교체 방법을 시도
+        substitution_types = ['similar_jamo', 'keyboard_adjacent', 'phonetic']
+        random.shuffle(substitution_types)
         
+        new_char = None
+        for sub_type in substitution_types:
+            if sub_type == 'similar_jamo':
+                temp_char = substitute_similar_jamo(original_char)
+            elif sub_type == 'keyboard_adjacent':
+                temp_char = substitute_keyboard_adjacent(original_char)
+            else:  # phonetic
+                temp_char = substitute_phonetic(original_char)
+            
+            if temp_char != original_char:
+                new_char = temp_char
+                break
+        
+        # 모든 방법이 실패하면 강제로 랜덤 교체
+        if new_char is None or new_char == original_char:
+            new_char = substitute_force_random(original_char)
+        
+        if new_char != original_char:
+            text_list[pos] = new_char
+            errors_list.append(f"{original_char} -> {new_char}")
+            errors_applied += 1
+        
+        # 성공 여부와 관계없이 해당 위치는 사용된 것으로 표시
         used_positions.add(pos)
+        available_positions.remove(pos)
+        attempts += 1
     
-    return ''.join(text_list), used_positions
+    return ''.join(text_list), used_positions, errors_list
 
-def substitute_similar_jamo(char: str) -> str:
-    """유사한 자모로 교체"""
+def substitute_force_random(char: str) -> str:
+    """강제로 랜덤 자모로 교체 (반드시 다른 글자로 변경)"""
     cho, jung, jong = decompose_hangul(char)
     if cho == -1:
         return char
     
-    # 초성 또는 중성 중 하나를 랜덤하게 교체
-    if random.random() < 0.5:
-        # 초성 교체
-        cho_char = CHOSUNG_LIST[cho]
-        if cho_char in SIMILAR_CHOSUNG:
+    # 초성, 중성, 종성 중 하나를 랜덤하게 변경
+    change_type = random.choice(['cho', 'jung', 'jong'])
+    
+    if change_type == 'cho':
+        # 현재와 다른 초성으로 변경
+        new_cho = random.choice([i for i in range(19) if i != cho])
+        return compose_hangul(new_cho, jung, jong)
+    elif change_type == 'jung':
+        # 현재와 다른 중성으로 변경
+        new_jung = random.choice([i for i in range(21) if i != jung])
+        return compose_hangul(cho, new_jung, jong)
+    else:
+        # 종성 변경 (없으면 추가, 있으면 제거하거나 변경)
+        if jong == 0:
+            new_jong = random.choice(range(1, 28))
+        else:
+            new_jong = random.choice([i for i in range(28) if i != jong])
+        return compose_hangul(cho, jung, new_jong)
+
+def substitute_similar_jamo(char: str) -> str:
+    """유사한 자모로 교체 - 더 적극적으로 교체"""
+    cho, jung, jong = decompose_hangul(char)
+    if cho == -1:
+        return char
+    
+    # 초성과 중성 모두 교체 시도
+    cho_char = CHOSUNG_LIST[cho]
+    jung_char = JUNGSUNG_LIST[jung]
+    
+    # 초성 교체 가능 여부 확인
+    can_replace_cho = cho_char in SIMILAR_CHOSUNG
+    # 중성 교체 가능 여부 확인
+    can_replace_jung = jung_char in SIMILAR_JUNGSUNG
+    
+    if can_replace_cho and can_replace_jung:
+        # 둘 다 가능하면 랜덤 선택
+        if random.random() < 0.5:
             new_cho_char = random.choice(SIMILAR_CHOSUNG[cho_char])
             new_cho = CHOSUNG_LIST.index(new_cho_char)
             return compose_hangul(new_cho, jung, jong)
-    else:
-        # 중성 교체
-        jung_char = JUNGSUNG_LIST[jung]
-        if jung_char in SIMILAR_JUNGSUNG:
+        else:
             new_jung_char = random.choice(SIMILAR_JUNGSUNG[jung_char])
             new_jung = JUNGSUNG_LIST.index(new_jung_char)
             return compose_hangul(cho, new_jung, jong)
+    elif can_replace_cho:
+        # 초성만 교체 가능
+        new_cho_char = random.choice(SIMILAR_CHOSUNG[cho_char])
+        new_cho = CHOSUNG_LIST.index(new_cho_char)
+        return compose_hangul(new_cho, jung, jong)
+    elif can_replace_jung:
+        # 중성만 교체 가능
+        new_jung_char = random.choice(SIMILAR_JUNGSUNG[jung_char])
+        new_jung = JUNGSUNG_LIST.index(new_jung_char)
+        return compose_hangul(cho, new_jung, jong)
     
     return char
 
 def substitute_keyboard_adjacent(char: str) -> str:
-    """키보드 인접 자모로 교체"""
+    """키보드 인접 자모로 교체 - 더 적극적으로 교체"""
     cho, jung, jong = decompose_hangul(char)
     if cho == -1:
         return char
     
-    # 초성 또는 중성 중 하나를 랜덤하게 교체
-    if random.random() < 0.5:
-        cho_char = CHOSUNG_LIST[cho]
-        if cho_char in KEYBOARD_ADJACENT_CHOSUNG:
+    cho_char = CHOSUNG_LIST[cho]
+    jung_char = JUNGSUNG_LIST[jung]
+    
+    # 교체 가능 여부 확인
+    can_replace_cho = cho_char in KEYBOARD_ADJACENT_CHOSUNG
+    can_replace_jung = jung_char in KEYBOARD_ADJACENT_JUNGSUNG
+    
+    if can_replace_cho and can_replace_jung:
+        # 둘 다 가능하면 랜덤 선택
+        if random.random() < 0.5:
             new_cho_char = random.choice(KEYBOARD_ADJACENT_CHOSUNG[cho_char])
             new_cho = CHOSUNG_LIST.index(new_cho_char)
             return compose_hangul(new_cho, jung, jong)
-    else:
-        jung_char = JUNGSUNG_LIST[jung]
-        if jung_char in KEYBOARD_ADJACENT_JUNGSUNG:
+        else:
             new_jung_char = random.choice(KEYBOARD_ADJACENT_JUNGSUNG[jung_char])
             new_jung = JUNGSUNG_LIST.index(new_jung_char)
             return compose_hangul(cho, new_jung, jong)
+    elif can_replace_cho:
+        # 초성만 교체 가능
+        new_cho_char = random.choice(KEYBOARD_ADJACENT_CHOSUNG[cho_char])
+        new_cho = CHOSUNG_LIST.index(new_cho_char)
+        return compose_hangul(new_cho, jung, jong)
+    elif can_replace_jung:
+        # 중성만 교체 가능
+        new_jung_char = random.choice(KEYBOARD_ADJACENT_JUNGSUNG[jung_char])
+        new_jung = JUNGSUNG_LIST.index(new_jung_char)
+        return compose_hangul(cho, new_jung, jong)
+    
+    return char
+
+def substitute_random_jamo(char: str) -> str:
+    """랜덤 자모로 교체 (매핑에 없는 경우를 위한 백업)"""
+    cho, jung, jong = decompose_hangul(char)
+    if cho == -1:
+        return char
+    
+    # 랜덤하게 초성 또는 중성 교체
+    if random.random() < 0.5:
+        # 초성 교체 - 현재와 다른 랜덤 초성 선택
+        new_cho = random.choice([i for i in range(19) if i != cho])
+        return compose_hangul(new_cho, jung, jong)
+    else:
+        # 중성 교체 - 현재와 다른 랜덤 중성 선택
+        new_jung = random.choice([i for i in range(21) if i != jung])
+        return compose_hangul(cho, new_jung, jong)
     
     return char
 
@@ -215,172 +320,151 @@ def substitute_phonetic(char: str) -> str:
     return substitute_similar_jamo(char)
 
 # 2. 삭제 (Deletion) 함수들
-def apply_deletion(text: str, num_errors: int = 1, used_positions: Set[int] = None) -> Tuple[str, Set[int]]:
+def apply_deletion(text: str, num_errors: int = 1, used_positions: Set[int] = None, errors_list: List[str] = None) -> Tuple[str, Set[int], List[str]]:
     """삭제 오타를 적용"""
     text_list = list(text)
+    original_text = ''.join(text_list)
     if used_positions is None:
         used_positions = set()
+    if errors_list is None:
+        errors_list = []
     
-    errors_applied = 0
     for _ in range(num_errors):
         if random.random() < 0.5:
             # 자모 삭제
-            text_list, new_used = delete_jamo(text_list, used_positions)
-            if new_used != used_positions:
-                used_positions = new_used
-                errors_applied += 1
+            result = delete_jamo(text_list, used_positions)
+            if result:
+                text_list, used_positions, error_desc = result
+                if error_desc:
+                    errors_list.append(error_desc)
         else:
             # 음절 삭제
-            text_list, new_used = delete_syllable(text_list, used_positions)
-            if new_used != used_positions:
-                used_positions = new_used
-                errors_applied += 1
+            result = delete_syllable(text_list, used_positions)
+            if result:
+                text_list, used_positions, error_desc = result
+                if error_desc:
+                    errors_list.append(error_desc)
     
-    return ''.join(text_list), used_positions
+    return ''.join(text_list), used_positions, errors_list
 
-def delete_jamo(text_list: List[str], used_positions: Set[int]) -> Tuple[List[str], Set[int]]:
+def delete_jamo(text_list: List[str], used_positions: Set[int]) -> Optional[Tuple[List[str], Set[int], str]]:
     """자모를 삭제"""
     hangul_positions = [i for i, char in enumerate(text_list) if is_hangul(char) and i not in used_positions]
     if not hangul_positions:
-        return text_list, used_positions
+        return None
     
     pos = random.choice(hangul_positions)
     char = text_list[pos]
     cho, jung, jong = decompose_hangul(char)
     
-    # 실제 변경이 일어났는지 추적
-    original_char = text_list[pos]
+    original_char = char
+    error_desc = ""
     
     if jong != 0:  # 종성이 있으면 종성 삭제
-        text_list[pos] = compose_hangul(cho, jung, 0)
+        new_char = compose_hangul(cho, jung, 0)
+        text_list[pos] = new_char
+        error_desc = f"{original_char} -> {new_char}"
+        used_positions.add(pos)
     else:
-        # 종성이 없는 경우 다양한 삭제 옵션
-        options = []
-        
-        # 옵션 1: 초성 삭제 (분리된 형태로)
-        options.append('delete_cho')
-        
-        # 옵션 2: 전체 글자 삭제
-        options.append('delete_char')
-        
-        if options:
-            choice = random.choice(options)
-            
-            if choice == 'delete_cho':
-                # 초성을 삭제하고 중성만 남기기 (분리된 형태)
-                text_list[pos] = JUNGSUNG_LIST[jung]
-            elif choice == 'delete_char':
-                # 전체 글자 삭제
-                del text_list[pos]
-                # 삭제 후 인덱스 조정
-                new_used = set()
-                for p in used_positions:
-                    if p < pos:
-                        new_used.add(p)
-                    elif p > pos:
-                        new_used.add(p - 1)
-                return text_list, new_used
-    
-    # 실제로 변경이 일어난 경우에만 used_positions에 추가
-    if text_list[pos] != original_char:
+        # 초성 삭제 (분리된 형태로)
+        new_char = JUNGSUNG_LIST[jung]
+        text_list[pos] = new_char
+        error_desc = f"{original_char} -> {new_char}"
         used_positions.add(pos)
     
-    return text_list, used_positions
+    return text_list, used_positions, error_desc
 
-def delete_syllable(text_list: List[str], used_positions: Set[int]) -> Tuple[List[str], Set[int]]:
+def delete_syllable(text_list: List[str], used_positions: Set[int]) -> Optional[Tuple[List[str], Set[int], str]]:
     """음절을 삭제"""
     if len(text_list) <= 1:
-        return text_list, used_positions
+        return None
     
     hangul_positions = [i for i, char in enumerate(text_list) if is_hangul(char) and i not in used_positions]
-    if hangul_positions:
-        pos = random.choice(hangul_positions)
-        # 삭제할 때는 위치를 추적하기 어려우므로 삭제된 위치 이후 위치를 조정
-        del text_list[pos]
-        # 삭제 후 인덱스 조정
-        new_used = set()
-        for p in used_positions:
-            if p < pos:
-                new_used.add(p)
-            elif p > pos:
-                new_used.add(p - 1)
-        return text_list, new_used
+    if not hangul_positions:
+        return None
     
-    return text_list, used_positions
+    pos = random.choice(hangul_positions)
+    deleted_char = text_list[pos]
+    
+    # 삭제할 때는 위치를 추적하기 어려우므로 삭제된 위치 이후 위치를 조정
+    del text_list[pos]
+    
+    # 삭제 후 인덱스 조정
+    new_used = set()
+    for p in used_positions:
+        if p < pos:
+            new_used.add(p)
+        elif p > pos:
+            new_used.add(p - 1)
+    
+    error_desc = f"{deleted_char} -> (삭제됨)"
+    
+    return text_list, new_used, error_desc
 
 # 3. 추가 (Insertion) 함수들
-def apply_insertion(text: str, num_errors: int = 1, used_positions: Set[int] = None) -> Tuple[str, Set[int]]:
+def apply_insertion(text: str, num_errors: int = 1, used_positions: Set[int] = None, errors_list: List[str] = None) -> Tuple[str, Set[int], List[str]]:
     """추가 오타를 적용"""
     text_list = list(text)
     if used_positions is None:
         used_positions = set()
+    if errors_list is None:
+        errors_list = []
     
     for _ in range(num_errors):
-        if random.random() < 0.5:
+        if random.random() < 0.7:
             # 자모 추가
-            text_list, used_positions = insert_jamo(text_list, used_positions)
+            result = insert_jamo(text_list, used_positions)
+            if result:
+                text_list, used_positions, error_desc = result
+                if error_desc:
+                    errors_list.append(error_desc)
         else:
-            # 음절 추가
-            text_list, used_positions = insert_syllable(text_list, used_positions)
+            # 음절 추가 (중복만?)
+            result = insert_syllable(text_list, used_positions)
+            if result:
+                text_list, used_positions, error_desc = result
+                if error_desc:
+                    errors_list.append(error_desc)
     
-    return ''.join(text_list), used_positions
+    return ''.join(text_list), used_positions, errors_list
 
-def insert_jamo(text_list: List[str], used_positions: Set[int]) -> Tuple[List[str], Set[int]]:
+def insert_jamo(text_list: List[str], used_positions: Set[int]) -> Optional[Tuple[List[str], Set[int], str]]:
     """자모를 추가"""
     hangul_positions = [i for i, char in enumerate(text_list) if is_hangul(char) and i not in used_positions]
     if not hangul_positions:
-        return text_list, used_positions
+        return None
     
     pos = random.choice(hangul_positions)
     char = text_list[pos]
     cho, jung, jong = decompose_hangul(char)
     
+    original_char = char
+    error_desc = ""
+    
     if jong == 0:  # 종성이 없으면 종성 추가
         new_jong = random.choice(range(1, 28))
-        text_list[pos] = compose_hangul(cho, jung, new_jong)
+        new_char = compose_hangul(cho, jung, new_jong)
+        text_list[pos] = new_char
+        error_desc = f"{original_char} -> {new_char}"
         used_positions.add(pos)
-    else:  # 종성이 있으면
-        # 여러 옵션 중 랜덤 선택
-        option = random.choice(['double_consonant', 'add_char'])
-        
-        if option == 'double_consonant':
-            # 단자음을 복자음으로 변경 (가능한 경우만)
-            double_consonant_map = {
-                1: 3,   # ㄱ → ㄳ
-                4: 5,   # ㄴ → ㄵ
-                4: 6,   # ㄴ → ㄶ
-                8: 9,   # ㄹ → ㄺ
-                8: 10,  # ㄹ → ㄻ
-                8: 11,  # ㄹ → ㄼ
-                8: 12,  # ㄹ → ㄽ
-                8: 13,  # ㄹ → ㄾ
-                8: 14,  # ㄹ → ㄿ
-                8: 15,  # ㄹ → ㅀ
-                17: 18, # ㅂ → ㅄ
-            }
-            
-            if jong in double_consonant_map:
-                text_list[pos] = compose_hangul(cho, jung, double_consonant_map[jong])
-            else:
-                # 복자음 변경이 불가능하면 자모를 분리된 형태로 추가
-                text_list[pos] = char + JONGSUNG_LIST[jong]
-        else:
-            # 종성을 분리된 형태로 추가
-            text_list[pos] = char + JONGSUNG_LIST[jong]
-        
+    else:  # 종성이 있으면 분리된 형태로 추가
+        text_list[pos] = char + JONGSUNG_LIST[jong]
+        error_desc = f"{original_char} -> {char}{JONGSUNG_LIST[jong]}"
         used_positions.add(pos)
     
-    return text_list, used_positions
+    return text_list, used_positions, error_desc
 
-def insert_syllable(text_list: List[str], used_positions: Set[int]) -> Tuple[List[str], Set[int]]:
+def insert_syllable(text_list: List[str], used_positions: Set[int]) -> Optional[Tuple[List[str], Set[int], str]]:
     """음절을 추가 (중복)"""
     hangul_positions = [i for i, char in enumerate(text_list) if is_hangul(char) and i not in used_positions]
     if not hangul_positions:
-        return text_list, used_positions
+        return None
     
     pos = random.choice(hangul_positions)
+    char_to_duplicate = text_list[pos]
+    
     # 해당 위치의 문자를 중복
-    text_list.insert(pos, text_list[pos])
+    text_list.insert(pos, char_to_duplicate)
     
     # 삽입 후 인덱스 조정
     new_used = set()
@@ -391,30 +475,38 @@ def insert_syllable(text_list: List[str], used_positions: Set[int]) -> Tuple[Lis
             new_used.add(p)
     new_used.add(pos)  # 삽입된 위치도 사용된 것으로 표시
     
-    return text_list, new_used
+    error_desc = f"{char_to_duplicate} -> {char_to_duplicate}{char_to_duplicate}"
+    
+    return text_list, new_used, error_desc
 
 # 4. 전치 (Transposition) 함수들
-def apply_transposition(text: str, num_errors: int = 1, used_positions: Set[int] = None) -> Tuple[str, Set[int]]:
+def apply_transposition(text: str, num_errors: int = 1, used_positions: Set[int] = None, errors_list: List[str] = None) -> Tuple[str, Set[int], List[str]]:
     """전치 오타를 적용"""
     text_list = list(text)
     if used_positions is None:
         used_positions = set()
+    if errors_list is None:
+        errors_list = []
     
     for _ in range(num_errors):
         if random.random() < 0.3:
             # 자모 전치 (분리된 형태로)
             result = transpose_jamo(text_list, used_positions)
             if result:
-                text_list, used_positions = result
+                text_list, used_positions, error_desc = result
+                if error_desc:
+                    errors_list.append(error_desc)
         else:
             # 음절 전치
             result = transpose_syllable(text_list, used_positions)
             if result:
-                text_list, used_positions = result
+                text_list, used_positions, error_desc = result
+                if error_desc:
+                    errors_list.append(error_desc)
     
-    return ''.join(text_list), used_positions
+    return ''.join(text_list), used_positions, errors_list
 
-def transpose_jamo(text_list: List[str], used_positions: Set[int]) -> Tuple[List[str], Set[int]]:
+def transpose_jamo(text_list: List[str], used_positions: Set[int]) -> Optional[Tuple[List[str], Set[int], str]]:
     """자모 순서를 전치 (분리된 형태로 - 예: 호 → ㅗㅎ)"""
     hangul_positions = [i for i, char in enumerate(text_list) if is_hangul(char) and i not in used_positions]
     if not hangul_positions:
@@ -424,26 +516,31 @@ def transpose_jamo(text_list: List[str], used_positions: Set[int]) -> Tuple[List
     char = text_list[pos]
     cho, jung, jong = decompose_hangul(char)
     
+    original_char = char
+    
     # 자모를 분리된 형태로 표현
-    # 종성이 있는 경우와 없는 경우 구분
     if jong != 0:
         # 종성이 있으면 초성+중성+종성 중에서 순서 바꾸기
         if random.random() < 0.5:
             # 중성을 앞으로
-            text_list[pos] = JUNGSUNG_LIST[jung] + CHOSUNG_LIST[cho] + JONGSUNG_LIST[jong]
+            new_char = JUNGSUNG_LIST[jung] + CHOSUNG_LIST[cho] + JONGSUNG_LIST[jong]
         else:
             # 초성과 중성 위치 교환, 종성은 그대로
-            text_list[pos] = JUNGSUNG_LIST[jung] + CHOSUNG_LIST[cho]
+            new_char = JUNGSUNG_LIST[jung] + CHOSUNG_LIST[cho]
             if jong != 0:
-                text_list[pos] += JONGSUNG_LIST[jong]
+                new_char += JONGSUNG_LIST[jong]
     else:
         # 종성이 없으면 초성과 중성만 교환 (예: 호 → ㅗㅎ)
-        text_list[pos] = JUNGSUNG_LIST[jung] + CHOSUNG_LIST[cho]
+        new_char = JUNGSUNG_LIST[jung] + CHOSUNG_LIST[cho]
     
+    text_list[pos] = new_char
     used_positions.add(pos)
-    return text_list, used_positions
+    
+    error_desc = f"{original_char} -> {new_char}"
+    
+    return text_list, used_positions, error_desc
 
-def transpose_syllable(text_list: List[str], used_positions: Set[int]) -> Tuple[List[str], Set[int]]:
+def transpose_syllable(text_list: List[str], used_positions: Set[int]) -> Optional[Tuple[List[str], Set[int], str]]:
     """인접한 음절 순서를 전치"""
     hangul_positions = [i for i, char in enumerate(text_list) if is_hangul(char)]
     
@@ -451,47 +548,61 @@ def transpose_syllable(text_list: List[str], used_positions: Set[int]) -> Tuple[
     for i in range(len(hangul_positions) - 1):
         pos1, pos2 = hangul_positions[i], hangul_positions[i+1]
         if pos2 - pos1 == 1 and pos1 not in used_positions and pos2 not in used_positions:
+            char1, char2 = text_list[pos1], text_list[pos2]
             text_list[pos1], text_list[pos2] = text_list[pos2], text_list[pos1]
             used_positions.add(pos1)
             used_positions.add(pos2)
-            return text_list, used_positions
+            
+            error_desc = f"{char1}{char2} -> {char2}{char1}"
+            return text_list, used_positions, error_desc
     
     return None
 
-# 5. 띄어쓰기 오류 (Spacing) 함수들 - 개선된 버전
-def apply_spacing_error(text: str, num_errors: int = 1, used_positions: Set[int] = None) -> Tuple[str, Set[int]]:
+# 5. 띄어쓰기 오류 (Spacing) 함수들
+def apply_spacing_error(text: str, num_errors: int = 1, used_positions: Set[int] = None, errors_list: List[str] = None) -> Tuple[str, Set[int], List[str]]:
     """띄어쓰기 오타를 적용 (자모 분리 포함)"""
     if used_positions is None:
         used_positions = set()
+    if errors_list is None:
+        errors_list = []
     
     for _ in range(num_errors):
         error_type = random.choice(['remove_space', 'add_space_between_syllables', 'add_space_in_jamo'])
         
         if error_type == 'remove_space' and ' ' in text:
             # 공백 삭제
-            text, new_pos = remove_space(text, used_positions)
-            if new_pos:
-                used_positions.update(new_pos)
+            result = remove_space(text, used_positions)
+            if result:
+                text, new_pos, error_desc = result
+                if error_desc:
+                    errors_list.append(error_desc)
+                    used_positions.update(new_pos)
         elif error_type == 'add_space_between_syllables':
             # 음절 사이에 공백 추가
-            text, new_pos = add_space(text, used_positions)
-            if new_pos:
-                used_positions.update(new_pos)
+            result = add_space(text, used_positions)
+            if result:
+                text, new_pos, error_desc = result
+                if error_desc:
+                    errors_list.append(error_desc)
+                    used_positions.update(new_pos)
         else:  # add_space_in_jamo
             # 자모 사이에 공백 추가 (예: 국 → ㄱ ㅜ ㄱ)
-            text, new_pos = add_space_in_jamo(text, used_positions)
-            if new_pos:
-                used_positions.update(new_pos)
+            result = add_space_in_jamo(text, used_positions)
+            if result:
+                text, new_pos, error_desc = result
+                if error_desc:
+                    errors_list.append(error_desc)
+                    used_positions.update(new_pos)
     
-    return text, used_positions
+    return text, used_positions, errors_list
 
-def add_space_in_jamo(text: str, used_positions: Set[int]) -> Tuple[str, Set[int]]:
+def add_space_in_jamo(text: str, used_positions: Set[int]) -> Optional[Tuple[str, Set[int], str]]:
     """자모 사이에 공백을 추가 (예: 국 → 구ㄱ 또는 ㄱㅜㄱ)"""
     text_list = list(text)
     hangul_positions = [i for i, char in enumerate(text_list) if is_hangul(char) and i not in used_positions]
     
     if not hangul_positions:
-        return text, set()
+        return None
     
     # 랜덤하게 한글 글자 선택
     pos = random.choice(hangul_positions)
@@ -499,44 +610,50 @@ def add_space_in_jamo(text: str, used_positions: Set[int]) -> Tuple[str, Set[int
     cho, jung, jong = decompose_hangul(char)
     
     if cho == -1:
-        return text, set()
+        return None
     
-    # 분리 스타일 선택
-    style = random.choice(['all_spaces', 'some_spaces', 'no_spaces_but_separated'])
+    original_char = char
     
-    if style == 'some_spaces':
-        # 일부 자모 사이에만 공백
-        if jong != 0:
-            if random.random() < 0.5:
-                # 초성과 중성 사이에 공백
-                jamo_str = CHOSUNG_LIST[cho]  + JUNGSUNG_LIST[jung] + JONGSUNG_LIST[jong]
-            else:
-                # 중성과 종성 사이에 공백
-                jamo_str = CHOSUNG_LIST[cho] + JUNGSUNG_LIST[jung]  + JONGSUNG_LIST[jong]
-        else:
+    if jong != 0:
+        if random.random() < 0.5:
             # 초성과 중성 사이에 공백
-            jamo_str = CHOSUNG_LIST[cho] + JUNGSUNG_LIST[jung]
-    else:  # no_spaces_but_separated
-        # 공백 없이 자모만 분리 (예: ㄱㅜㄱ)
-        jamo_str = CHOSUNG_LIST[cho] + JUNGSUNG_LIST[jung]
-        if jong != 0:
-            jamo_str += JONGSUNG_LIST[jong]
+            jamo_str = CHOSUNG_LIST[cho] + ' ' + JUNGSUNG_LIST[jung] + JONGSUNG_LIST[jong]
+        else:
+            # 중성과 종성 사이에 공백
+            jamo_str = CHOSUNG_LIST[cho] + JUNGSUNG_LIST[jung] + ' ' + JONGSUNG_LIST[jong]
+    else:
+        # 초성과 중성 사이에 공백
+        jamo_str = CHOSUNG_LIST[cho] + ' ' + JUNGSUNG_LIST[jung]
     
     # 원래 글자를 분리된 자모로 교체
     text_list[pos] = jamo_str
     
-    return ''.join(text_list), {pos}
+    error_desc = f"{original_char} -> {jamo_str}"
+    
+    return ''.join(text_list), {pos}, error_desc
 
-def remove_space(text: str, used_positions: Set[int]) -> Tuple[str, Set[int]]:
+def remove_space(text: str, used_positions: Set[int]) -> Optional[Tuple[str, Set[int], str]]:
     """공백을 제거"""
     spaces = [i for i, char in enumerate(text) if char == ' ' and i not in used_positions]
-    if spaces:
-        pos = random.choice(spaces)
-        text = text[:pos] + text[pos+1:]
-        return text, {pos}
-    return text, set()
+    if not spaces:
+        return None
+    
+    pos = random.choice(spaces)
+    
+    # 공백 주변의 컨텍스트 가져오기
+    before = text[max(0, pos-1):pos] if pos > 0 else ""
+    after = text[pos+1:min(len(text), pos+2)] if pos < len(text)-1 else ""
+    
+    original_context = f"{before} {after}"
+    new_context = f"{before}{after}"
+    
+    text = text[:pos] + text[pos+1:]
+    
+    error_desc = f"{original_context} -> {new_context}"
+    
+    return text, {pos}, error_desc
 
-def add_space(text: str, used_positions: Set[int]) -> Tuple[str, Set[int]]:
+def add_space(text: str, used_positions: Set[int]) -> Optional[Tuple[str, Set[int], str]]:
     """불필요한 공백을 추가 (음절 사이)"""
     # 조사 앞에 공백 추가
     particles = ['을', '를', '이', '가', '은', '는', '와', '과', '에', '에서', '으로', '로', '의']
@@ -547,8 +664,13 @@ def add_space(text: str, used_positions: Set[int]) -> Tuple[str, Set[int]]:
             idx = text.find(particle)
             while idx != -1:
                 if idx > 0 and idx not in used_positions and text[idx-1] != ' ':
+                    before = text[max(0, idx-2):idx]
+                    original_context = f"{before}{particle}"
+                    new_context = f"{before} {particle}"
+                    
                     text = text[:idx] + ' ' + text[idx:]
-                    return text, {idx}
+                    error_desc = f"{original_context} -> {new_context}"
+                    return text, {idx}, error_desc
                 idx = text.find(particle, idx + 1)
     
     # 랜덤 위치에 공백 추가
@@ -556,53 +678,60 @@ def add_space(text: str, used_positions: Set[int]) -> Tuple[str, Set[int]]:
     available = [i for i in hangul_positions[1:] if i not in used_positions]
     if available:
         pos = random.choice(available)
+        before = text[max(0, pos-1):pos]
+        after = text[pos:min(len(text), pos+1)]
+        
+        original_context = f"{before}{after}"
+        new_context = f"{before} {after}"
+        
         text = text[:pos] + ' ' + text[pos:]
-        return text, {pos}
+        error_desc = f"{original_context} -> {new_context}"
+        return text, {pos}, error_desc
     
-    return text, set()
+    return None
 
 def generate_typos_for_sentence(sentence: str) -> Dict:
     """문장에 대해 모든 타입의 오타를 생성"""
     result = {"original": sentence}
     
-    # 1. Substitution - 1_error 먼저 생성하고, 그것을 기반으로 2_errors 생성
-    sub_1, used_pos_sub = apply_substitution(sentence, 1)
-    sub_2, _ = apply_substitution(sub_1, 1, used_pos_sub)  # 1_error를 기반으로 추가
+    # 1. Substitution
+    sub_1, used_pos_sub, errors_1 = apply_substitution(sentence, 1)
+    sub_2, _, errors_2 = apply_substitution(sub_1, 1, used_pos_sub, errors_1.copy())
     result["substitution"] = {
-        "1_error": sub_1,
-        "2_errors": sub_2
+        "1_error": {"text": sub_1, "errors": errors_1},
+        "2_errors": {"text": sub_2, "errors": errors_2}
     }
     
-    # 2. Deletion - 1_error 먼저 생성하고, 그것을 기반으로 2_errors 생성
-    del_1, used_pos_del = apply_deletion(sentence, 1)
-    del_2, _ = apply_deletion(del_1, 1, used_pos_del)
+    # 2. Deletion
+    del_1, used_pos_del, errors_1 = apply_deletion(sentence, 1)
+    del_2, _, errors_2 = apply_deletion(del_1, 1, used_pos_del, errors_1.copy())
     result["deletion"] = {
-        "1_error": del_1,
-        "2_errors": del_2
+        "1_error": {"text": del_1, "errors": errors_1},
+        "2_errors": {"text": del_2, "errors": errors_2}
     }
     
-    # 3. Insertion - 1_error 먼저 생성하고, 그것을 기반으로 2_errors 생성
-    ins_1, used_pos_ins = apply_insertion(sentence, 1)
-    ins_2, _ = apply_insertion(ins_1, 1, used_pos_ins)
+    # 3. Insertion
+    ins_1, used_pos_ins, errors_1 = apply_insertion(sentence, 1)
+    ins_2, _, errors_2 = apply_insertion(ins_1, 1, used_pos_ins, errors_1.copy())
     result["insertion"] = {
-        "1_error": ins_1,
-        "2_errors": ins_2
+        "1_error": {"text": ins_1, "errors": errors_1},
+        "2_errors": {"text": ins_2, "errors": errors_2}
     }
     
-    # 4. Transposition - 1_error 먼저 생성하고, 그것을 기반으로 2_errors 생성
-    trans_1, used_pos_trans = apply_transposition(sentence, 1)
-    trans_2, _ = apply_transposition(trans_1, 1, used_pos_trans)
+    # 4. Transposition
+    trans_1, used_pos_trans, errors_1 = apply_transposition(sentence, 1)
+    trans_2, _, errors_2 = apply_transposition(trans_1, 1, used_pos_trans, errors_1.copy())
     result["transposition"] = {
-        "1_error": trans_1,
-        "2_errors": trans_2
+        "1_error": {"text": trans_1, "errors": errors_1},
+        "2_errors": {"text": trans_2, "errors": errors_2}
     }
     
-    # 5. Spacing - 1_error 먼저 생성하고, 그것을 기반으로 2_errors 생성
-    space_1, used_pos_space = apply_spacing_error(sentence, 1)
-    space_2, _ = apply_spacing_error(space_1, 1, used_pos_space)
+    # 5. Spacing
+    space_1, used_pos_space, errors_1 = apply_spacing_error(sentence, 1)
+    space_2, _, errors_2 = apply_spacing_error(space_1, 1, used_pos_space, errors_1.copy())
     result["spacing"] = {
-        "1_error": space_1,
-        "2_errors": space_2
+        "1_error": {"text": space_1, "errors": errors_1},
+        "2_errors": {"text": space_2, "errors": errors_2}
     }
     
     return result
