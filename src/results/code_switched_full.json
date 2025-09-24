@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 0,
+    "original_ko": "골수는 어디에서 발견되며, 몸에 어떤 역할을 하나요?",
+    "original_en": "where is bone marrow found what does it do for the body",
+    "code_switched_versions": {
+      "Case1": "골수는 어디에서 발견되며, 몸에 어떤 역할을 하나요?",
+      "Case2": "골수는 어디에서 found 되며, 몸에 어떤 역할을 하나요?",
+      "Case3": "\"Where는 골수가 발견되며, what does 그것이 몸에 하는 역할인가요?\"",
+      "Case4": "\"Where는 bone marrow가 발견되며, what 역할을 하나요?\"",
+      "Case5": "where is bone marrow found what does it do for the body"
+    }
+  },
+  {
+    "id": 1,
+    "original_ko": "파일 13이라는 표현은 어디에서 유래했나요?",
+    "original_en": "where did the phrase file 13 come from",
+    "code_switched_versions": {
+      "Case1": "파일 13이라는 표현은 어디에서 유래했나요?",
+      "Case2": "파일 13이라는 phrase는 어디에서 유래했나요?",
+      "Case3": "\"Where did 파일 13이라는 표현 come from?\"",
+      "Case4": "\"Where did the 표현 file 13 come from?\"",
+      "Case5": "where did the phrase file 13 come from"
+    }
+  },
+  {
+    "id": 2,
+    "original_ko": "윌리엄 셰익스피어의 시 '소네트 46'의 요약",
+    "original_en": "summary of the poem sonnet 46 by william shakespeare",
+    "code_switched_versions": {
+      "Case1": "윌리엄 셰익스피어의 시 '소네트 46'의 요약",
+      "Case2": "윌리엄 셰익스피어의 poem '소네트 46'의 요약",
+      "Case3": "The summary of 윌리엄 셰익스피어의 시 '소네트 46' is quite interesting.",
+      "Case4": "summary of the 시 '소네트 46' by william shakespeare.",
+      "Case5": "summary of the poem sonnet 46 by william shakespeare"
+    }
+  },
+  {
+    "id": 3,
+    "original_ko": "속담 '배 모양'은 어디에서 유래되었나요?",
+    "original_en": "where did the saying pear shaped come from",
+    "code_switched_versions": {
+      "Case1": "속담 '배 모양'은 어디에서 유래되었나요?",
+      "Case2": "속담 'pear shaped'은 어디에서 유래되었나요?",
+      "Case3": "\"Where did 속담 '배 모양' come from?\"",
+      "Case4": "Where did the 속담 '배 모양' come from?",
+      "Case5": "where did the saying pear shaped come from"
+    }
+  },
+  {
+    "id": 4,
+    "original_ko": "물, 전기, 토양을 보존하는 두 가지 방법",
+    "original_en": "two ways to conserve water electricity and soil",
+    "code_switched_versions": {
+      "Case1": "물, 전기, 토양을 보존하는 두 가지 방법",
+      "Case2": "물, electricity, 토양을 보존하는 두 가지 방법",
+      "Case3": "\"Here are 두 가지 방법 to conserve 물, 전기, and 토양.\"",
+      "Case4": "\"Here are 두 가지 방법 to conserve water, electricity, and soil.\"",
+      "Case5": "two ways to conserve water electricity and soil"
+    }
+  },
+  {
+    "id": 5,
+    "original_ko": "무엇 때문에 제1차 세계 대전 이후 영국의 무역이 감소했는가?",
+    "original_en": "british trade decreased after world war 1 because",
+    "code_switched_versions": {
+      "Case1": "무엇 때문에 제1차 세계 대전 이후 영국의 무역이 감소했는가?",
+      "Case2": "무엇 때문에 제1차 world war 이후 영국의 trade가 감소했는가?",
+      "Case3": "\"Why did 제1차 세계 대전 이후 영국의 무역이 감소했는가?\"",
+      "Case4": "British trade decreased after 제1차 세계 대전 because of 여러 가지 요인.",
+      "Case5": "british trade decreased after world war 1 because"
+    }
+  },
+  {
+    "id": 6,
+    "original_ko": "유로비전 송 콘테스트에서 클리프 리처드는 몇 위에 올랐나요?",
+    "original_en": "where did cliff richard come in the eurovision song contest",
+    "code_switched_versions": {
+      "Case1": "유로비전 송 콘테스트에서 클리프 리처드는 몇 위에 올랐나요?",
+      "Case2": "유로비전 송 콘테스트에서 Cliff Richard는 몇 위에 올랐나요?",
+      "Case3": "\"Where did 클리프 리처드 place in the 유로비전 송 콘테스트?\"",
+      "Case4": "\"Where did Cliff Richard come in the 유로비전 송 콘테스트?\"",
+      "Case5": "where did cliff richard come in the eurovision song contest"
+    }
+  },
+  {
+    "id": 7,
+    "original_ko": "비경쟁 및 비유인 계약이란 무엇인가요?",
+    "original_en": "what is a non compete non solicitation agreement",
+    "code_switched_versions": {
+      "Case1": "비경쟁 및 비유인 계약이란 무엇인가요?",
+      "Case2": "비경쟁 및 non-solicitation 계약이란 무엇인가요?",
+      "Case3": "What is 비경쟁 및 비유인 계약?",
+      "Case4": "\"What is a 비경쟁 and 비유인 agreement?\"",
+      "Case5": "what is a non compete non solicitation agreement"
+    }
+  },
+  {
+    "id": 8,
+    "original_ko": "\"평정심을 유지하고 하던 일을 계속하라\"는 어디에서 유래된 표현인가요?",
+    "original_en": "where did the saying keep calm and carry on originate",
+    "code_switched_versions": {
+      "Case1": "\"평정심을 유지하고 하던 일을 계속하라\"는 어디에서 유래된 표현인가요?",
+      "Case2": "\"평정심을 유지하고 work을 계속하라\"는 어디에서 유래된 표현인가요?",
+      "Case3": "\"Where did the 표현 '평정심을 유지하고 하던 일을 계속하라' originate?\"",
+      "Case4": "Where did the 표현 \"keep calm and carry on\" originate?",
+      "Case5": "where did the saying keep calm and carry on originate"
+    }
+  },
+  {
+    "id": 9,
+    "original_ko": "뉴욕 세네카 팔스에 폭포는 어디에 있나요?",
+    "original_en": "where are the falls in seneca falls ny",
+    "code_switched_versions": {
+      "Case1": "뉴욕 세네카 팔스에 폭포는 어디에 있나요?",
+      "Case2": "뉴욕의 Seneca Falls에 falls는 어디에 있나요?",
+      "Case3": "\"Where are 뉴욕 세네카 팔스의 폭포?\"",
+      "Case4": "\"Where are the 폭포 in Seneca Falls, NY?\"",
+      "Case5": "where are the falls in seneca falls ny"
+    }
+  },
+  {
+    "id": 10,
+    "original_ko": "1857년 공황이 남부에 무엇을 촉진했는가?",
+    "original_en": "what did the panic of 1857 encouraged for the south",
+    "code_switched_versions": {
+      "Case1": "1857년 공황이 남부에 무엇을 촉진했는가?",
+      "Case2": "1857년 panic이 남부에 무엇을 촉진했는가?",
+      "Case3": "\"What did 1857년 공황이 촉진했는가 for the 남부?\"",
+      "Case4": "What did the 1857년 panic encourage for the 남부?",
+      "Case5": "what did the panic of 1857 encouraged for the south"
+    }
+  },
+  {
+    "id": 11,
+    "original_ko": "스위스 물 방법으로 카페인을 제거하는 방법은 무엇인가요",
+    "original_en": "what is the swiss water method of decaffeination",
+    "code_switched_versions": {
+      "Case1": "스위스 물 방법으로 카페인을 제거하는 방법은 무엇인가요",
+      "Case2": "스위스 water 방법으로 카페인을 제거하는 방법은 무엇인가요?",
+      "Case3": "\"What is 스위스 물 방법으로 카페인을 제거하는 방법?\"",
+      "Case4": "\"What is the 스위스 물 method of decaffeination?\"",
+      "Case5": "what is the swiss water method of decaffeination"
+    }
+  },
+  {
+    "id": 12,
+    "original_ko": "낭성 섬유증의 가장 심각한 돌연변이는 무엇인가요",
+    "original_en": "what is the worst mutation of cystic fibrosis",
+    "code_switched_versions": {
+      "Case1": "낭성 섬유증의 가장 심각한 돌연변이는 무엇인가요",
+      "Case2": "낭성 fibrosis의 가장 심각한 mutation은 무엇인가요?",
+      "Case3": "\"What is 낭성 섬유증의 가장 심각한 돌연변이?\"",
+      "Case4": "\"What is the 최악의 mutation of cystic fibrosis?\"",
+      "Case5": "what is the worst mutation of cystic fibrosis"
+    }
+  },
+  {
+    "id": 13,
+    "original_ko": "아이오와 주에서 권총을 합법적으로 운반하는 방법",
+    "original_en": "how to legally transport a handgun in iowa",
+    "code_switched_versions": {
+      "Case1": "아이오와 주에서 권총을 합법적으로 운반하는 방법",
+      "Case2": "아이오와 주에서 handgun을 합법적으로 운반하는 방법",
+      "Case3": "\"How to 합법적으로 운반하다 a 권총 in 아이오와 주?\"",
+      "Case4": "\"How to 합법적으로 transport a handgun in Iowa?\"",
+      "Case5": "how to legally transport a handgun in iowa"
+    }
+  },
+  {
+    "id": 14,
+    "original_ko": "남한과 북한의 갈등은 무엇인가요",
+    "original_en": "what is the conflict between south and north korea",
+    "code_switched_versions": {
+      "Case1": "남한과 북한의 갈등은 무엇인가요",
+      "Case2": "남한과 북한의 conflict는 무엇인가요?",
+      "Case3": "\"What is 남한과 북한의 갈등?\"",
+      "Case4": "\"What is the 갈등 between South and North Korea?\"",
+      "Case5": "what is the conflict between south and north korea"
+    }
+  },
+  {
+    "id": 15,
+    "original_ko": "해병대라는 이름은 어디에서 유래되었나요?",
+    "original_en": "where did the marine corps name come from",
+    "code_switched_versions": {
+      "Case1": "해병대라는 이름은 어디에서 유래되었나요?",
+      "Case2": "해병대라는 name은 어디에서 유래되었나요?",
+      "Case3": "\"Where did 해병대라는 이름 come from?\"",
+      "Case4": "\"Where did the 해병대 name come from?\"",
+      "Case5": "where did the marine corps name come from"
+    }
+  },
+  {
+    "id": 16,
+    "original_ko": "베트남 전쟁 기념관의 이름들은 어떻게 배열되어 있나요?",
+    "original_en": "how are the names on the vietnam war memorial arranged",
+    "code_switched_versions": {
+      "Case1": "베트남 전쟁 기념관의 이름들은 어떻게 배열되어 있나요?",
+      "Case2": "베트남 전쟁 memorial의 이름들은 어떻게 배열되어 있나요?",
+      "Case3": "\"How are 베트남 전쟁 기념관의 이름들이 arranged?\"",
+      "Case4": "How are the 이름들 on the Vietnam War memorial arranged?",
+      "Case5": "how are the names on the vietnam war memorial arranged"
+    }
+  },
+  {
+    "id": 17,
+    "original_ko": "나사의 카시니 우주선의 최근 성과는 무엇인가요",
+    "original_en": "what is the recent achievement of nasa's cassini spacecraft",
+    "code_switched_versions": {
+      "Case1": "나사의 카시니 우주선의 최근 성과는 무엇인가요",
+      "Case2": "나사의 Cassini 우주선의 최근 성과는 무엇인가요?",
+      "Case3": "\"What is 나사의 카시니 우주선의 최근 성과?\"",
+      "Case4": "\"What is the 최근 achievement of NASA's Cassini 우주선?\"",
+      "Case5": "what is the recent achievement of nasa's cassini spacecraft"
+    }
+  },
+  {
+    "id": 18,
+    "original_ko": "‘40 winks’라는 표현은 어디에서 유래했나요",
+    "original_en": "where does the saying 40 winks come from",
+    "code_switched_versions": {
+      "Case1": "‘40 winks’라는 표현은 어디에서 유래했나요",
+      "Case2": "‘40 winks’라는 saying은 어디에서 유래했나요?",
+      "Case3": "Where does ‘40 winks’라는 표현 come from?",
+      "Case4": "Where does the 표현 \"40 winks\" come from?",
+      "Case5": "where does the saying 40 winks come from"
+    }
+  },
+  {
+    "id": 19,
+    "original_ko": "별칭 이메일의 목적은 무엇인가요?",
+    "original_en": "what is the purpose of an alias email",
+    "code_switched_versions": {
+      "Case1": "별칭 이메일의 목적은 무엇인가요?",
+      "Case2": "별칭 email의 목적은 무엇인가요?",
+      "Case3": "\"What is 별칭 이메일의 목적?\"",
+      "Case4": "\"What is the 목적 of an alias email?\"",
+      "Case5": "what is the purpose of an alias email"
+    }
+  },
+  {
+    "id": 20,
+    "original_ko": "윌리 웡카의 원래 찰리는 어떻게 되었나요?",
+    "original_en": "what happened to the original charlie from willy wonka",
+    "code_switched_versions": {
+      "Case1": "윌리 웡카의 원래 찰리는 어떻게 되었나요?",
+      "Case2": "윌리 웡카의 original 찰리는 어떻게 되었나요?",
+      "Case3": "\"What happened to 윌리 웡카의 원래 찰리?\"",
+      "Case4": "What happened to the 원래 charlie from Willy Wonka?",
+      "Case5": "what happened to the original charlie from willy wonka"
+    }
+  },
+  {
+    "id": 21,
+    "original_ko": "현미경 사진은 조직을 보여주나요, 아니면 장기를 보여주나요?",
+    "original_en": "does the micrograph show a tissue or an organ",
+    "code_switched_versions": {
+      "Case1": "현미경 사진은 조직을 보여주나요, 아니면 장기를 보여주나요?",
+      "Case2": "현미경 사진은 tissue를 보여주나요, 아니면 organ을 보여주나요?",
+      "Case3": "\"Does the 현미경 사진 show a 조직 or an 장기?\"",
+      "Case4": "\"Does the 현미경 사진 show a tissue or an organ?\"",
+      "Case5": "does the micrograph show a tissue or an organ"
+    }
+  },
+  {
+    "id": 22,
+    "original_ko": "5월은 무엇으로 유명한가요?",
+    "original_en": "what the month of may is known for",
+    "code_switched_versions": {
+      "Case1": "5월은 무엇으로 유명한가요?",
+      "Case2": "5월은 무엇으로 famous한가요?",
+      "Case3": "\"What is 5월로 유명한가요?\"",
+      "Case4": "\"What is 5월 famous for?\"",
+      "Case5": "what the month of may is known for"
+    }
+  },
+  {
+    "id": 23,
+    "original_ko": "좌심실을 떠나는 혈액은 어디로 가나요?",
+    "original_en": "where does blood leaving the left ventricle go",
+    "code_switched_versions": {
+      "Case1": "좌심실을 떠나는 혈액은 어디로 가나요?",
+      "Case2": "좌심실을 떠나는 blood은 어디로 가나요?",
+      "Case3": "\"Where does 좌심실을 떠나는 혈액 go?\"",
+      "Case4": "\"Where does 혈액 leaving the left ventricle go?\"",
+      "Case5": "where does blood leaving the left ventricle go"
+    }
+  },
+  {
+    "id": 24,
+    "original_ko": "질량 보존 법칙은 무엇이라고 말하나요?",
+    "original_en": "what is the law of conservation of mass say",
+    "code_switched_versions": {
+      "Case1": "질량 보존 법칙은 무엇이라고 말하나요?",
+      "Case2": "질량 conservation 법칙은 무엇이라고 말하나요?",
+      "Case3": "What does 질량 보존 법칙 say?",
+      "Case4": "\"What does the 질량 보존 법칙 say?\"",
+      "Case5": "what is the law of conservation of mass say"
+    }
+  },
+  {
+    "id": 25,
+    "original_ko": "1862년 페어 오크 전투가 내전의 초기 전환점으로 여겨진 이유는 무엇인가요?",
+    "original_en": "why was the 1862 battle of fair oaks virginia considered an early turning point in the civil war",
+    "code_switched_versions": {
+      "Case1": "1862년 페어 오크 전투가 내전의 초기 전환점으로 여겨진 이유는 무엇인가요?",
+      "Case2": "1862년 페어 오크 battle가 내전의 초기 전환점으로 여겨진 이유는 무엇인가요?",
+      "Case3": "\"Why was 1862년 페어 오크 전투 considered an early turning point in the 내전?\"",
+      "Case4": "\"Why was the 1862 페어 오크 전투 considered an early turning point in the civil war?\"",
+      "Case5": "why was the 1862 battle of fair oaks virginia considered an early turning point in the civil war"
+    }
+  },
+  {
+    "id": 26,
+    "original_ko": "말레이시아에서 장관 책임 원칙의 효과",
+    "original_en": "effectiveness of doctrine of ministerial responsibility in malaysia",
+    "code_switched_versions": {
+      "Case1": "말레이시아에서 장관 책임 원칙의 효과",
+      "Case2": "말레이시아에서 ministerial 책임 원칙의 효과",
+      "Case3": "\"The effectiveness of 장관 책임 원칙 in 말레이시아 is crucial.\"",
+      "Case4": "The 효과 of the doctrine of ministerial responsibility in Malaysia is significant.",
+      "Case5": "effectiveness of doctrine of ministerial responsibility in malaysia"
+    }
+  },
+  {
+    "id": 27,
+    "original_ko": "성경 구절은 땅에 보물을 쌓지 말라고 합니다.",
+    "original_en": "bible verse do not store treasures on earth",
+    "code_switched_versions": {
+      "Case1": "성경 구절은 땅에 보물을 쌓지 말라고 합니다.",
+      "Case2": "성경 verse는 땅에 보물을 쌓지 말라고 합니다.",
+      "Case3": "\"The bible verse는 땅에 보물을 쌓지 말라고 합니다.\"",
+      "Case4": "The 성경 구절 says not to store treasures on earth.",
+      "Case5": "bible verse do not store treasures on earth"
+    }
+  },
+  {
+    "id": 28,
+    "original_ko": "2) 인터넷 익명성에서 발생하는 해로운 결과는 무엇인가요?",
+    "original_en": "2) what are some harmful outcomes that stem from internet anonymity",
+    "code_switched_versions": {
+      "Case1": "2) 인터넷 익명성에서 발생하는 해로운 결과는 무엇인가요?",
+      "Case2": "인터넷 anonymity에서 발생하는 해로운 결과는 무엇인가요?",
+      "Case3": "What are some 해로운 결과 that stem from 인터넷 익명성?",
+      "Case4": "\"What are some 해로운 결과 that stem from internet anonymity?\"",
+      "Case5": "2) what are some harmful outcomes that stem from internet anonymity"
+    }
+  },
+  {
+    "id": 29,
+    "original_ko": "노래 '데이 트리퍼'의 의미는 무엇인가요",
+    "original_en": "what is the meaning of the song day tripper",
+    "code_switched_versions": {
+      "Case1": "노래 '데이 트리퍼'의 의미는 무엇인가요",
+      "Case2": "노래 'day tripper'의 의미는 무엇인가요?",
+      "Case3": "\"What is 노래 '데이 트리퍼'의 의미?\"",
+      "Case4": "What is the 의미 of the song 'Day Tripper'?",
+      "Case5": "what is the meaning of the song day tripper"
+    }
+  },
+  {
+    "id": 30,
+    "original_ko": "자유의 여신상은 누구를 모델로 했나요?",
+    "original_en": "who is the statue of liberty based off of",
+    "code_switched_versions": {
+      "Case1": "자유의 여신상은 누구를 모델로 했나요?",
+      "Case2": "자유의 여신상은 누구를 model로 했나요?",
+      "Case3": "\"Who는 자유의 여신상을 모델로 했나요?\"",
+      "Case4": "\"Who is the 자유의 여신상 based off of?\"",
+      "Case5": "who is the statue of liberty based off of"
+    }
+  },
+  {
+    "id": 31,
+    "original_ko": "스웨디시 피쉬라는 이름은 어디서 유래되었나요",
+    "original_en": "where does the name swedish fish come from",
+    "code_switched_versions": {
+      "Case1": "스웨디시 피쉬라는 이름은 어디서 유래되었나요",
+      "Case2": "스웨디시 fish라는 이름은 어디서 유래되었나요?",
+      "Case3": "\"Where does 스웨디시 피쉬라는 이름 come from?\"",
+      "Case4": "\"Where does the 이름 스웨디시 피쉬 come from?\"",
+      "Case5": "where does the name swedish fish come from"
+    }
+  },
+  {
+    "id": 32,
+    "original_ko": "피부에서 감각 신경 섬유와 운동 신경 섬유는 어디에 위치하나요",
+    "original_en": "where are sensory and motor fibers located in the skin",
+    "code_switched_versions": {
+      "Case1": "피부에서 감각 신경 섬유와 운동 신경 섬유는 어디에 위치하나요",
+      "Case2": "피부에서 sensory 신경 섬유와 motor 신경 섬유는 어디에 위치하나요?",
+      "Case3": "\"Where는 피부에서 감각 신경 섬유와 운동 신경 섬유가 위치하나요?\"",
+      "Case4": "\"Where are sensory와 운동 신경 섬유 located in the skin?\"",
+      "Case5": "where are sensory and motor fibers located in the skin"
+    }
+  },
+  {
+    "id": 33,
+    "original_ko": "누가 역사적 서사에서 제외되며, 그 이유는 무엇인지 설명하세요.",
+    "original_en": "who gets left out of the historical narrative and why explain",
+    "code_switched_versions": {
+      "Case1": "누가 역사적 서사에서 제외되며, 그 이유는 무엇인지 설명하세요.",
+      "Case2": "누가 historical 서사에서 제외되며, 그 이유는 무엇인지 explain하세요.",
+      "Case3": "\"Who gets 제외되는 역사적 서사에서, 그리고 그 이유는 무엇인지 설명하세요?\"",
+      "Case4": "\"Who gets 제외되며 from the historical narrative and why?\"",
+      "Case5": "who gets left out of the historical narrative and why explain"
+    }
+  },
+  {
+    "id": 34,
+    "original_ko": "우주에서 인도가 보낸 첫 번째 우주선에 대한 세부 정보를 탐색하고 찾아보세요.",
+    "original_en": "explore and find details of first spacecraft sent by india in space",
+    "code_switched_versions": {
+      "Case1": "우주에서 인도가 보낸 첫 번째 우주선에 대한 세부 정보를 탐색하고 찾아보세요.",
+      "Case2": "우주에서 India가 보낸 첫 번째 spacecraft에 대한 세부 정보를 탐색하고 찾아보세요.",
+      "Case3": "\"Explore and find 인도가 보낸 첫 번째 우주선에 대한 세부 정보.\"",
+      "Case4": "\"Explore and find 세부 정보 of the first 우주선 sent by India in space.\"",
+      "Case5": "explore and find details of first spacecraft sent by india in space"
+    }
+  },
+  {
+    "id": 35,
+    "original_ko": "유럽과 북아프리카에서 추축 세력의 지배를 받지 않은 나라는 어디인가요?",
+    "original_en": "which countries in europe and north africa remained free of axis control",
+    "code_switched_versions": {
+      "Case1": "유럽과 북아프리카에서 추축 세력의 지배를 받지 않은 나라는 어디인가요?",
+      "Case2": "유럽과 북아프리카에서 axis 세력의 지배를 받지 않은 나라는 어디인가요?",
+      "Case3": "\"Which 나라에서 유럽과 북아프리카의 추축 세력의 지배를 받지 않았나요?\"",
+      "Case4": "\"Which 나라 in Europe and North Africa remained free of axis control?\"",
+      "Case5": "which countries in europe and north africa remained free of axis control"
+    }
+  },
+  {
+    "id": 36,
+    "original_ko": "성 '피노'는 어디에서 유래했나요?",
+    "original_en": "where does the last name pino come from",
+    "code_switched_versions": {
+      "Case1": "성 '피노'는 어디에서 유래했나요?",
+      "Case2": "성 'Pino'는 어디에서 유래했나요?",
+      "Case3": "\"Where does 성 '피노' come from?\"",
+      "Case4": "\"Where does the 성 '피노' come from?\"",
+      "Case5": "where does the last name pino come from"
+    }
+  },
+  {
+    "id": 37,
+    "original_ko": "전자 서명법에 따른 전자 서명의 정의는 무엇인가요?",
+    "original_en": "what is the definition of an electronic signature according to the e sign act",
+    "code_switched_versions": {
+      "Case1": "전자 서명법에 따른 전자 서명의 정의는 무엇인가요?",
+      "Case2": "전자 서명법에 따른 electronic signature의 정의는 무엇인가요?",
+      "Case3": "What is 전자 서명의 정의 according to the 전자 서명법?",
+      "Case4": "What is the 정의 of an electronic signature according to the e-sign 법?",
+      "Case5": "what is the definition of an electronic signature according to the e sign act"
+    }
+  },
+  {
+    "id": 38,
+    "original_ko": "야구에서 '캔 오브 콘'은 무엇을 의미하나요",
+    "original_en": "where does can of corn mean in baseball",
+    "code_switched_versions": {
+      "Case1": "야구에서 '캔 오브 콘'은 무엇을 의미하나요",
+      "Case2": "야구에서 'can of corn'은 무엇을 의미하나요?",
+      "Case3": "\"What does '캔 오브 콘' mean in 야구?\"",
+      "Case4": "\"What does '캔 오브 콘' mean in 야구?\"",
+      "Case5": "where does can of corn mean in baseball"
+    }
+  },
+  {
+    "id": 39,
+    "original_ko": "히드라라는 간단한 동물에서 어떤 구조가 발견되나요?",
+    "original_en": "which structures are found in the simple animal called the hydra",
+    "code_switched_versions": {
+      "Case1": "히드라라는 간단한 동물에서 어떤 구조가 발견되나요?",
+      "Case2": "히드라라는 simple animal에서 어떤 구조가 발견되나요?",
+      "Case3": "\"What structures are 발견되나요 in the 간단한 동물 called 히드라?\"",
+      "Case4": "\"Which 구조 are found in the simple animal called the hydra?\"",
+      "Case5": "which structures are found in the simple animal called the hydra"
+    }
+  },
+  {
+    "id": 40,
+    "original_ko": "확장 가능한 하이퍼텍스트 마크업 언어는 확장 가능하지 않지만 XML을 기반으로 합니다.",
+    "original_en": "extensible hypertext markup language is not extensible but it is based on xml",
+    "code_switched_versions": {
+      "Case1": "확장 가능한 하이퍼텍스트 마크업 언어는 확장 가능하지 않지만 XML을 기반으로 합니다.",
+      "Case2": "확장 가능한 hypertext markup 언어는 확장 가능하지 않지만 XML을 기반으로 합니다.",
+      "Case3": "\"Extensible hypertext markup language는 확장 가능하지 않지만 XML을 기반으로 합니다.\"",
+      "Case4": "\"Extensible 하이퍼텍스트 마크업 언어 is not extensible but it is based on XML.\"",
+      "Case5": "extensible hypertext markup language is not extensible but it is based on xml"
+    }
+  },
+  {
+    "id": 41,
+    "original_ko": "법적으로 투표할 권리가 있는 사람은 누구이며, 실제로 투표하는 사람은 누구입니까?",
+    "original_en": "who is legally entitled to vote and who actually votes",
+    "code_switched_versions": {
+      "Case1": "법적으로 투표할 권리가 있는 사람은 누구이며, 실제로 투표하는 사람은 누구입니까?",
+      "Case2": "법적으로 vote할 권리가 있는 사람은 누구이며, 실제로 voting하는 사람은 누구입니까?",
+      "Case3": "\"Who is 법적으로 투표할 권리가 있는 사람이며, 실제로 투표하는 사람은 누구입니까?\"",
+      "Case4": "\"Who is legally entitled to 투표 and who actually votes?\"",
+      "Case5": "who is legally entitled to vote and who actually votes"
+    }
+  },
+  {
+    "id": 42,
+    "original_ko": "동남아시아에는 어떤 국가들이 있나요?",
+    "original_en": "what are the countries in south east asia",
+    "code_switched_versions": {
+      "Case1": "동남아시아에는 어떤 국가들이 있나요?",
+      "Case2": "동남아시아에는 어떤 countries가 있나요?",
+      "Case3": "What countries are 동남아시아에 있나요?",
+      "Case4": "\"What are the 국가들 in South East Asia?\"",
+      "Case5": "what are the countries in south east asia"
+    }
+  },
+  {
+    "id": 43,
+    "original_ko": "비금속은 어떤 종류의 이온을 형성하나요?",
+    "original_en": "what type of ions do non metals form",
+    "code_switched_versions": {
+      "Case1": "비금속은 어떤 종류의 이온을 형성하나요?",
+      "Case2": "비금속은 어떤 종류의 ions을 형성하나요?",
+      "Case3": "\"What type의 이온을 비금속이 형성하나요?\"",
+      "Case4": "\"What type의 이온 do non-metals form?\"",
+      "Case5": "what type of ions do non metals form"
+    }
+  },
+  {
+    "id": 44,
+    "original_ko": "‘행운을 빌어요’라는 표현은 어디에서 유래했나요",
+    "original_en": "where does the expression break a leg come from",
+    "code_switched_versions": {
+      "Case1": "‘행운을 빌어요’라는 표현은 어디에서 유래했나요",
+      "Case2": "‘행운을 빌어요’라는 expression은 어디에서 유래했나요?",
+      "Case3": "\"Where does 행운을 빌어요 come from?\"",
+      "Case4": "Where does the 표현 '행운을 빌어요' come from?",
+      "Case5": "where does the expression break a leg come from"
+    }
+  },
+  {
+    "id": 45,
+    "original_ko": "나이지리아의 다양한 관개 프로젝트를 나열하고 설명하시오",
+    "original_en": "list and describe the various irrigation project in nigeria",
+    "code_switched_versions": {
+      "Case1": "나이지리아의 다양한 관개 프로젝트를 나열하고 설명하시오",
+      "Case2": "나이지리아의 다양한 irrigation 프로젝트를 나열하고 설명하시오.",
+      "Case3": "\"List and describe 나이지리아의 다양한 관개 프로젝트.\"",
+      "Case4": "\"Please list and describe the 다양한 관개 프로젝트 in Nigeria.\"",
+      "Case5": "list and describe the various irrigation project in nigeria"
+    }
+  },
+  {
+    "id": 46,
+    "original_ko": "파인애플과 감자의 원산지는 어디인가요?",
+    "original_en": "where did pineapples and potatoes originally come from",
+    "code_switched_versions": {
+      "Case1": "파인애플과 감자의 원산지는 어디인가요?",
+      "Case2": "파인애플과 potato의 원산지는 어디인가요?",
+      "Case3": "\"Where is 파인애플과 감자의 원산지?\"",
+      "Case4": "\"Where did 파인애플과 감자 originally come from?\"",
+      "Case5": "where did pineapples and potatoes originally come from"
+    }
+  },
+  {
+    "id": 47,
+    "original_ko": "시리즈 '겟 다운'은 누구에 관한 이야기인가요?",
+    "original_en": "who is the series the get down about",
+    "code_switched_versions": {
+      "Case1": "시리즈 '겟 다운'은 누구에 관한 이야기인가요?",
+      "Case2": "시리즈 '겟 다운'은 who에 관한 이야기인가요?",
+      "Case3": "\"Who는 시리즈 '겟 다운'에 관한 이야기인가요?\"",
+      "Case4": "\"Who is the 시리즈 '겟 다운' about?\"",
+      "Case5": "who is the series the get down about"
+    }
+  },
+  {
+    "id": 48,
+    "original_ko": "재판에서 함구령이 언제 부과될 수 있나요?",
+    "original_en": "when might a gag order be imposed in a trial",
+    "code_switched_versions": {
+      "Case1": "재판에서 함구령이 언제 부과될 수 있나요?",
+      "Case2": "재판에서 gag order가 언제 부과될 수 있나요?",
+      "Case3": "\"When might 함구령 be imposed in a 재판?\"",
+      "Case4": "\"When might a 함구령 be imposed in a trial?\"",
+      "Case5": "when might a gag order be imposed in a trial"
+    }
+  },
+  {
+    "id": 49,
+    "original_ko": "1946년 해군 반란에 대한 간단한 설명",
+    "original_en": "short note on the naval revolt of 1946",
+    "code_switched_versions": {
+      "Case1": "1946년 해군 반란에 대한 간단한 설명",
+      "Case2": "1946년 naval 반란에 대한 간단한 설명",
+      "Case3": "\"Here is a short note on 1946년 해군 반란.\"",
+      "Case4": "short note on the 해군 반란 of 1946.",
+      "Case5": "short note on the naval revolt of 1946"
+    }
+  },
+  {
+    "id": 50,
+    "original_ko": "왜 지구의 절반만이 주어진 시간에 햇빛을 받을 수 있나요?",
+    "original_en": "why only half of the earth can receive sunlight at any given time",
+    "code_switched_versions": {
+      "Case1": "왜 지구의 절반만이 주어진 시간에 햇빛을 받을 수 있나요?",
+      "Case2": "왜 지구의 half만이 주어진 시간에 햇빛을 받을 수 있나요?",
+      "Case3": "\"Why only 반쪽 of the 지구 can receive sunlight at any given time?\"",
+      "Case4": "\"Why is it that only half of the 지구 can receive sunlight at any given time?\"",
+      "Case5": "why only half of the earth can receive sunlight at any given time"
+    }
+  },
+  {
+    "id": 51,
+    "original_ko": "너의 신의 이름을 헛되이 부르는 것은 무슨 의미인가요",
+    "original_en": "what does it mean to take the name of the lord your god in vain",
+    "code_switched_versions": {
+      "Case1": "너의 신의 이름을 헛되이 부르는 것은 무슨 의미인가요",
+      "Case2": "너의 god의 이름을 헛되이 부르는 것은 무슨 의미인가요?",
+      "Case3": "\"What does it mean to 너의 신의 이름을 헛되이 부르는 것?\"",
+      "Case4": "\"What does it mean to take the 신의 name in vain?\"",
+      "Case5": "what does it mean to take the name of the lord your god in vain"
+    }
+  },
+  {
+    "id": 52,
+    "original_ko": "지구 자기장의 수평 성분",
+    "original_en": "horizontal component of the earth's magnetic field",
+    "code_switched_versions": {
+      "Case1": "지구 자기장의 수평 성분",
+      "Case2": "지구 magnetic field의 수평 성분",
+      "Case3": "\"The horizontal component of 지구 자기장 is crucial for navigation.\"",
+      "Case4": "\"The horizontal component of 지구 자기장은 crucial for navigation.\"",
+      "Case5": "horizontal component of the earth's magnetic field"
+    }
+  },
+  {
+    "id": 53,
+    "original_ko": "영국에서 영화 '보이즈 인 더 후드'가 왜 인기를 끌었나요?",
+    "original_en": "why did the film boyz in the hood become popular in england",
+    "code_switched_versions": {
+      "Case1": "영국에서 영화 '보이즈 인 더 후드'가 왜 인기를 끌었나요?",
+      "Case2": "영국에서 film '보이즈 인 더 후드'가 왜 인기를 끌었나요?",
+      "Case3": "\"Why did 영화 '보이즈 인 더 후드'가 인기를 끌었나요 in 영국?\"",
+      "Case4": "\"Why did the 영화 'Boyz in the Hood' become popular in England?\"",
+      "Case5": "why did the film boyz in the hood become popular in england"
+    }
+  },
+  {
+    "id": 54,
+    "original_ko": "미국에서 마지막 일식은 어디에서 발생했나요?",
+    "original_en": "where was the last solar eclipse in the usa",
+    "code_switched_versions": {
+      "Case1": "미국에서 마지막 일식은 어디에서 발생했나요?",
+      "Case2": "미국에서 last solar eclipse는 어디에서 발생했나요?",
+      "Case3": "\"Where에서 마지막 일식은 발생했나요?\"",
+      "Case4": "\"Where was the 마지막 일식 in the USA?\"",
+      "Case5": "where was the last solar eclipse in the usa"
+    }
+  },
+  {
+    "id": 55,
+    "original_ko": "로드니 피트는 NFL에서 어떤 팀에서 뛰었나요?",
+    "original_en": "who did rodney peete play for in the nfl",
+    "code_switched_versions": {
+      "Case1": "로드니 피트는 NFL에서 어떤 팀에서 뛰었나요?",
+      "Case2": "로드니 피트는 NFL에서 어떤 team에서 뛰었나요?",
+      "Case3": "\"Which 팀에서 로드니 피트 뛰었나요?\"",
+      "Case4": "\"Which 팀 did Rodney Peete play for in the NFL?\"",
+      "Case5": "who did rodney peete play for in the nfl"
+    }
+  },
+  {
+    "id": 56,
+    "original_ko": "15세의 평균 키는 얼마인가요?",
+    "original_en": "whats the average height for 15 year old",
+    "code_switched_versions": {
+      "Case1": "15세의 평균 키는 얼마인가요?",
+      "Case2": "15세의 average height는 얼마인가요?",
+      "Case3": "\"What's the 평균 키 for 15세?\"",
+      "Case4": "\"What's the 평균 키 for a 15 year old?\"",
+      "Case5": "whats the average height for 15 year old"
+    }
+  },
+  {
+    "id": 57,
+    "original_ko": "우리 태양계에 떠돌이 행성이 몇 개나 있나요",
+    "original_en": "how many rogue planets are in our solar system",
+    "code_switched_versions": {
+      "Case1": "우리 태양계에 떠돌이 행성이 몇 개나 있나요",
+      "Case2": "우리 태양계에 rogue planets가 몇 개나 있나요?",
+      "Case3": "\"How many 떠돌이 행성이 are in 우리 태양계?\"",
+      "Case4": "\"How many 떠돌이 행성 are in our solar system?\"",
+      "Case5": "how many rogue planets are in our solar system"
+    }
+  },
+  {
+    "id": 58,
+    "original_ko": "H.G. 웰스의 투명인간 배경",
+    "original_en": "setting of the invisible man by h.g. wells",
+    "code_switched_versions": {
+      "Case1": "H.G. 웰스의 투명인간 배경",
+      "Case2": "H.G. 웰스의 invisible man 배경",
+      "Case3": "\"The 배경 of H.G. 웰스의 투명인간 is quite intriguing.\"",
+      "Case4": "The 배경 of the invisible man by H.G. Wells is quite intriguing.",
+      "Case5": "setting of the invisible man by h.g. wells"
+    }
+  },
+  {
+    "id": 59,
+    "original_ko": "남아프리카에서 광산 활동이 이루어지는 곳은 어디인가요?",
+    "original_en": "where do mining activities take place in south africa",
+    "code_switched_versions": {
+      "Case1": "남아프리카에서 광산 활동이 이루어지는 곳은 어디인가요?",
+      "Case2": "남아프리카에서 mining 활동이 이루어지는 곳은 어디인가요?",
+      "Case3": "\"Where do 광산 활동 take place in 남아프리카?\"",
+      "Case4": "\"Where do 광산 activities take place in South Africa?\"",
+      "Case5": "where do mining activities take place in south africa"
+    }
+  },
+  {
+    "id": 60,
+    "original_ko": "무릎에서 PCL은 어디에 위치하고 있습니까?",
+    "original_en": "where is the pcl located in the knee",
+    "code_switched_versions": {
+      "Case1": "무릎에서 PCL은 어디에 위치하고 있습니까?",
+      "Case2": "무릎에서 PCL은 어디에 located 하고 있습니까?",
+      "Case3": "\"Where is 무릎에서 PCL 위치하고 있습니까?\"",
+      "Case4": "\"Where is the PCL 무릎에 located?\"",
+      "Case5": "where is the pcl located in the knee"
+    }
+  },
+  {
+    "id": 61,
+    "original_ko": "도시가 되기 위한 한 장소의 자격은 무엇인가요?",
+    "original_en": "what are the qualification of 1 place to become a city",
+    "code_switched_versions": {
+      "Case1": "도시가 되기 위한 한 장소의 자격은 무엇인가요?",
+      "Case2": "도시가 되기 위한 한 place의 자격은 무엇인가요?",
+      "Case3": "What are 도시의 자격 to become a city?",
+      "Case4": "\"What are the 자격 of a place to become a city?\"",
+      "Case5": "what are the qualification of 1 place to become a city"
+    }
+  },
+  {
+    "id": 62,
+    "original_ko": "왜 '새와 벌'이라고 불리나요",
+    "original_en": "why is it called the birds and the bees",
+    "code_switched_versions": {
+      "Case1": "왜 '새와 벌'이라고 불리나요",
+      "Case2": "왜 'birds와 bees'이라고 불리나요?",
+      "Case3": "\"Why is it called 새와 벌?\"",
+      "Case4": "\"Why is it called the 새와 벌?\"",
+      "Case5": "why is it called the birds and the bees"
+    }
+  },
+  {
+    "id": 63,
+    "original_ko": "DICGC로 예금 보험 비용을 지불하는 사람은 누구인가요",
+    "original_en": "who pay the cost of deposit insurance with dicgc",
+    "code_switched_versions": {
+      "Case1": "DICGC로 예금 보험 비용을 지불하는 사람은 누구인가요",
+      "Case2": "DICGC로 deposit 보험 비용을 지불하는 사람은 누구인가요?",
+      "Case3": "\"Who pays DICGC로 예금 보험 비용?\"",
+      "Case4": "\"Who pays the 비용 of deposit insurance with DICGC?\"",
+      "Case5": "who pay the cost of deposit insurance with dicgc"
+    }
+  },
+  {
+    "id": 64,
+    "original_ko": "필리핀 정부에서 NEDA의 역할은 무엇인가요?",
+    "original_en": "what is the role of neda in the philippine government",
+    "code_switched_versions": {
+      "Case1": "필리핀 정부에서 NEDA의 역할은 무엇인가요?",
+      "Case2": "필리핀 정부에서 NEDA의 role은 무엇인가요?",
+      "Case3": "\"What is 필리핀 정부에서 NEDA의 역할?\"",
+      "Case4": "What is the 역할 of NEDA in the Philippine government?",
+      "Case5": "what is the role of neda in the philippine government"
+    }
+  },
+  {
+    "id": 65,
+    "original_ko": "현대 말의 조상은 어디에서 유래했나요?",
+    "original_en": "where did the ancestors of modern horses originated",
+    "code_switched_versions": {
+      "Case1": "현대 말의 조상은 어디에서 유래했나요?",
+      "Case2": "현대 말의 ancestors는 어디에서 유래했나요?",
+      "Case3": "\"Where did 현대 말의 조상 유래했나요?\"",
+      "Case4": "\"Where did the 조상 of 현대 말 originate?\"",
+      "Case5": "where did the ancestors of modern horses originated"
+    }
+  },
+  {
+    "id": 66,
+    "original_ko": "조니 캐시의 'When the Man Comes Around' 노래는 어떤 내용인가요?",
+    "original_en": "what is johnny cash song when the man comes around about",
+    "code_switched_versions": {
+      "Case1": "조니 캐시의 'When the Man Comes Around' 노래는 어떤 내용인가요?",
+      "Case2": "조니 캐시의 'When the Man Comes Around' song은 어떤 내용인가요?",
+      "Case3": "What is 조니 캐시의 'When the Man Comes Around' 노래 about?",
+      "Case4": "What is 조니 캐시's song 'When the Man Comes Around' about?",
+      "Case5": "what is johnny cash song when the man comes around about"
+    }
+  },
+  {
+    "id": 67,
+    "original_ko": "방광 아래쪽과 요도의 상단에 위치해 있습니다.",
+    "original_en": "is located below the urinary bladder and on the upper end of the urethra",
+    "code_switched_versions": {
+      "Case1": "방광 아래쪽과 요도의 상단에 위치해 있습니다.",
+      "Case2": "방광 아래쪽과 urethra의 상단에 위치해 있습니다.",
+      "Case3": "\"It is located 방광 아래쪽과 요도의 상단에.\"",
+      "Case4": "\"is located below the 방광 and on the upper end of the 요도.\"",
+      "Case5": "is located below the urinary bladder and on the upper end of the urethra"
+    }
+  },
+  {
+    "id": 68,
+    "original_ko": "이족보행의 기원에 기여했을 수 있는 생태적 영향은 무엇인가요?",
+    "original_en": "what ecological influences may have contributed to the origin of bipedalism",
+    "code_switched_versions": {
+      "Case1": "이족보행의 기원에 기여했을 수 있는 생태적 영향은 무엇인가요?",
+      "Case2": "이족보행의 origin에 기여했을 수 있는 ecological 영향은 무엇인가요?",
+      "Case3": "What 생태적 영향 may have contributed to the origin of 이족보행?",
+      "Case4": "What ecological 영향 may have contributed to the origin of bipedalism?",
+      "Case5": "what ecological influences may have contributed to the origin of bipedalism"
+    }
+  },
+  {
+    "id": 69,
+    "original_ko": "늪의 물은 어디에서 왔나요?",
+    "original_en": "where has the water in the bog come from",
+    "code_switched_versions": {
+      "Case1": "늪의 물은 어디에서 왔나요?",
+      "Case2": "\"늪의 water는 어디에서 왔나요?\"",
+      "Case3": "\"Where has 늪의 물 come from?\"",
+      "Case4": "\"Where has the 물 in the bog come from?\"",
+      "Case5": "where has the water in the bog come from"
+    }
+  },
+  {
+    "id": 70,
+    "original_ko": "공군 2호기는 어떤 종류의 비행기인가요",
+    "original_en": "what kind of plane is air force two",
+    "code_switched_versions": {
+      "Case1": "공군 2호기는 어떤 종류의 비행기인가요",
+      "Case2": "공군 2호기는 어떤 종류의 plane인가요?",
+      "Case3": "\"What kind of 비행기 is 공군 2호기?\"",
+      "Case4": "\"What kind of 비행기 is Air Force Two?\"",
+      "Case5": "what kind of plane is air force two"
+    }
+  },
+  {
+    "id": 71,
+    "original_ko": "포르투갈어와 스페인어의 차이점은 무엇인가요",
+    "original_en": "what's the difference between portuguese and spanish",
+    "code_switched_versions": {
+      "Case1": "포르투갈어와 스페인어의 차이점은 무엇인가요",
+      "Case2": "포르투갈어와 spanish의 차이점은 무엇인가요?",
+      "Case3": "\"What's the 차이점 between 포르투갈어 and 스페인어?\"",
+      "Case4": "\"What's the 차이점 between Portuguese and Spanish?\"",
+      "Case5": "what's the difference between portuguese and spanish"
+    }
+  },
+  {
+    "id": 72,
+    "original_ko": "식물의 번식 방법에는 어떤 종류가 있나요",
+    "original_en": "what are the different types of plant reproduction",
+    "code_switched_versions": {
+      "Case1": "식물의 번식 방법에는 어떤 종류가 있나요",
+      "Case2": "식물의 reproduction 방법에는 어떤 종류가 있나요?",
+      "Case3": "What are 식물의 번식 방법의 다양한 종류?",
+      "Case4": "What are the 다양한 종류 of plant reproduction?",
+      "Case5": "what are the different types of plant reproduction"
+    }
+  },
+  {
+    "id": 73,
+    "original_ko": "마운틴 타임에서 센트럴 타임으로 바뀌는 지점은 어디인가요?",
+    "original_en": "where does it change from mountain time to central time",
+    "code_switched_versions": {
+      "Case1": "마운틴 타임에서 센트럴 타임으로 바뀌는 지점은 어디인가요?",
+      "Case2": "마운틴 time에서 센트럴 time으로 바뀌는 지점은 어디인가요?",
+      "Case3": "\"Where is 마운틴 타임에서 센트럴 타임으로 바뀌는 지점?\"",
+      "Case4": "\"Where does it change from 마운틴 타임 to 센트럴 타임?\"",
+      "Case5": "where does it change from mountain time to central time"
+    }
+  },
+  {
+    "id": 74,
+    "original_ko": "아서 왕의 죽음에 대한 요약",
+    "original_en": "the death of arthur from le morte d'arthur summary",
+    "code_switched_versions": {
+      "Case1": "아서 왕의 죽음에 대한 요약",
+      "Case2": "아서 왕의 death에 대한 요약",
+      "Case3": "\"The summary of 아서 왕의 죽음 in Le Morte d'Arthur.\"",
+      "Case4": "The death of 아서 왕 in Le Morte d'Arthur summary is quite tragic.",
+      "Case5": "the death of arthur from le morte d'arthur summary"
+    }
+  },
+  {
+    "id": 75,
+    "original_ko": "마야 볼 게임을 한 운동선수들에게 왜 뛰어난 기술이 요구되었나요?",
+    "original_en": "why was great skill required of the athletes who played the mayan ball game",
+    "code_switched_versions": {
+      "Case1": "마야 볼 게임을 한 운동선수들에게 왜 뛰어난 기술이 요구되었나요?",
+      "Case2": "마야 ball game을 한 운동선수들에게 왜 뛰어난 기술이 요구되었나요?",
+      "Case3": "\"Why was 뛰어난 기술 required of the 운동선수들 who played the 마야 볼 게임?\"",
+      "Case4": "\"Why was great 기술 required of the athletes who played the 마야 ball game?\"",
+      "Case5": "why was great skill required of the athletes who played the mayan ball game"
+    }
+  },
+  {
+    "id": 76,
+    "original_ko": "생태계에서 인은 어디에서 발생하나요?",
+    "original_en": "where does the phosphorus come from in an ecosystem",
+    "code_switched_versions": {
+      "Case1": "생태계에서 인은 어디에서 발생하나요?",
+      "Case2": "생태계에서 phosphorus는 어디에서 발생하나요?",
+      "Case3": "\"Where does 인 come from in an 생태계?\"",
+      "Case4": "\"Where does the 인 come from in an ecosystem?\"",
+      "Case5": "where does the phosphorus come from in an ecosystem"
+    }
+  },
+  {
+    "id": 77,
+    "original_ko": "가지치기가 두뇌 발달에 필수적인 이유는 무엇인가요?",
+    "original_en": "why is pruning essential part of brain development",
+    "code_switched_versions": {
+      "Case1": "가지치기가 두뇌 발달에 필수적인 이유는 무엇인가요?",
+      "Case2": "가지치기가 brain 발달에 필수적인 이유는 무엇인가요?",
+      "Case3": "\"Why is 가지치기 an essential part of 두뇌 발달?\"",
+      "Case4": "\"Why is 가지치기 an essential part of 두뇌 발달?\"",
+      "Case5": "why is pruning essential part of brain development"
+    }
+  },
+  {
+    "id": 78,
+    "original_ko": "보건 안전 당국의 역할은 무엇인가요",
+    "original_en": "what is the role of the health and safety authority",
+    "code_switched_versions": {
+      "Case1": "보건 안전 당국의 역할은 무엇인가요",
+      "Case2": "보건 안전 authority의 역할은 무엇인가요?",
+      "Case3": "\"What is 보건 안전 당국의 역할?\"",
+      "Case4": "\"What is the 역할 of the health and safety authority?\"",
+      "Case5": "what is the role of the health and safety authority"
+    }
+  },
+  {
+    "id": 79,
+    "original_ko": "인도의 첫 번째 선거에 참여하지 않은 사람은 누구인가요?",
+    "original_en": "who did not participate in the first election of india",
+    "code_switched_versions": {
+      "Case1": "인도의 첫 번째 선거에 참여하지 않은 사람은 누구인가요?",
+      "Case2": "인도의 첫 번째 election에 참여하지 않은 사람은 누구인가요?",
+      "Case3": "Who는 인도의 첫 번째 선거에 참여하지 않은 사람인가요?",
+      "Case4": "\"Who did not participate in 인도의 첫 번째 선거?\"",
+      "Case5": "who did not participate in the first election of india"
+    }
+  },
+  {
+    "id": 80,
+    "original_ko": "어떤 종류의 오토바이가 도로에서 합법인가요?",
+    "original_en": "what type of motorcycle is fully street legal",
+    "code_switched_versions": {
+      "Case1": "어떤 종류의 오토바이가 도로에서 합법인가요?",
+      "Case2": "어떤 종류의 motorcycle이 도로에서 합법인가요?",
+      "Case3": "\"What 종류의 오토바이가 도로에서 합법인가요?\"",
+      "Case4": "\"What type의 motorcycle이 도로에서 합법인가요?\"",
+      "Case5": "what type of motorcycle is fully street legal"
+    }
+  },
+  {
+    "id": 81,
+    "original_ko": "왜 팀북투는 무역과 문화 교류의 주요 중심지였나요?",
+    "original_en": "why was timbuktu a major center of trade and cultural exchange",
+    "code_switched_versions": {
+      "Case1": "왜 팀북투는 무역과 문화 교류의 주요 중심지였나요?",
+      "Case2": "왜 Timbuktu는 무역과 문화 exchange의 주요 중심지였나요?",
+      "Case3": "\"Why was 팀북투 a major center of 무역과 문화 교류?\"",
+      "Case4": "\"Why was 팀북투 a major center of 무역 and cultural exchange?\"",
+      "Case5": "why was timbuktu a major center of trade and cultural exchange"
+    }
+  },
+  {
+    "id": 82,
+    "original_ko": "존 미어셰이머의 강대국 정치의 비극 요약",
+    "original_en": "john mearsheimer the tragedy of great power politics summary",
+    "code_switched_versions": {
+      "Case1": "존 미어셰이머의 강대국 정치의 비극 요약",
+      "Case2": "존 미어셰이머의 tragedy of 강대국 정치의 비극 요약",
+      "Case3": "\"Can you explain 존 미어셰이머의 강대국 정치의 비극 요약?\"",
+      "Case4": "\"Let’s discuss 존 미어셰이머's summary of the tragedy of great power politics.\"",
+      "Case5": "john mearsheimer the tragedy of great power politics summary"
+    }
+  },
+  {
+    "id": 83,
+    "original_ko": "판의 미로에서 파우누스는 무엇인가요",
+    "original_en": "what is a faun in pan's labyrinth",
+    "code_switched_versions": {
+      "Case1": "판의 미로에서 파우누스는 무엇인가요",
+      "Case2": "판의 labyrinth에서 파우누스는 무엇인가요?",
+      "Case3": "\"What is 판의 미로에서 파우누스?\"",
+      "Case4": "\"What is a 파우누스 in Pan's Labyrinth?\"",
+      "Case5": "what is a faun in pan's labyrinth"
+    }
+  },
+  {
+    "id": 84,
+    "original_ko": "네트워크 프로토콜이란 무엇이며, 이더넷, TCP/IP 및 무선 프로토콜의 역할은 무엇인가요?",
+    "original_en": "what is a network protocol what are the roles of ethernet tcp/ip and wireless protocols",
+    "code_switched_versions": {
+      "Case1": "네트워크 프로토콜이란 무엇이며, 이더넷, TCP/IP 및 무선 프로토콜의 역할은 무엇인가요?",
+      "Case2": "네트워크 protocol이란 무엇이며, 이더넷, TCP/IP 및 wireless protocol의 역할은 무엇인가요?",
+      "Case3": "\"What is 네트워크 프로토콜, and what are the 역할 of 이더넷, TCP/IP, and 무선 프로토콜?\"",
+      "Case4": "\"What is a 네트워크 프로토콜 and what are the roles of 이더넷, TCP/IP, and wireless protocols?\"",
+      "Case5": "what is a network protocol what are the roles of ethernet tcp/ip and wireless protocols"
+    }
+  },
+  {
+    "id": 85,
+    "original_ko": "첫 번째 대륙회의와 두 번째 대륙회의의 차이는 무엇입니까?",
+    "original_en": "what was the difference between the 1st and 2nd continental congress",
+    "code_switched_versions": {
+      "Case1": "첫 번째 대륙회의와 두 번째 대륙회의의 차이는 무엇입니까?",
+      "Case2": "첫 번째 continental congress와 두 번째 continental congress의 차이는 무엇입니까?",
+      "Case3": "\"What was 첫 번째 대륙회의와 두 번째 대륙회의의 차이?\"",
+      "Case4": "\"What was the 차이 between the 1st and 2nd continental congress?\"",
+      "Case5": "what was the difference between the 1st and 2nd continental congress"
+    }
+  },
+  {
+    "id": 86,
+    "original_ko": "당신의 조직에서 기록이 사용되는 두 가지 목적을 설명하세요.",
+    "original_en": "describe two purposes for which records are used in your organisation",
+    "code_switched_versions": {
+      "Case1": "당신의 조직에서 기록이 사용되는 두 가지 목적을 설명하세요.",
+      "Case2": "당신의 조직에서 records가 사용되는 두 가지 목적을 설명하세요.",
+      "Case3": "\"Describe 두 가지 목적 for which 기록 are used in your 조직.\"",
+      "Case4": "\"Describe 두 가지 목적 for which records are used in your organisation.\"",
+      "Case5": "describe two purposes for which records are used in your organisation"
+    }
+  },
+  {
+    "id": 87,
+    "original_ko": "물리학에서 vf와 vo는 각각 무엇을 의미하나요",
+    "original_en": "what does vf and vo mean in physics",
+    "code_switched_versions": {
+      "Case1": "물리학에서 vf와 vo는 각각 무엇을 의미하나요",
+      "Case2": "물리학에서 vf와 vo는 각각 what을 의미하나요?",
+      "Case3": "\"What do vf와 vo 각각 의미하나요 in physics?\"",
+      "Case4": "What does vf와 vo mean in 물리학?",
+      "Case5": "what does vf and vo mean in physics"
+    }
+  },
+  {
+    "id": 88,
+    "original_ko": "축구 이적료에서 돈을 받는 사람은 누구인가요?",
+    "original_en": "who gets the money in a football transfer fee",
+    "code_switched_versions": {
+      "Case1": "축구 이적료에서 돈을 받는 사람은 누구인가요?",
+      "Case2": "축구 transfer fee에서 돈을 받는 사람은 누구인가요?",
+      "Case3": "\"Who gets the 돈 in a 축구 이적료?\"",
+      "Case4": "\"Who gets the 돈 in a 축구 transfer fee?\"",
+      "Case5": "who gets the money in a football transfer fee"
+    }
+  },
+  {
+    "id": 89,
+    "original_ko": "왜 아시아가 세계 주요 종교의 발상지인 것 같나요?",
+    "original_en": "why do you think asia seems to be the birthplace of the major religions in the world",
+    "code_switched_versions": {
+      "Case1": "왜 아시아가 세계 주요 종교의 발상지인 것 같나요?",
+      "Case2": "왜 Asia가 세계 주요 종교의 birthplace인 것 같나요?",
+      "Case3": "\"Why do you think 아시아 seems to be the 발상지 of the major 종교 in the world?\"",
+      "Case4": "\"Why do you think 아시아 seems to be the birthplace of the 주요 종교 in the world?\"",
+      "Case5": "why do you think asia seems to be the birthplace of the major religions in the world"
+    }
+  },
+  {
+    "id": 90,
+    "original_ko": "동력계 타입 전력계를 어디에서 사용하나요",
+    "original_en": "where do you use the dynamometer type wattmeter",
+    "code_switched_versions": {
+      "Case1": "동력계 타입 전력계를 어디에서 사용하나요",
+      "Case2": "동력계 타입 wattmeter는 어디에서 사용하나요?",
+      "Case3": "\"Where do you use 동력계 타입 전력계?\"",
+      "Case4": "\"Where do you use the 동력계 type wattmeter?\"",
+      "Case5": "where do you use the dynamometer type wattmeter"
+    }
+  },
+  {
+    "id": 91,
+    "original_ko": "유라시아에서 축의 시대 사상의 주요 영역은 무엇이었나요?",
+    "original_en": "what were the main areas of axial age thinking in eurasia",
+    "code_switched_versions": {
+      "Case1": "유라시아에서 축의 시대 사상의 주요 영역은 무엇이었나요?",
+      "Case2": "유라시아에서 axial age 사상의 주요 영역은 무엇이었나요?",
+      "Case3": "\"What were 유라시아에서 축의 시대 사상의 주요 영역?\"",
+      "Case4": "What were the main 영역 of axial age thinking in 유라시아?",
+      "Case5": "what were the main areas of axial age thinking in eurasia"
+    }
+  },
+  {
+    "id": 92,
+    "original_ko": "테 아라와의 족보는 어디에서 유래하나요",
+    "original_en": "where does the whakapapa of te arawa descend from",
+    "code_switched_versions": {
+      "Case1": "테 아라와의 족보는 어디에서 유래하나요",
+      "Case2": "테 아라와의 whakapapa는 어디에서 유래하나요?",
+      "Case3": "\"Where does 테 아라와의 족보 come from?\"",
+      "Case4": "\"Where does the 테 아라의 족보 come from?\"",
+      "Case5": "where does the whakapapa of te arawa descend from"
+    }
+  },
+  {
+    "id": 93,
+    "original_ko": "새 그로브 음악 사전에 누가 등재되어 있나요?",
+    "original_en": "who is listed in the new groves dictionary of music and musicians",
+    "code_switched_versions": {
+      "Case1": "새 그로브 음악 사전에 누가 등재되어 있나요?",
+      "Case2": "새 groves 음악 사전에 누가 등재되어 있나요?",
+      "Case3": "\"Who is 새 그로브 음악 사전에서 등재되어 있나요?\"",
+      "Case4": "\"Who is listed in the 새 그로브 dictionary of music and musicians?\"",
+      "Case5": "who is listed in the new groves dictionary of music and musicians"
+    }
+  },
+  {
+    "id": 94,
+    "original_ko": "미국 농구팀에는 누가 있나요",
+    "original_en": "who is on the team usa basketball team",
+    "code_switched_versions": {
+      "Case1": "미국 농구팀에는 누가 있나요",
+      "Case2": "미국 basketball팀에는 누가 있나요?",
+      "Case3": "\"Who is 미국 농구팀의 스타 플레이어?\"",
+      "Case4": "\"Who is on the 팀 USA basketball team?\"",
+      "Case5": "who is on the team usa basketball team"
+    }
+  },
+  {
+    "id": 95,
+    "original_ko": "지도 학습 훈련 샘플의 클래스 레이블은 n입니다.",
+    "original_en": "n supervised learning class labels of the training samples are",
+    "code_switched_versions": {
+      "Case1": "지도 학습 훈련 샘플의 클래스 레이블은 n입니다.",
+      "Case2": "지도 학습 훈련 samples의 클래스 레이블은 n입니다.",
+      "Case3": "The supervised learning 훈련 샘플의 클래스 레이블은 n입니다.",
+      "Case4": "The supervised learning 클래스 레이블 for the training samples are n.",
+      "Case5": "n supervised learning class labels of the training samples are"
+    }
+  },
+  {
+    "id": 96,
+    "original_ko": "누가 영화 '분노의 포도'에 출연했나요?",
+    "original_en": "who starred in the movie grapes of wrath",
+    "code_switched_versions": {
+      "Case1": "누가 영화 '분노의 포도'에 출연했나요?",
+      "Case2": "누가 movie '분노의 포도'에 출연했나요?",
+      "Case3": "\"Who 출연했나요 in the 영화 '분노의 포도'?\"",
+      "Case4": "\"Who starred in the 영화 '분노의 포도'?\"",
+      "Case5": "who starred in the movie grapes of wrath"
+    }
+  },
+  {
+    "id": 97,
+    "original_ko": "다음 중 미국과 캐나다의 주요 지리적 특성이 아닌 것은 무엇인가요",
+    "original_en": "which of the following are not major geographic qualities of the united states and canada",
+    "code_switched_versions": {
+      "Case1": "다음 중 미국과 캐나다의 주요 지리적 특성이 아닌 것은 무엇인가요",
+      "Case2": "다음 중 미국과 캐나다의 주요 geographic 특성이 아닌 것은 무엇인가요?",
+      "Case3": "\"Which of the 다음 중 미국과 캐나다의 주요 지리적 특성이 아닌 것은 무엇인가요?\"",
+      "Case4": "\"Which of the following은 미국과 캐나다의 주요 지리적 특성이 아닌 것인가요?\"",
+      "Case5": "which of the following are not major geographic qualities of the united states and canada"
+    }
+  },
+  {
+    "id": 98,
+    "original_ko": "라티나가 되려면 어디 출신이어야 하나요?",
+    "original_en": "where do you have to be from to be latina",
+    "code_switched_versions": {
+      "Case1": "라티나가 되려면 어디 출신이어야 하나요?",
+      "Case2": "라티나가 되려면 어디 origin이어야 하나요?",
+      "Case3": "\"Where do you have to be from to be 라티나?\"",
+      "Case4": "\"Where do you have to be from to be 라티나?\"",
+      "Case5": "where do you have to be from to be latina"
+    }
+  },
+  {
+    "id": 99,
+    "original_ko": "사랑하는 선생님 출연진에게 무슨 일이 있었나요?",
+    "original_en": "what happened to the cast of to sir with love",
+    "code_switched_versions": {
+      "Case1": "사랑하는 선생님 출연진에게 무슨 일이 있었나요?",
+      "Case2": "사랑하는 선생님 cast에게 무슨 일이 있었나요?",
+      "Case3": "\"What happened to 사랑하는 선생님 출연진?\"",
+      "Case4": "\"What happened to the 출연진 of To Sir with Love?\"",
+      "Case5": "what happened to the cast of to sir with love"
+    }
+  }
+]
