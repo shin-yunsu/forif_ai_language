@@ -489,21 +489,27 @@ def apply_transposition(text: str, num_errors: int = 1, used_positions: Set[int]
         errors_list = []
     
     for _ in range(num_errors):
-        if random.random() < 0.3:
-            # 자모 전치 (분리된 형태로)
-            result = transpose_jamo(text_list, used_positions)
-            if result:
-                text_list, used_positions, error_desc = result
-                if error_desc:
-                    errors_list.append(error_desc)
-        else:
-            # 음절 전치
-            result = transpose_syllable(text_list, used_positions)
-            if result:
-                text_list, used_positions, error_desc = result
-                if error_desc:
-                    errors_list.append(error_desc)
-    
+        # if random.random() < 0.5:
+        #     result = transpose_jamo(text_list, used_positions)
+        #     if result:
+        #         text_list, used_positions, error_desc = result
+        #         if error_desc:
+        #             errors_list.append(error_desc)
+        # else:
+        #     # 음절 전치
+        #     result = transpose_syllable(text_list, used_positions)
+        #     if result:
+        #         text_list, used_positions, error_desc = result
+        #         if error_desc:
+        #             errors_list.append(error_desc)
+       
+        result = transpose_jamo(text_list, used_positions)
+        if result:
+            text_list, used_positions, error_desc = result
+            if error_desc:
+                errors_list.append(error_desc)
+
+        
     return ''.join(text_list), used_positions, errors_list
 
 def transpose_jamo(text_list: List[str], used_positions: Set[int]) -> Optional[Tuple[List[str], Set[int], str]]:
@@ -586,7 +592,7 @@ def apply_spacing_error(text: str, num_errors: int = 1, used_positions: Set[int]
                     errors_list.append(error_desc)
                     used_positions.update(new_pos)
         else:  # add_space_in_jamo
-            # 자모 사이에 공백 추가 (예: 국 → ㄱ ㅜ ㄱ)
+            # 자모 사이에 공백 추가 (예: 국 → ㄱ ㅜㄱ)
             result = add_space_in_jamo(text, used_positions)
             if result:
                 text, new_pos, error_desc = result
@@ -595,9 +601,8 @@ def apply_spacing_error(text: str, num_errors: int = 1, used_positions: Set[int]
                     used_positions.update(new_pos)
     
     return text, used_positions, errors_list
-
 def add_space_in_jamo(text: str, used_positions: Set[int]) -> Optional[Tuple[str, Set[int], str]]:
-    """자모 사이에 공백을 추가 (예: 국 → 구ㄱ 또는 ㄱㅜㄱ)"""
+    """자모 사이에 공백을 추가 (예: 국 → 구 ㄱ 또는 ㄱ ㅜㄱ)"""
     text_list = list(text)
     hangul_positions = [i for i, char in enumerate(text_list) if is_hangul(char) and i not in used_positions]
     
@@ -614,15 +619,21 @@ def add_space_in_jamo(text: str, used_positions: Set[int]) -> Optional[Tuple[str
     
     original_char = char
     
-    if jong != 0:
+    if jong != 0:  # 종성이 있는 경우
         if random.random() < 0.5:
-            # 초성과 중성 사이에 공백
-            jamo_str = CHOSUNG_LIST[cho] + ' ' + JUNGSUNG_LIST[jung] + JONGSUNG_LIST[jong]
+            # 종성을 분리 (예: 국 → 구 ㄱ)
+            # 초성+중성을 다시 조합하고, 종성은 별도로
+            new_char = compose_hangul(cho, jung, 0)  # 종성 없는 글자로 재조합
+            if new_char:
+                jamo_str = new_char + ' ' + JONGSUNG_LIST[jong]
+            else:
+                # 조합 실패 시 초성과 중성+종성 사이에 공백
+                jamo_str = CHOSUNG_LIST[cho] + ' ' + JUNGSUNG_LIST[jung] + JONGSUNG_LIST[jong]
         else:
-            # 중성과 종성 사이에 공백
-            jamo_str = CHOSUNG_LIST[cho] + JUNGSUNG_LIST[jung] + ' ' + JONGSUNG_LIST[jong]
-    else:
-        # 초성과 중성 사이에 공백
+            # 초성과 중성+종성 사이에 공백 (예: 국 → ㄱ ㅜㄱ)
+            jamo_str = CHOSUNG_LIST[cho] + ' ' + JUNGSUNG_LIST[jung] + JONGSUNG_LIST[jong]
+    else:  # 종성이 없는 경우
+        # 초성과 중성 사이에 공백 (예: 가 → ㄱ ㅏ)
         jamo_str = CHOSUNG_LIST[cho] + ' ' + JUNGSUNG_LIST[jung]
     
     # 원래 글자를 분리된 자모로 교체
@@ -690,9 +701,13 @@ def add_space(text: str, used_positions: Set[int]) -> Optional[Tuple[str, Set[in
     
     return None
 
-def generate_typos_for_sentence(sentence: str) -> Dict:
+def generate_typos_for_sentence(sentence: str, sentence_id: int = None) -> Dict:
     """문장에 대해 모든 타입의 오타를 생성"""
     result = {"original": sentence}
+
+    # ID 추가
+    if sentence_id is not None:
+        result["id"] = sentence_id
     
     # 1. Substitution
     sub_1, used_pos_sub, errors_1 = apply_substitution(sentence, 1)
@@ -753,9 +768,9 @@ def main():
     
     # 각 문장에 대해 오타 생성
     results = []
-    for sentence in input_data:
+    for idx, sentence in enumerate(input_data, 1):  # 1부터 시작하는 ID
         if isinstance(sentence, str):
-            result = generate_typos_for_sentence(sentence)
+            result = generate_typos_for_sentence(sentence, sentence_id=idx)
             results.append(result)
     
     # 결과를 JSON 파일로 저장

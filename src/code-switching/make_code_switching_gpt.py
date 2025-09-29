@@ -34,13 +34,13 @@ Korean original: 미국의 수도는 어디인가?
 English original: What is the capital of the United States?
 Output: 미국의 capital은 어디인가?
 
-Korean original: 프랑스의 대통령은 누구인가?
-English original: Who is the president of France?
-Output: France의 대통령은 누구인가?
+Korean original: 홍콩은 도시인가요, 나라인가요
+English original: Is Hong Kong a city or a country?
+Output: 홍콩은 city인가요, country인가요
 
-Korean original: 태양계에서 가장 큰 행성은 무엇인가?
-English original: What is the largest planet in the solar system?
-Output: solar system에서 가장 큰 planet은 무엇인가?
+Korean original: 그리스 신들의 목록을 주세요.
+English original: Give me a list of the Greek gods.
+Output: Greek 신들의 목록을 주세요.
 
 Now generate:
 Korean original: {ko_text}
@@ -55,13 +55,13 @@ Korean original: 미국의 수도는 어디인가?
 English original: What is the capital of the United States?
 Output: What is 미국의 수도?
 
-Korean original: 프랑스의 대통령은 누구인가?
-English original: Who is the president of France?
-Output: Who is 프랑스의 대통령?
+Korean original: 홍콩은 도시인가요, 나라인가요
+English original: Is Hong Kong a city or a country?
+Output: Is 홍콩 a 도시 or 나라?
 
-Korean original: 태양계에서 가장 큰 행성은 무엇인가?
-English original: What is the largest planet in the solar system?
-Output: What is 태양계에서 가장 큰 행성?
+Korean original: 그리스 신들의 목록을 주세요.
+English original: Give me a list of the Greek gods.
+Output: Give me a list of 그리스 신들.
 
 Now generate:
 Korean original: {ko_text}
@@ -76,13 +76,13 @@ Korean original: 미국의 수도는 어디인가?
 English original: What is the capital of the United States?
 Output: What is the 수도 of the United States?
 
-Korean original: 프랑스의 대통령은 누구인가?
-English original: Who is the president of France?
-Output: Who is the 대통령 of France?
+Korean original: 홍콩은 도시인가요, 나라인가요
+English original: Is Hong Kong a city or a country?
+Output: Is Hong Kong a 도시 or a country?
 
-Korean original: 태양계에서 가장 큰 행성은 무엇인가?
-English original: What is the largest planet in the solar system?
-Output: What is the largest 행성 in the solar system?
+Korean original: 그리스 신들의 목록을 주세요.
+English original: Give me a list of the Greek gods.
+Output: Give me a list of the 신들.
 
 Now generate:
 Korean original: {ko_text}

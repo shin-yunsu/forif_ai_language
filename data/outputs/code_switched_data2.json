@@ -613,7 +613,7 @@
   },
   {
     "id": 51,
-    "original_ko": "환영합니다, 백 코터에서 등장하는 캐릭터는 누구인가요?",
+    "original_ko": "'웰컴 백 코터'에서 등장하는 캐릭터는 누구인가요?",
     "original_en": "who were the characters in welcome back kotter",
     "code_switched_versions": {
       "Case1": "환영합니다, 백 코터에서 등장하는 캐릭터는 누구인가요?",
@@ -15307,7 +15307,7 @@
       "Case1": "쿠키 항아리에서 쿠키를 누가 먹었나요?",
       "Case2": "쿠키 jar에서 쿠키를 누가 먹었나요?",
       "Case3": "Who ate 쿠키 from the 항아리?",
-      "Case4": "Who ate the 쿠키 from the 항아리?",
+      "Case4": "Who ate the 쿠키 from the jar?",
       "Case5": "who ate the cookies from the cookie jar song lyrics"
     }
   },
@@ -20244,6 +20244,18 @@
     }
   },
   {
+    "id": 1687,
+    "original_ko": "두꺼운 클라이언트 호스트는 어떤 구성 요소를 두꺼운 클라이언트 응용 프로그램의 예로 제공합니까?",
+    "original_en": "what component(s) does a thick-client host give one example of a thick-client application",
+    "code_switched_versions": {
+      "Case1": "두꺼운 클라이언트 호스트는 어떤 구성 요소를 두꺼운 클라이언트 응용 프로그램의 예로 제공합니까?",
+      "Case2": "두꺼운 client 호스트는 어떤 구성 요소를 두꺼운 client 응용 프로그램의 예로 제공합니까?",
+      "Case3": "What component(s) does 두꺼운 클라이언트 호스트 give one example of a 두꺼운 클라이언트 응용 프로그램?",
+      "Case4": "What component(s) does a 두꺼운 클라이언트 호스트 give one example of a 두꺼운 클라이언트 응용 프로그램?",
+      "Case5": "what component(s) does a thick-client host give one example of a thick-client application"
+    }
+  },
+  {
     "id": 1688,
     "original_ko": "성경에서 누가 신에게 맹세를 했습니까?",
     "original_en": "who made a vow to god in the bible",
@@ -20277,6 +20289,78 @@
       "Case3": "What is 해당 과정의 주요 조절 효소?",
       "Case4": "What is the 주요 조절 효소 in glycolysis?",
       "Case5": "what is the key regulatory enzyme in glycolysis"
+    }
+  },
+  {
+    "id": 1691,
+    "original_ko": "빛의 속도로 여행한다면 안드로메다 은하에 도달하는 데 백만 년이 걸릴 것입니다.",
+    "original_en": "if travelling at the speed of light would it take 1 million years to reach the andromeda galaxy",
+    "code_switched_versions": {
+      "Case1": "빛의 속도로 여행한다면 안드로메다 은하에 도달하는 데 백만 년이 걸릴 것입니다.",
+      "Case2": "빛의 speed로 여행한다면 Andromeda 은하에 도달하는 데 백만 년이 걸릴 것입니다.",
+      "Case3": "If 빛의 속도로 여행한다면, 안드로메다 은하에 도달하는 데 백만 년이 걸릴 것입니다.",
+      "Case4": "If 여행한다면 at the speed of light, it would take 백만 년 to reach the Andromeda galaxy.",
+      "Case5": "if travelling at the speed of light would it take 1 million years to reach the andromeda galaxy"
+    }
+  },
+  {
+    "id": 1692,
+    "original_ko": "뾰루지가 난다는 것은 무슨 뜻인가요?",
+    "original_en": "what does it mean to get a hickey",
+    "code_switched_versions": {
+      "Case1": "뾰루지가 난다는 것은 무슨 뜻인가요?",
+      "Case2": "뾰루지가 난다는 것은 what을 뜻인가요?",
+      "Case3": "What does it mean to 뾰루지가 나다?",
+      "Case4": "What does it mean to get a 뾰루지?",
+      "Case5": "what does it mean to get a hickey"
+    }
+  },
+  {
+    "id": 1693,
+    "original_ko": "연방주의자 51의 주요 요점은 무엇인가요?",
+    "original_en": "what are the main points of federalist 51",
+    "code_switched_versions": {
+      "Case1": "연방주의자 51의 주요 요점은 무엇인가요?",
+      "Case2": "연방주의자 51의 main points는 무엇인가요?",
+      "Case3": "What are 연방주의자 51의 주요 요점?",
+      "Case4": "What are the 주요 요점 of Federalist 51?",
+      "Case5": "what are the main points of federalist 51"
+    }
+  },
+  {
+    "id": 1694,
+    "original_ko": "언제 그레이 아나토미에서 소피아가 태어났나요",
+    "original_en": "when is sophia born in grey's anatomy",
+    "code_switched_versions": {
+      "Case1": "언제 그레이 아나토미에서 소피아가 태어났나요",
+      "Case2": "언제 Grey's Anatomy에서 소피아가 태어났나요?",
+      "Case3": "When is 소피아 born in 그레이 아나토미?",
+      "Case4": "When is 소피아 born in Grey's Anatomy?",
+      "Case5": "when is sophia born in grey's anatomy"
+    }
+  },
+  {
+    "id": 1695,
+    "original_ko": "언제 가격이 맞는지 촬영하나요",
+    "original_en": "when do they film the price is right",
+    "code_switched_versions": {
+      "Case1": "언제 가격이 맞는지 촬영하나요",
+      "Case2": "언제 price is right 촬영하나요?",
+      "Case3": "When do they 촬영 the 가격이 맞는지?",
+      "Case4": "When do they 촬영 the price is right?",
+      "Case5": "when do they film the price is right"
+    }
+  },
+  {
+    "id": 1696,
+    "original_ko": "유럽에서 독일이 제2차 세계 대전을 시작하기 직전에 무엇이 일어났나요",
+    "original_en": "what occurred shortly before germany began world war ii in europe",
+    "code_switched_versions": {
+      "Case1": "유럽에서 독일이 제2차 세계 대전을 시작하기 직전에 무엇이 일어났나요",
+      "Case2": "유럽에서 Germany가 제2차 세계 대전을 시작하기 직전에 무엇이 일어났나요?",
+      "Case3": "What occurred shortly before 독일이 제2차 세계 대전을 시작하기 직전에?",
+      "Case4": "What occurred shortly before 독일 began world war ii in 유럽?",
+      "Case5": "what occurred shortly before germany began world war ii in europe"
     }
   }
 ]
