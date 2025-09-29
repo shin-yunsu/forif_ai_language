@@ -411,20 +411,12 @@ def apply_insertion(text: str, num_errors: int = 1, used_positions: Set[int] = N
         errors_list = []
     
     for _ in range(num_errors):
-        if random.random() < 0.7:
-            # 자모 추가
-            result = insert_jamo(text_list, used_positions)
-            if result:
-                text_list, used_positions, error_desc = result
-                if error_desc:
-                    errors_list.append(error_desc)
-        else:
-            # 음절 추가 (중복만?)
-            result = insert_syllable(text_list, used_positions)
-            if result:
-                text_list, used_positions, error_desc = result
-                if error_desc:
-                    errors_list.append(error_desc)
+        result = insert_jamo(text_list, used_positions)
+        if result:
+            text_list, used_positions, error_desc = result
+            if error_desc:
+                errors_list.append(error_desc)
+
     
     return ''.join(text_list), used_positions, errors_list
 
