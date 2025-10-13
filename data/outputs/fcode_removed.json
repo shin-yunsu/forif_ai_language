@@ -1,6 +1,3074 @@
 [
   {
-    "id": 3,
+    "id": 5,
+    "original_ko": "어디에서 '지옥으로 가는 바구니'라는 표현이 나왔나요",
+    "original_en": "where does the expression going to hell in a handbasket come from",
+    "code_switched_versions": {
+      "Case1": "어디에서 '지옥으로 가는 바구니'라는 표현이 나왔나요",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where does the expression going to hell in a handbasket come from"
+    }
+  },
+  {
+    "id": 16,
+    "original_ko": "자유의 여신상은 누구를 모델로 했나요?",
+    "original_en": "who is the statue of liberty based off of",
+    "code_switched_versions": {
+      "Case1": "자유의 여신상은 누구를 모델로 했나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who is the statue of liberty based off of"
+    }
+  },
+  {
+    "id": 19,
+    "original_ko": "산드라라는 이름의 의미는 무엇인가요?",
+    "original_en": "what's the meaning of the name sandra",
+    "code_switched_versions": {
+      "Case1": "산드라라는 이름의 의미는 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what's the meaning of the name sandra"
+    }
+  },
+  {
+    "id": 20,
+    "original_ko": "이름 데릭의 유래는 무엇인가요",
+    "original_en": "what is the origin of the name derek",
+    "code_switched_versions": {
+      "Case1": "이름 데릭의 유래는 무엇인가요",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is the origin of the name derek"
+    }
+  },
+  {
+    "id": 33,
+    "original_ko": "누가 미국에서 소수자로 간주되나요?",
+    "original_en": "who is considered a minority in the united states",
+    "code_switched_versions": {
+      "Case1": "누가 미국에서 소수자로 간주되나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who is considered a minority in the united states"
+    }
+  },
+  {
+    "id": 40,
+    "original_ko": "정교분리의 정의는 무엇인가요",
+    "original_en": "what is the definition of church and state",
+    "code_switched_versions": {
+      "Case1": "정교분리의 정의는 무엇인가요",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is the definition of church and state"
+    }
+  },
+  {
+    "id": 46,
+    "original_ko": "첫 번째 NFL 프리시즌 경기는 언제 시작하나요",
+    "original_en": "when does the first nfl preseason game start",
+    "code_switched_versions": {
+      "Case1": "첫 번째 NFL 프리시즌 경기는 언제 시작하나요",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "when does the first nfl preseason game start"
+    }
+  },
+  {
+    "id": 47,
+    "original_ko": "제목에 '초록'이 들어간 영화",
+    "original_en": "movies with the word green in the title",
+    "code_switched_versions": {
+      "Case1": "제목에 '초록'이 들어간 영화",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "movies with the word green in the title"
+    }
+  },
+  {
+    "id": 74,
+    "original_ko": "누가 '사자, 마녀, 그리고 옷장'에 출연했나요",
+    "original_en": "who plays in the lion the witch and the wardrobe",
+    "code_switched_versions": {
+      "Case1": "누가 '사자, 마녀, 그리고 옷장'에 출연했나요",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who plays in the lion the witch and the wardrobe"
+    }
+  },
+  {
+    "id": 78,
+    "original_ko": "어디에서 아홉까지 차려 입다라는 말이 왔나요",
+    "original_en": "where does dressed up to the nines come from",
+    "code_switched_versions": {
+      "Case1": "어디에서 아홉까지 차려 입다라는 말이 왔나요",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where does dressed up to the nines come from"
+    }
+  },
+  {
+    "id": 87,
+    "original_ko": "현재 대법원의 멤버는 누구인가요",
+    "original_en": "who are the members of the current supreme court",
+    "code_switched_versions": {
+      "Case1": "현재 대법원의 멤버는 누구인가요",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who are the members of the current supreme court"
+    }
+  },
+  {
+    "id": 94,
+    "original_ko": "라티나가 되려면 어디 출신이어야 하나요?",
+    "original_en": "where do you have to be from to be latina",
+    "code_switched_versions": {
+      "Case1": "라티나가 되려면 어디 출신이어야 하나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where do you have to be from to be latina"
+    }
+  },
+  {
+    "id": 108,
+    "original_ko": "웨스트 사이드 스토리에서 히로인은 누구인가요?",
+    "original_en": "who is the heroine in west side story",
+    "code_switched_versions": {
+      "Case1": "웨스트 사이드 스토리에서 히로인은 누구인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who is the heroine in west side story"
+    }
+  },
+  {
+    "id": 118,
+    "original_ko": "직계 가족의 법적인 정의는 무엇인가요?",
+    "original_en": "what is the legal definition of immediate family",
+    "code_switched_versions": {
+      "Case1": "직계 가족의 법적인 정의는 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is the legal definition of immediate family"
+    }
+  },
+  {
+    "id": 119,
+    "original_ko": "어디에서 잭 인 더 박스가 시작되었나요?",
+    "original_en": "where did jack in the box originate from",
+    "code_switched_versions": {
+      "Case1": "어디에서 잭 인 더 박스가 시작되었나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where did jack in the box originate from"
+    }
+  },
+  {
+    "id": 124,
+    "original_ko": "일본어에는 몇 개의 단어가 있나요?",
+    "original_en": "how many words are in the japanese language",
+    "code_switched_versions": {
+      "Case1": "일본어에는 몇 개의 단어가 있나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "how many words are in the japanese language"
+    }
+  },
+  {
+    "id": 132,
+    "original_ko": "영화 '보니와 클라이드'에 누가 출연했나요?",
+    "original_en": "who starred in the movie bonnie and clyde",
+    "code_switched_versions": {
+      "Case1": "영화 '보니와 클라이드'에 누가 출연했나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who starred in the movie bonnie and clyde"
+    }
+  },
+  {
+    "id": 151,
+    "original_ko": "두개내압 상승의 초기 신호는 무엇인가요",
+    "original_en": "what is the earliest sign of increased intracranial pressure",
+    "code_switched_versions": {
+      "Case1": "두개내압 상승의 초기 신호는 무엇인가요",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is the earliest sign of increased intracranial pressure"
+    }
+  },
+  {
+    "id": 159,
+    "original_ko": "NFL에서 로드니 피트는 어느 팀에서 뛰었나요?",
+    "original_en": "who did rodney peete play for in the nfl",
+    "code_switched_versions": {
+      "Case1": "NFL에서 로드니 피트는 어느 팀에서 뛰었나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who did rodney peete play for in the nfl"
+    }
+  },
+  {
+    "id": 161,
+    "original_ko": "공집합이 집합의 요소가 될 수 있나요?",
+    "original_en": "can an empty set be an element of a set",
+    "code_switched_versions": {
+      "Case1": "공집합이 집합의 요소가 될 수 있나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "can an empty set be an element of a set"
+    }
+  },
+  {
+    "id": 166,
+    "original_ko": "어디에서 '지옥으로 가는 바구니'라는 문구가 나왔나요",
+    "original_en": "where did the phrase going to hell in a handbasket come from",
+    "code_switched_versions": {
+      "Case1": "어디에서 '지옥으로 가는 바구니'라는 문구가 나왔나요",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where did the phrase going to hell in a handbasket come from"
+    }
+  },
+  {
+    "id": 180,
+    "original_ko": "누가 007: 뷰 투 어 킬에 출연하나요",
+    "original_en": "who stars in a view to a kill",
+    "code_switched_versions": {
+      "Case1": "누가 007: 뷰 투 어 킬에 출연하나요",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who stars in a view to a kill"
+    }
+  },
+  {
+    "id": 182,
+    "original_ko": "8볼 당구에서 스누커는 무엇인가요",
+    "original_en": "what is a snooker in 8 ball pool",
+    "code_switched_versions": {
+      "Case1": "8볼 당구에서 스누커는 무엇인가요",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is a snooker in 8 ball pool"
+    }
+  },
+  {
+    "id": 192,
+    "original_ko": "언제 실제 신분증을 가져야 하나요?",
+    "original_en": "when do you have to have a real id",
+    "code_switched_versions": {
+      "Case1": "언제 실제 신분증을 가져야 하나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "when do you have to have a real id"
+    }
+  },
+  {
+    "id": 206,
+    "original_ko": "누가 영화 '분노의 포도'에 출연했나요?",
+    "original_en": "who starred in the movie grapes of wrath",
+    "code_switched_versions": {
+      "Case1": "누가 영화 '분노의 포도'에 출연했나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who starred in the movie grapes of wrath"
+    }
+  },
+  {
+    "id": 209,
+    "original_ko": "혼다 CR-V는 어떤 종류의 엔진을 가지고 있나요?",
+    "original_en": "what kind of engine does a honda crv have",
+    "code_switched_versions": {
+      "Case1": "혼다 CR-V는 어떤 종류의 엔진을 가지고 있나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what kind of engine does a honda crv have"
+    }
+  },
+  {
+    "id": 215,
+    "original_ko": "실사 라이온 킹의 출연진은 누구인가요?",
+    "original_en": "the cast of the live action lion king",
+    "code_switched_versions": {
+      "Case1": "실사 라이온 킹의 출연진은 누구인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "the cast of the live action lion king"
+    }
+  },
+  {
+    "id": 218,
+    "original_ko": "노래 'You Can't Take That Away from Me'는 무엇인가요?",
+    "original_en": "the song you can't take that away from me",
+    "code_switched_versions": {
+      "Case1": "노래 'You Can't Take That Away from Me'는 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "the song you can't take that away from me"
+    }
+  },
+  {
+    "id": 220,
+    "original_ko": "글자 'D'로 시작하는 영화의 이름은 무엇인가요?",
+    "original_en": "name of a movie that starts with the letter d",
+    "code_switched_versions": {
+      "Case1": "글자 'D'로 시작하는 영화의 이름은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "name of a movie that starts with the letter d"
+    }
+  },
+  {
+    "id": 221,
+    "original_ko": "왜 쌀쌀한 다리라고 불리나요",
+    "original_en": "why do they call it a charlie horse",
+    "code_switched_versions": {
+      "Case1": "왜 쌀쌀한 다리라고 불리나요",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "why do they call it a charlie horse"
+    }
+  },
+  {
+    "id": 222,
+    "original_ko": "어디에서 행운을 빌라는 표현이 나왔나요",
+    "original_en": "where does the expression break a leg come from",
+    "code_switched_versions": {
+      "Case1": "어디에서 행운을 빌라는 표현이 나왔나요",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where does the expression break a leg come from"
+    }
+  },
+  {
+    "id": 225,
+    "original_ko": "국제단위계는 어디에서 사용되나요",
+    "original_en": "where is the international system of units used",
+    "code_switched_versions": {
+      "Case1": "국제단위계는 어디에서 사용되나요",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where is the international system of units used"
+    }
+  },
+  {
+    "id": 226,
+    "original_ko": "40 winks는 어디에서 온 표현인가요",
+    "original_en": "where does the saying 40 winks come from",
+    "code_switched_versions": {
+      "Case1": "40 winks는 어디에서 온 표현인가요",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where does the saying 40 winks come from"
+    }
+  },
+  {
+    "id": 228,
+    "original_ko": "장미를 둘러싼 고리는 진짜 의미가 무엇인가요",
+    "original_en": "what is the true meaning of ring around the rosie",
+    "code_switched_versions": {
+      "Case1": "장미를 둘러싼 고리는 진짜 의미가 무엇인가요",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is the true meaning of ring around the rosie"
+    }
+  },
+  {
+    "id": 242,
+    "original_ko": "어디에서 산타클로스의 이야기가 왔나요?",
+    "original_en": "where did the story of father christmas come from",
+    "code_switched_versions": {
+      "Case1": "어디에서 산타클로스의 이야기가 왔나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where did the story of father christmas come from"
+    }
+  },
+  {
+    "id": 257,
+    "original_ko": "알켄은 유기 화합물 합성에 유용한 중간체입니다.",
+    "original_en": "alkenes are useful intermediates in the synthesis of organic compounds",
+    "code_switched_versions": {
+      "Case1": "알켄은 유기 화합물 합성에 유용한 중간체입니다.",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "alkenes are useful intermediates in the synthesis of organic compounds"
+    }
+  },
+  {
+    "id": 258,
+    "original_ko": "전자 서명 행위에 따른 전자 서명의 정의는 무엇인가요?",
+    "original_en": "what is the definition of an electronic signature according to the e sign act",
+    "code_switched_versions": {
+      "Case1": "전자 서명 행위에 따른 전자 서명의 정의는 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is the definition of an electronic signature according to the e sign act"
+    }
+  },
+  {
+    "id": 292,
+    "original_ko": "골프에서 '포'라는 용어는 어디에서 유래되었나요?",
+    "original_en": "where did the term four come from in golf",
+    "code_switched_versions": {
+      "Case1": "골프에서 '포'라는 용어는 어디에서 유래되었나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where did the term four come from in golf"
+    }
+  },
+  {
+    "id": 302,
+    "original_ko": "밤에 붉은 하늘은 선원의 기쁨입니다.",
+    "original_en": "red sky at night is a sailor's delight",
+    "code_switched_versions": {
+      "Case1": "밤에 붉은 하늘은 선원의 기쁨입니다.",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "red sky at night is a sailor's delight"
+    }
+  },
+  {
+    "id": 306,
+    "original_ko": "1991년 NEP의 특징은 무엇인가요?",
+    "original_en": "what are the features of nep of 1991",
+    "code_switched_versions": {
+      "Case1": "1991년 NEP의 특징은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what are the features of nep of 1991"
+    }
+  },
+  {
+    "id": 307,
+    "original_ko": "혈관에 공기 방울이 있으면 왜 위험한가요?",
+    "original_en": "why is it dangerous to have air bubbles in the blood stream",
+    "code_switched_versions": {
+      "Case1": "혈관에 공기 방울이 있으면 왜 위험한가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "why is it dangerous to have air bubbles in the blood stream"
+    }
+  },
+  {
+    "id": 316,
+    "original_ko": "갠지스 강 시스템에 대한 짧은 메모를 작성하세요.",
+    "original_en": "write a short note on the ganga river system",
+    "code_switched_versions": {
+      "Case1": "갠지스 강 시스템에 대한 짧은 메모를 작성하세요.",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "write a short note on the ganga river system"
+    }
+  },
+  {
+    "id": 333,
+    "original_ko": "모두 대문자로 된 이메일의 의미는 무엇인가?",
+    "original_en": "what does an email in all caps mean",
+    "code_switched_versions": {
+      "Case1": "모두 대문자로 된 이메일의 의미는 무엇인가?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what does an email in all caps mean"
+    }
+  },
+  {
+    "id": 340,
+    "original_ko": "헌팅턴의 질병은 다음 구조물 중 어떤 것과 관련이 있습니까?",
+    "original_en": "huntington’s disease is associated with damage to which of the following structures",
+    "code_switched_versions": {
+      "Case1": "헌팅턴의 질병은 다음 구조물 중 어떤 것과 관련이 있습니까?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "huntington’s disease is associated with damage to which of the following structures"
+    }
+  },
+  {
+    "id": 343,
+    "original_ko": "프레이저에서 로즈는 누구와 함께하게 되나요?",
+    "original_en": "who does roz end up with on frasier",
+    "code_switched_versions": {
+      "Case1": "프레이저에서 로즈는 누구와 함께하게 되나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who does roz end up with on frasier"
+    }
+  },
+  {
+    "id": 346,
+    "original_ko": "1812년 전쟁의 가장 중요한 결과는 무엇인가요?",
+    "original_en": "which is the most significant outcome of the war of 1812",
+    "code_switched_versions": {
+      "Case1": "1812년 전쟁의 가장 중요한 결과는 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "which is the most significant outcome of the war of 1812"
+    }
+  },
+  {
+    "id": 355,
+    "original_ko": "텍사스 전기톱 살인사건은 어디에서 유래된 것인가요?",
+    "original_en": "where did the texas chainsaw massacre originate from",
+    "code_switched_versions": {
+      "Case1": "텍사스 전기톱 살인사건은 어디에서 유래된 것인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where did the texas chainsaw massacre originate from"
+    }
+  },
+  {
+    "id": 369,
+    "original_ko": "위스콘신 대학교 이사회 대 사우스워스",
+    "original_en": "board of regents of the university of wisconsin v. southworth",
+    "code_switched_versions": {
+      "Case1": "위스콘신 대학교 이사회 대 사우스워스",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "board of regents of the university of wisconsin v. southworth"
+    }
+  },
+  {
+    "id": 370,
+    "original_ko": "미키마우스 클럽하우스의 마법의 단어는 무슨 뜻인가요?",
+    "original_en": "what do the magic words on mickey mouse clubhouse mean",
+    "code_switched_versions": {
+      "Case1": "미키마우스 클럽하우스의 마법의 단어는 무슨 뜻인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what do the magic words on mickey mouse clubhouse mean"
+    }
+  },
+  {
+    "id": 382,
+    "original_ko": "누가 네덜란드에 북아메리카에 대한 소유권을 주장하게 했나요?",
+    "original_en": "who gave the dutch a claim to north america",
+    "code_switched_versions": {
+      "Case1": "누가 네덜란드에 북아메리카에 대한 소유권을 주장하게 했나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who gave the dutch a claim to north america"
+    }
+  },
+  {
+    "id": 385,
+    "original_ko": "2017년에 세계에서 일어난 사건들",
+    "original_en": "events that happened around the world in 2017",
+    "code_switched_versions": {
+      "Case1": "2017년에 세계에서 일어난 사건들",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "events that happened around the world in 2017"
+    }
+  },
+  {
+    "id": 415,
+    "original_ko": "인간과 동물이 음식을 구하는 방식에서의 주요 차이점은 무엇인가요?",
+    "original_en": "what are the key differences between the way humans and animals forage for food",
+    "code_switched_versions": {
+      "Case1": "인간과 동물이 음식을 구하는 방식에서의 주요 차이점은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what are the key differences between the way humans and animals forage for food"
+    }
+  },
+  {
+    "id": 423,
+    "original_ko": "하트퍼드 컨벤션의 목적은 무엇인가요?",
+    "original_en": "what was the purpose of the hartford convention answers",
+    "code_switched_versions": {
+      "Case1": "하트퍼드 컨벤션의 목적은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what was the purpose of the hartford convention answers"
+    }
+  },
+  {
+    "id": 426,
+    "original_ko": "필리핀 보이 스카웃의 규칙과 규정은 무엇인가요?",
+    "original_en": "boy scout of the philippines rules and regulations",
+    "code_switched_versions": {
+      "Case1": "필리핀 보이 스카웃의 규칙과 규정은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "boy scout of the philippines rules and regulations"
+    }
+  },
+  {
+    "id": 433,
+    "original_ko": "단어 '스윙 로우 스위트 캐리엇'은 무엇을 의미하나요?",
+    "original_en": "what do the words to swing low sweet chariot mean",
+    "code_switched_versions": {
+      "Case1": "단어 '스윙 로우 스위트 캐리엇'은 무엇을 의미하나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what do the words to swing low sweet chariot mean"
+    }
+  },
+  {
+    "id": 435,
+    "original_ko": "DNA 복제의 시작 지점이 보통 AT가 풍부한 이유는 무엇인가요?",
+    "original_en": "why origins of replication in dna are usually at-rich",
+    "code_switched_versions": {
+      "Case1": "DNA 복제의 시작 지점이 보통 AT가 풍부한 이유는 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "why origins of replication in dna are usually at-rich"
+    }
+  },
+  {
+    "id": 457,
+    "original_ko": "머라이어 케리의 'We Belong Together'는 누구에 대한 노래인가요?",
+    "original_en": "who is we belong together by mariah carey about",
+    "code_switched_versions": {
+      "Case1": "머라이어 케리의 'We Belong Together'는 누구에 대한 노래인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who is we belong together by mariah carey about"
+    }
+  },
+  {
+    "id": 460,
+    "original_ko": "더 영 앤 더 레스트리스에 나오는 스콧은 누구인가요?",
+    "original_en": "who is scott on young and the restless",
+    "code_switched_versions": {
+      "Case1": "더 영 앤 더 레스트리스에 나오는 스콧은 누구인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who is scott on young and the restless"
+    }
+  },
+  {
+    "id": 465,
+    "original_ko": "파리 조약의 조항을 나열하시오. 어떤 조항이 가장 중요했나요?",
+    "original_en": "list the provisions of the treaty of paris. which provision was the most important",
+    "code_switched_versions": {
+      "Case1": "파리 조약의 조항을 나열하시오. 어떤 조항이 가장 중요했나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "list the provisions of the treaty of paris. which provision was the most important"
+    }
+  },
+  {
+    "id": 468,
+    "original_ko": "무엇 때문에 세계 1차 대전 이후 영국 무역이 감소했는가?",
+    "original_en": "british trade decreased after world war 1 because",
+    "code_switched_versions": {
+      "Case1": "무엇 때문에 세계 1차 대전 이후 영국 무역이 감소했는가?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "british trade decreased after world war 1 because"
+    }
+  },
+  {
+    "id": 472,
+    "original_ko": "분자간 인력의 의미는 무엇인가요?",
+    "original_en": "what do you mean by intermolecular force of attraction",
+    "code_switched_versions": {
+      "Case1": "분자간 인력의 의미는 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what do you mean by intermolecular force of attraction"
+    }
+  },
+  {
+    "id": 477,
+    "original_ko": "시크교에서 발견되는 힌두교의 요소는 무엇인가요?",
+    "original_en": "what elements of hinduism can be found in sikhism",
+    "code_switched_versions": {
+      "Case1": "시크교에서 발견되는 힌두교의 요소는 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what elements of hinduism can be found in sikhism"
+    }
+  },
+  {
+    "id": 486,
+    "original_ko": "눈의 섬유막 부분을 명칭하고 설명하세요.",
+    "original_en": "name and describe the parts of the fibrous tunic of the eye",
+    "code_switched_versions": {
+      "Case1": "눈의 섬유막 부분을 명칭하고 설명하세요.",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "name and describe the parts of the fibrous tunic of the eye"
+    }
+  },
+  {
+    "id": 489,
+    "original_ko": "성 Pino는 어디에서 유래했나요?",
+    "original_en": "where does the last name pino come from",
+    "code_switched_versions": {
+      "Case1": "성 Pino는 어디에서 유래했나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where does the last name pino come from"
+    }
+  },
+  {
+    "id": 494,
+    "original_ko": "새 그로브 음악 사전에 누가 등재되어 있나요?",
+    "original_en": "who is listed in the new groves dictionary of music and musicians",
+    "code_switched_versions": {
+      "Case1": "새 그로브 음악 사전에 누가 등재되어 있나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who is listed in the new groves dictionary of music and musicians"
+    }
+  },
+  {
+    "id": 500,
+    "original_ko": "자라라는 성은 어디에서 유래되었습니까?",
+    "original_en": "where does the last name jara come from",
+    "code_switched_versions": {
+      "Case1": "자라라는 성은 어디에서 유래되었습니까?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where does the last name jara come from"
+    }
+  },
+  {
+    "id": 510,
+    "original_ko": "북해가 영국 해협으로 변하는 곳은 어디인가요?",
+    "original_en": "where does the north sea became the english channel",
+    "code_switched_versions": {
+      "Case1": "북해가 영국 해협으로 변하는 곳은 어디인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where does the north sea became the english channel"
+    }
+  },
+  {
+    "id": 516,
+    "original_ko": "아메리칸 드림은 무엇에 관한 것인지 당신은 어떻게 생각하나요?",
+    "original_en": "what do you think the american dream is all about",
+    "code_switched_versions": {
+      "Case1": "아메리칸 드림은 무엇에 관한 것인지 당신은 어떻게 생각하나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what do you think the american dream is all about"
+    }
+  },
+  {
+    "id": 517,
+    "original_ko": "배당금은 자본 이익에서 언제 지급될 수 있습니까?",
+    "original_en": "when can dividend be paid out of capital profits",
+    "code_switched_versions": {
+      "Case1": "배당금은 자본 이익에서 언제 지급될 수 있습니까?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "when can dividend be paid out of capital profits"
+    }
+  },
+  {
+    "id": 519,
+    "original_ko": "너희는 세상의 소금이다.",
+    "original_en": "for ye are the salt of the earth",
+    "code_switched_versions": {
+      "Case1": "너희는 세상의 소금이다.",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "for ye are the salt of the earth"
+    }
+  },
+  {
+    "id": 523,
+    "original_ko": "아이폰 7에서 iOS 11은 언제 출시될까요?",
+    "original_en": "when will ios 11 be released on iphone 7",
+    "code_switched_versions": {
+      "Case1": "아이폰 7에서 iOS 11은 언제 출시될까요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "when will ios 11 be released on iphone 7"
+    }
+  },
+  {
+    "id": 531,
+    "original_ko": "왜 오즈의 마법사는 크리스마스 영화로 여겨지나요?",
+    "original_en": "why is the wizard of oz considered a christmas movie",
+    "code_switched_versions": {
+      "Case1": "왜 오즈의 마법사는 크리스마스 영화로 여겨지나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "why is the wizard of oz considered a christmas movie"
+    }
+  },
+  {
+    "id": 538,
+    "original_ko": "미국 수정 헌법 제4조는 부당한 수색과 압수를 포함합니다.",
+    "original_en": "the fourth amendment to the constitution covers unreasonable searches and seizures and",
+    "code_switched_versions": {
+      "Case1": "미국 수정 헌법 제4조는 부당한 수색과 압수를 포함합니다.",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "the fourth amendment to the constitution covers unreasonable searches and seizures and"
+    }
+  },
+  {
+    "id": 541,
+    "original_ko": "NCIS LA의 새로운 여자는 누구인가요?",
+    "original_en": "who is the new girl on ncis la",
+    "code_switched_versions": {
+      "Case1": "NCIS LA의 새로운 여자는 누구인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who is the new girl on ncis la"
+    }
+  },
+  {
+    "id": 544,
+    "original_ko": "Make War from First to Last 노래의 의미는 무엇인가요?",
+    "original_en": "make war from first to last song meaning",
+    "code_switched_versions": {
+      "Case1": "Make War from First to Last 노래의 의미는 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "make war from first to last song meaning"
+    }
+  },
+  {
+    "id": 547,
+    "original_ko": "나이저 강은 어디에서 시작하고 끝나나요?",
+    "original_en": "where does the niger river start and end",
+    "code_switched_versions": {
+      "Case1": "나이저 강은 어디에서 시작하고 끝나나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where does the niger river start and end"
+    }
+  },
+  {
+    "id": 553,
+    "original_ko": "펄 잼이 발표한 노래의 의미",
+    "original_en": "meaning of the song release by pearl jam",
+    "code_switched_versions": {
+      "Case1": "펄 잼이 발표한 노래의 의미",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "meaning of the song release by pearl jam"
+    }
+  },
+  {
+    "id": 556,
+    "original_ko": "베다 시대의 사바와 사미티의 기능은 무엇이었나요?",
+    "original_en": "what were the functions of sabha and samiti in the vedic age",
+    "code_switched_versions": {
+      "Case1": "베다 시대의 사바와 사미티의 기능은 무엇이었나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what were the functions of sabha and samiti in the vedic age"
+    }
+  },
+  {
+    "id": 567,
+    "original_ko": "프리미어리그 시즌별 역대 최고 득점자",
+    "original_en": "premier league top scorers all time per season",
+    "code_switched_versions": {
+      "Case1": "프리미어리그 시즌별 역대 최고 득점자",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "premier league top scorers all time per season"
+    }
+  },
+  {
+    "id": 570,
+    "original_ko": "대륙 해변의 용승 지역들은 높은 1차 생산을 가지고 있습니다.",
+    "original_en": "zones of upwelling near the shores of land masses have high primary production because such zones",
+    "code_switched_versions": {
+      "Case1": "대륙 해변의 용승 지역들은 높은 1차 생산을 가지고 있습니다.",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "zones of upwelling near the shores of land masses have high primary production because such zones"
+    }
+  },
+  {
+    "id": 574,
+    "original_ko": "hoe cakes라는 용어는 어디에서 유래되었나요?",
+    "original_en": "where did the term hoe cakes come from",
+    "code_switched_versions": {
+      "Case1": "hoe cakes라는 용어는 어디에서 유래되었나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where did the term hoe cakes come from"
+    }
+  },
+  {
+    "id": 576,
+    "original_ko": "차단된 곡류는 우각호가 될 수 있습니다.",
+    "original_en": "a cutoff meander can become an oxbow lake",
+    "code_switched_versions": {
+      "Case1": "차단된 곡류는 우각호가 될 수 있습니다.",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "a cutoff meander can become an oxbow lake"
+    }
+  },
+  {
+    "id": 581,
+    "original_ko": "사우스캐롤라이나에서 총을 소유하기 위한 요건",
+    "original_en": "requirements to own a gun in south carolina",
+    "code_switched_versions": {
+      "Case1": "사우스캐롤라이나에서 총을 소유하기 위한 요건",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "requirements to own a gun in south carolina"
+    }
+  },
+  {
+    "id": 587,
+    "original_ko": "gangster's paradise의 의미는 무엇인가요?",
+    "original_en": "what is the meaning of gangster's paradise",
+    "code_switched_versions": {
+      "Case1": "gangster's paradise의 의미는 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is the meaning of gangster's paradise"
+    }
+  },
+  {
+    "id": 596,
+    "original_ko": "위원회는 언제 주입법 세션을 개최하며, 이 세션의 목적은 무엇인가요?",
+    "original_en": "when does a committee hold a markup session what is the purpose of this session",
+    "code_switched_versions": {
+      "Case1": "위원회는 언제 주입법 세션을 개최하며, 이 세션의 목적은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "when does a committee hold a markup session what is the purpose of this session"
+    }
+  },
+  {
+    "id": 599,
+    "original_ko": "무릎의 PCL의 주요 기능은 무엇인가요?",
+    "original_en": "what is the main function of the pcl in the knee",
+    "code_switched_versions": {
+      "Case1": "무릎의 PCL의 주요 기능은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is the main function of the pcl in the knee"
+    }
+  },
+  {
+    "id": 602,
+    "original_ko": "왜 프린터는 RGB 대신 시안, 마젠타, 노란색을 사용할까요?",
+    "original_en": "why do printers use cyan magenta and yellow instead of rgb",
+    "code_switched_versions": {
+      "Case1": "왜 프린터는 RGB 대신 시안, 마젠타, 노란색을 사용할까요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "why do printers use cyan magenta and yellow instead of rgb"
+    }
+  },
+  {
+    "id": 609,
+    "original_ko": "속담 '나쁜 것을 듣지도 보지도 말하지도 마라'의 의미는 무엇인가요",
+    "original_en": "what does saying hear no evil see no evil speak no evil mean",
+    "code_switched_versions": {
+      "Case1": "속담 '나쁜 것을 듣지도 보지도 말하지도 마라'의 의미는 무엇인가요",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what does saying hear no evil see no evil speak no evil mean"
+    }
+  },
+  {
+    "id": 610,
+    "original_ko": "사해에 관한 특별한 세 가지는 무엇인가요",
+    "original_en": "3 things that are special about the dead sea",
+    "code_switched_versions": {
+      "Case1": "사해에 관한 특별한 세 가지는 무엇인가요",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "3 things that are special about the dead sea"
+    }
+  },
+  {
+    "id": 611,
+    "original_ko": "우리 태양계에 몇 개의 떠돌이 행성이 있나요",
+    "original_en": "how many rogue planets are in our solar system",
+    "code_switched_versions": {
+      "Case1": "우리 태양계에 몇 개의 떠돌이 행성이 있나요",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "how many rogue planets are in our solar system"
+    }
+  },
+  {
+    "id": 615,
+    "original_ko": "어떤 사건들이 아메리카의 발견을 이끌어 냈습니까?",
+    "original_en": "what events led to the discovery of america",
+    "code_switched_versions": {
+      "Case1": "어떤 사건들이 아메리카의 발견을 이끌어 냈습니까?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what events led to the discovery of america"
+    }
+  },
+  {
+    "id": 627,
+    "original_ko": "세계에서 가장 오래된 동굴 벽화는 어디에 있습니까?",
+    "original_en": "where are the oldest cave paintings in the world",
+    "code_switched_versions": {
+      "Case1": "세계에서 가장 오래된 동굴 벽화는 어디에 있습니까?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where are the oldest cave paintings in the world"
+    }
+  },
+  {
+    "id": 629,
+    "original_ko": "누가 2018년 재선거에 출마하나요?",
+    "original_en": "who is up for re election in 2018",
+    "code_switched_versions": {
+      "Case1": "누가 2018년 재선거에 출마하나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who is up for re election in 2018"
+    }
+  },
+  {
+    "id": 632,
+    "original_ko": "노래 'You Can Ring My Bell'은 어떤 내용인가요?",
+    "original_en": "what is the song you can ring my bell about",
+    "code_switched_versions": {
+      "Case1": "노래 'You Can Ring My Bell'은 어떤 내용인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is the song you can ring my bell about"
+    }
+  },
+  {
+    "id": 652,
+    "original_ko": "1980년 국제 물품 매매에 관한 비엔나 협약",
+    "original_en": "the vienna convention on international sale of goods 1980",
+    "code_switched_versions": {
+      "Case1": "1980년 국제 물품 매매에 관한 비엔나 협약",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "the vienna convention on international sale of goods 1980"
+    }
+  },
+  {
+    "id": 659,
+    "original_ko": "선더베이는 어디에서 이름을 얻었나요?",
+    "original_en": "where does thunder bay get its name from",
+    "code_switched_versions": {
+      "Case1": "선더베이는 어디에서 이름을 얻었나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where does thunder bay get its name from"
+    }
+  },
+  {
+    "id": 662,
+    "original_ko": "언제 차들이 두 개의 사이드 미러를 가지기 시작했나요?",
+    "original_en": "when did cars start having two side mirrors",
+    "code_switched_versions": {
+      "Case1": "언제 차들이 두 개의 사이드 미러를 가지기 시작했나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "when did cars start having two side mirrors"
+    }
+  },
+  {
+    "id": 664,
+    "original_ko": "어디에서 교감신경계의 신경절 이전 신경세포가 신경절 뉴런과 시냅스를 이루나요?",
+    "original_en": "where do the preganglionic neurons of the sympathetic division synapse on the ganglionic neurons",
+    "code_switched_versions": {
+      "Case1": "어디에서 교감신경계의 신경절 이전 신경세포가 신경절 뉴런과 시냅스를 이루나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where do the preganglionic neurons of the sympathetic division synapse on the ganglionic neurons"
+    }
+  },
+  {
+    "id": 666,
+    "original_ko": "무엇이 자연재해를 자연재난으로 바꾸나요?",
+    "original_en": "what turns a natural hazard into a natural disaster",
+    "code_switched_versions": {
+      "Case1": "무엇이 자연재해를 자연재난으로 바꾸나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what turns a natural hazard into a natural disaster"
+    }
+  },
+  {
+    "id": 674,
+    "original_ko": "주제는 무엇입니까?",
+    "original_en": "what is the theme of dear dumb diary",
+    "code_switched_versions": {
+      "Case1": "주제는 무엇입니까?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is the theme of dear dumb diary"
+    }
+  },
+  {
+    "id": 675,
+    "original_ko": "사레가마파의 우승자 목록은 무엇인가요?",
+    "original_en": "winner list of sa re ga ma pa",
+    "code_switched_versions": {
+      "Case1": "사레가마파의 우승자 목록은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "winner list of sa re ga ma pa"
+    }
+  },
+  {
+    "id": 678,
+    "original_ko": "지진과 반다아체의 지리적 위치는 어디인가요?",
+    "original_en": "geographic location of the earthquake & banda aceh",
+    "code_switched_versions": {
+      "Case1": "지진과 반다아체의 지리적 위치는 어디인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "geographic location of the earthquake & banda aceh"
+    }
+  },
+  {
+    "id": 679,
+    "original_ko": "왜 북아메리카에는 남아메리카보다 더 많은 무역로가 있었던 것 같나요?",
+    "original_en": "why do you think there were more trade routes across north america than south america",
+    "code_switched_versions": {
+      "Case1": "왜 북아메리카에는 남아메리카보다 더 많은 무역로가 있었던 것 같나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "why do you think there were more trade routes across north america than south america"
+    }
+  },
+  {
+    "id": 696,
+    "original_ko": "1830년에 텍사스에 있던 미국 정착민들의 불만은 무엇이었나요?",
+    "original_en": "complaints of american settlers in texas in 1830",
+    "code_switched_versions": {
+      "Case1": "1830년에 텍사스에 있던 미국 정착민들의 불만은 무엇이었나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "complaints of american settlers in texas in 1830"
+    }
+  },
+  {
+    "id": 702,
+    "original_ko": "모든 ICMP 메시지에서 공통된 ICMP 헤더의 3가지 필드를 나열하고 설명하시오.",
+    "original_en": "영어 질문",
+    "code_switched_versions": {
+      "Case1": "모든 ICMP 메시지에서 공통된 ICMP 헤더의 3가지 필드를 나열하고 설명하시오.",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "영어 질문"
+    }
+  },
+  {
+    "id": 703,
+    "original_ko": "언제 수색 영장이 필요하지 않나요?",
+    "original_en": "영어 질문",
+    "code_switched_versions": {
+      "Case1": "언제 수색 영장이 필요하지 않나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "영어 질문"
+    }
+  },
+  {
+    "id": 708,
+    "original_ko": "인도에서는 인구를 줄이기 위해 어떤 방법을 사용하였습니까?",
+    "original_en": "영어 질문",
+    "code_switched_versions": {
+      "Case1": "인도에서는 인구를 줄이기 위해 어떤 방법을 사용하였습니까?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "영어 질문"
+    }
+  },
+  {
+    "id": 709,
+    "original_ko": "지속적인 개선을 위한 PDCA 모델은 무엇인가요?",
+    "original_en": "영어 질문",
+    "code_switched_versions": {
+      "Case1": "지속적인 개선을 위한 PDCA 모델은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "영어 질문"
+    }
+  },
+  {
+    "id": 715,
+    "original_ko": "누가 내가 그녀를 만났을 때 함께 끝나나요?",
+    "original_en": "who ends up together in how i met your mother",
+    "code_switched_versions": {
+      "Case1": "누가 내가 그녀를 만났을 때 함께 끝나나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who ends up together in how i met your mother"
+    }
+  },
+  {
+    "id": 717,
+    "original_ko": "페니 파딩은 무엇으로 만들어졌나요?",
+    "original_en": "what is the penny farthing made out of",
+    "code_switched_versions": {
+      "Case1": "페니 파딩은 무엇으로 만들어졌나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is the penny farthing made out of"
+    }
+  },
+  {
+    "id": 722,
+    "original_ko": "패트리샤 맥킬립의 '엘드의 잊혀진 야수들'",
+    "original_en": "the forgotten beasts of eld by patricia mckillip",
+    "code_switched_versions": {
+      "Case1": "패트리샤 맥킬립의 '엘드의 잊혀진 야수들'",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "the forgotten beasts of eld by patricia mckillip"
+    }
+  },
+  {
+    "id": 732,
+    "original_ko": "호밀밭의 파수꾼은 실제로 무엇에 관한 건가요?",
+    "original_en": "what is the catcher and the rye really about",
+    "code_switched_versions": {
+      "Case1": "호밀밭의 파수꾼은 실제로 무엇에 관한 건가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is the catcher and the rye really about"
+    }
+  },
+  {
+    "id": 733,
+    "original_ko": "인체의 다양한 조직 종류",
+    "original_en": "different kinds of tissues in the human body",
+    "code_switched_versions": {
+      "Case1": "인체의 다양한 조직 종류",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "different kinds of tissues in the human body"
+    }
+  },
+  {
+    "id": 734,
+    "original_ko": "칼리프의 위치는 시간이 지남에 따라 어떻게 변화했나요?",
+    "original_en": "how did the position of caliph change over time",
+    "code_switched_versions": {
+      "Case1": "칼리프의 위치는 시간이 지남에 따라 어떻게 변화했나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "how did the position of caliph change over time"
+    }
+  },
+  {
+    "id": 735,
+    "original_ko": "잭오랜턴은 어디에서 유래되었고 처음에는 무엇으로 만들어졌나요?",
+    "original_en": "where did jack-o'-lanterns originate and what where they first made of",
+    "code_switched_versions": {
+      "Case1": "잭오랜턴은 어디에서 유래되었고 처음에는 무엇으로 만들어졌나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where did jack-o'-lanterns originate and what where they first made of"
+    }
+  },
+  {
+    "id": 736,
+    "original_ko": "낭성 섬유증의 가장 심각한 돌연변이는 무엇인가요?",
+    "original_en": "what is the worst mutation of cystic fibrosis",
+    "code_switched_versions": {
+      "Case1": "낭성 섬유증의 가장 심각한 돌연변이는 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is the worst mutation of cystic fibrosis"
+    }
+  },
+  {
+    "id": 740,
+    "original_ko": "테 아라와의 혈통은 어디에서 유래하나요?",
+    "original_en": "where does the whakapapa of te arawa descend from",
+    "code_switched_versions": {
+      "Case1": "테 아라와의 혈통은 어디에서 유래하나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where does the whakapapa of te arawa descend from"
+    }
+  },
+  {
+    "id": 746,
+    "original_ko": "필리핀의 5개 헌법은 무엇인가요?",
+    "original_en": "what are the 5 constitution of the philippines",
+    "code_switched_versions": {
+      "Case1": "필리핀의 5개 헌법은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what are the 5 constitution of the philippines"
+    }
+  },
+  {
+    "id": 749,
+    "original_ko": "언제나 마음은 태양의 출연진에 무슨 일이 있었나요?",
+    "original_en": "what happened to the cast of to sir with love",
+    "code_switched_versions": {
+      "Case1": "언제나 마음은 태양의 출연진에 무슨 일이 있었나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what happened to the cast of to sir with love"
+    }
+  },
+  {
+    "id": 753,
+    "original_ko": "에이미 그랜트의 'I Will Remember You' 노래 의미는 무엇인가요?",
+    "original_en": "amy grant i will remember you song meaning",
+    "code_switched_versions": {
+      "Case1": "에이미 그랜트의 'I Will Remember You' 노래 의미는 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "amy grant i will remember you song meaning"
+    }
+  },
+  {
+    "id": 763,
+    "original_ko": "누가 프로볼에 선발되었나요?",
+    "original_en": "who has been selected for the pro bowl",
+    "code_switched_versions": {
+      "Case1": "누가 프로볼에 선발되었나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who has been selected for the pro bowl"
+    }
+  },
+  {
+    "id": 764,
+    "original_ko": "영어 문법에서 'shall'과 'will'의 차이는 무엇인가요?",
+    "original_en": "difference between shall and will in english grammar",
+    "code_switched_versions": {
+      "Case1": "영어 문법에서 'shall'과 'will'의 차이는 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "difference between shall and will in english grammar"
+    }
+  },
+  {
+    "id": 774,
+    "original_ko": "영국은 여전히 헌법이 있나요?",
+    "original_en": "does the united kingdom still have a constitution",
+    "code_switched_versions": {
+      "Case1": "영국은 여전히 헌법이 있나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "does the united kingdom still have a constitution"
+    }
+  },
+  {
+    "id": 775,
+    "original_ko": "왜 에린과 앤디는 처음에 헤어졌나요?",
+    "original_en": "why did erin and andy break up the first time",
+    "code_switched_versions": {
+      "Case1": "왜 에린과 앤디는 처음에 헤어졌나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "why did erin and andy break up the first time"
+    }
+  },
+  {
+    "id": 782,
+    "original_ko": "언제 해수면이 오르기 시작했나요",
+    "original_en": "when did the sea level start to rise",
+    "code_switched_versions": {
+      "Case1": "언제 해수면이 오르기 시작했나요",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "when did the sea level start to rise"
+    }
+  },
+  {
+    "id": 786,
+    "original_ko": "로봇 전쟁에서 누가 집 로봇을 조종하나요",
+    "original_en": "who controls the house robots in robot wars",
+    "code_switched_versions": {
+      "Case1": "로봇 전쟁에서 누가 집 로봇을 조종하나요",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who controls the house robots in robot wars"
+    }
+  },
+  {
+    "id": 803,
+    "original_ko": "세븐 업의 이름은 어디에서 유래되었습니까?",
+    "original_en": "where did the name 7 up come from",
+    "code_switched_versions": {
+      "Case1": "세븐 업의 이름은 어디에서 유래되었습니까?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where did the name 7 up come from"
+    }
+  },
+  {
+    "id": 807,
+    "original_ko": "ISO 9001과 IATF 16949는 무엇에 관한 건가요?",
+    "original_en": "what is iso 9001 & iatf 16949 about",
+    "code_switched_versions": {
+      "Case1": "ISO 9001과 IATF 16949는 무엇에 관한 건가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is iso 9001 & iatf 16949 about"
+    }
+  },
+  {
+    "id": 809,
+    "original_ko": "라피타들은 누구였고 그들은 무엇을 했습니까?",
+    "original_en": "who were the lapita and what did they do",
+    "code_switched_versions": {
+      "Case1": "라피타들은 누구였고 그들은 무엇을 했습니까?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who were the lapita and what did they do"
+    }
+  },
+  {
+    "id": 818,
+    "original_ko": "마하라슈트라 장관 협의회와 그들의 직무",
+    "original_en": "council of ministers of maharashtra and their portfolios",
+    "code_switched_versions": {
+      "Case1": "마하라슈트라 장관 협의회와 그들의 직무",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "council of ministers of maharashtra and their portfolios"
+    }
+  },
+  {
+    "id": 830,
+    "original_ko": "구절 '타트 바므 아시'는 무엇을 가리키나요?",
+    "original_en": "the phrase tat tvam asi ( you are that ) refers to",
+    "code_switched_versions": {
+      "Case1": "구절 '타트 바므 아시'는 무엇을 가리키나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "the phrase tat tvam asi ( you are that ) refers to"
+    }
+  },
+  {
+    "id": 840,
+    "original_ko": "필리핀 개발은행의 기능은 무엇인가요?",
+    "original_en": "what is the function of development bank of the philippines",
+    "code_switched_versions": {
+      "Case1": "필리핀 개발은행의 기능은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is the function of development bank of the philippines"
+    }
+  },
+  {
+    "id": 854,
+    "original_ko": "인도에서 외국 자본의 중요성에 대해 논의하라.",
+    "original_en": "discuss the importance of foreign capital in india",
+    "code_switched_versions": {
+      "Case1": "인도에서 외국 자본의 중요성에 대해 논의하라.",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "discuss the importance of foreign capital in india"
+    }
+  },
+  {
+    "id": 861,
+    "original_ko": "의식의 통합 정보 이론",
+    "original_en": "integrated information theory (iit) of consciousness",
+    "code_switched_versions": {
+      "Case1": "의식의 통합 정보 이론",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "integrated information theory (iit) of consciousness"
+    }
+  },
+  {
+    "id": 872,
+    "original_ko": "누가 세포라는 이름을 붙였고 어떻게 그 이름을 생각해냈나요?",
+    "original_en": "who named the cell and how did he come up with that name",
+    "code_switched_versions": {
+      "Case1": "누가 세포라는 이름을 붙였고 어떻게 그 이름을 생각해냈나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who named the cell and how did he come up with that name"
+    }
+  },
+  {
+    "id": 898,
+    "original_ko": "오상진, 별에서 온 그대",
+    "original_en": "oh sang jin my love from another star",
+    "code_switched_versions": {
+      "Case1": "오상진, 별에서 온 그대",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "oh sang jin my love from another star"
+    }
+  },
+  {
+    "id": 899,
+    "original_ko": "어떤 지리적 요인이 러시아의 기후 패턴에 기여하나요?",
+    "original_en": "what geographic factors contribute the climate patterns in russia",
+    "code_switched_versions": {
+      "Case1": "어떤 지리적 요인이 러시아의 기후 패턴에 기여하나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what geographic factors contribute the climate patterns in russia"
+    }
+  },
+  {
+    "id": 904,
+    "original_ko": "나이저 강이 아프리카에 중요한 이유는 무엇인가요?",
+    "original_en": "what is the importance of the niger river to africa",
+    "code_switched_versions": {
+      "Case1": "나이저 강이 아프리카에 중요한 이유는 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is the importance of the niger river to africa"
+    }
+  },
+  {
+    "id": 906,
+    "original_ko": "파일 13이라는 표현은 어디에서 왔습니까?",
+    "original_en": "where did the phrase file 13 come from",
+    "code_switched_versions": {
+      "Case1": "파일 13이라는 표현은 어디에서 왔습니까?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where did the phrase file 13 come from"
+    }
+  },
+  {
+    "id": 916,
+    "original_ko": "제산제란 무엇이며, 복통 완화에 있어 그들의 역할을 설명하시오.",
+    "original_en": "what are antacids explain their role in providing relief from stomach ache",
+    "code_switched_versions": {
+      "Case1": "제산제란 무엇이며, 복통 완화에 있어 그들의 역할을 설명하시오.",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what are antacids explain their role in providing relief from stomach ache"
+    }
+  },
+  {
+    "id": 918,
+    "original_ko": "1865년부터 1900년까지 미국에서 흑인의 내부 이주",
+    "original_en": "the internal migrations of african americans in the united states from 1865 to 1900",
+    "code_switched_versions": {
+      "Case1": "1865년부터 1900년까지 미국에서 흑인의 내부 이주",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "the internal migrations of african americans in the united states from 1865 to 1900"
+    }
+  },
+  {
+    "id": 927,
+    "original_ko": "누가 제2차 세계 대전 기념비를 기리나요?",
+    "original_en": "who does the world war 2 memorial honor",
+    "code_switched_versions": {
+      "Case1": "누가 제2차 세계 대전 기념비를 기리나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who does the world war 2 memorial honor"
+    }
+  },
+  {
+    "id": 940,
+    "original_ko": "국토안보부의 국장은 어떤 일을 하나요?",
+    "original_en": "what does the director of homeland security do",
+    "code_switched_versions": {
+      "Case1": "국토안보부의 국장은 어떤 일을 하나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what does the director of homeland security do"
+    }
+  },
+  {
+    "id": 952,
+    "original_ko": "미국 정부는 헬륨을 무엇을 위해 사용합니까?",
+    "original_en": "what does the us government use helium for",
+    "code_switched_versions": {
+      "Case1": "미국 정부는 헬륨을 무엇을 위해 사용합니까?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what does the us government use helium for"
+    }
+  },
+  {
+    "id": 953,
+    "original_ko": "호주에서 어떻게 사진 신분증을 발급받나요?",
+    "original_en": "how do i get photo id in australia",
+    "code_switched_versions": {
+      "Case1": "호주에서 어떻게 사진 신분증을 발급받나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "how do i get photo id in australia"
+    }
+  },
+  {
+    "id": 969,
+    "original_ko": "FBI에 허위 진술을 한 경우의 형량",
+    "original_en": "sentence for making false statements to the fbi",
+    "code_switched_versions": {
+      "Case1": "FBI에 허위 진술을 한 경우의 형량",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "sentence for making false statements to the fbi"
+    }
+  },
+  {
+    "id": 983,
+    "original_ko": "dicgc로 예금 보험 비용을 지불하는 사람은 누구인가요?",
+    "original_en": "who pay the cost of deposit insurance with dicgc",
+    "code_switched_versions": {
+      "Case1": "dicgc로 예금 보험 비용을 지불하는 사람은 누구인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who pay the cost of deposit insurance with dicgc"
+    }
+  },
+  {
+    "id": 995,
+    "original_ko": "용어의 서술력과 평가력의 차이점은 무엇인가요?",
+    "original_en": "what is the difference between descriptive and evaluative force for a term",
+    "code_switched_versions": {
+      "Case1": "용어의 서술력과 평가력의 차이점은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is the difference between descriptive and evaluative force for a term"
+    }
+  },
+  {
+    "id": 1002,
+    "original_ko": "머라이어 캐리의 'All I Want for Christmas Is You' 투어 세트리스트",
+    "original_en": "mariah carey all i want for christmas is you tour setlist",
+    "code_switched_versions": {
+      "Case1": "머라이어 캐리의 'All I Want for Christmas Is You' 투어 세트리스트",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "mariah carey all i want for christmas is you tour setlist"
+    }
+  },
+  {
+    "id": 1026,
+    "original_ko": "i bet you look good on the dance floor는 어떤 내용인가요?",
+    "original_en": "what is i bet you look good on the dance floor about",
+    "code_switched_versions": {
+      "Case1": "i bet you look good on the dance floor는 어떤 내용인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is i bet you look good on the dance floor about"
+    }
+  },
+  {
+    "id": 1028,
+    "original_ko": "RSA 토큰의 예는 무엇인가요?",
+    "original_en": "a rsa token would be an example of",
+    "code_switched_versions": {
+      "Case1": "RSA 토큰의 예는 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "a rsa token would be an example of"
+    }
+  },
+  {
+    "id": 1029,
+    "original_ko": "식기실의 요점은 무엇인가요?",
+    "original_en": "what's the point of a butler's pantry",
+    "code_switched_versions": {
+      "Case1": "식기실의 요점은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what's the point of a butler's pantry"
+    }
+  },
+  {
+    "id": 1030,
+    "original_ko": "간디 자서전의 리뷰 PDF",
+    "original_en": "book review of my experiments with truth pdf",
+    "code_switched_versions": {
+      "Case1": "간디 자서전의 리뷰 PDF",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "book review of my experiments with truth pdf"
+    }
+  },
+  {
+    "id": 1033,
+    "original_ko": "PWC는 누구이며 그들이 하는 일은 무엇인가요?",
+    "original_en": "who are pwc and what do they do",
+    "code_switched_versions": {
+      "Case1": "PWC는 누구이며 그들이 하는 일은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who are pwc and what do they do"
+    }
+  },
+  {
+    "id": 1036,
+    "original_ko": "성 Roldan은 어디에서 유래했나요?",
+    "original_en": "where did the last name roldan come from",
+    "code_switched_versions": {
+      "Case1": "성 Roldan은 어디에서 유래했나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where did the last name roldan come from"
+    }
+  },
+  {
+    "id": 1043,
+    "original_ko": "수잔나의 일곱 번째 결혼에서 일곱 번째 남편은 누구인가요?",
+    "original_en": "who is the 7th husband in 7 khoon maaf",
+    "code_switched_versions": {
+      "Case1": "수잔나의 일곱 번째 결혼에서 일곱 번째 남편은 누구인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who is the 7th husband in 7 khoon maaf"
+    }
+  },
+  {
+    "id": 1052,
+    "original_ko": "CPS는 누구이며 그들은 무엇을 하나요?",
+    "original_en": "who are the cps and what do they do",
+    "code_switched_versions": {
+      "Case1": "CPS는 누구이며 그들은 무엇을 하나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who are the cps and what do they do"
+    }
+  },
+  {
+    "id": 1066,
+    "original_ko": "피부에서 어떤 감각 수용기들이 발견됩니까?",
+    "original_en": "what sensory receptors are found within the skin",
+    "code_switched_versions": {
+      "Case1": "피부에서 어떤 감각 수용기들이 발견됩니까?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what sensory receptors are found within the skin"
+    }
+  },
+  {
+    "id": 1072,
+    "original_ko": "7 로크 칼리안 마르그는 재임 기간 동안 총리의 공식 거주지가 되었습니다.",
+    "original_en": "7 lok kalyan marg became the official residence of the pm during the tenure of",
+    "code_switched_versions": {
+      "Case1": "7 로크 칼리안 마르그는 재임 기간 동안 총리의 공식 거주지가 되었습니다.",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "7 lok kalyan marg became the official residence of the pm during the tenure of"
+    }
+  },
+  {
+    "id": 1073,
+    "original_ko": "2012년에 개봉한 B급 타밀 영화 목록",
+    "original_en": "list of b grade tamil movies released in 2012",
+    "code_switched_versions": {
+      "Case1": "2012년에 개봉한 B급 타밀 영화 목록",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "list of b grade tamil movies released in 2012"
+    }
+  },
+  {
+    "id": 1086,
+    "original_ko": "왜 남북 전쟁이 수많은 미국인의 목숨을 희생시켰나요?",
+    "original_en": "why did the civil war cost so many american lives",
+    "code_switched_versions": {
+      "Case1": "왜 남북 전쟁이 수많은 미국인의 목숨을 희생시켰나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "why did the civil war cost so many american lives"
+    }
+  },
+  {
+    "id": 1088,
+    "original_ko": "맨사브다르란 누구이며 그들의 책임은 무엇이었나요?",
+    "original_en": "who were mansabdars and what were their responsibilities",
+    "code_switched_versions": {
+      "Case1": "맨사브다르란 누구이며 그들의 책임은 무엇이었나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who were mansabdars and what were their responsibilities"
+    }
+  },
+  {
+    "id": 1095,
+    "original_ko": "1982년에 제정된 헌법안은 캐나다에 무엇을 했습니까?",
+    "original_en": "what did the constitution act of 1982 do for canada",
+    "code_switched_versions": {
+      "Case1": "1982년에 제정된 헌법안은 캐나다에 무엇을 했습니까?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what did the constitution act of 1982 do for canada"
+    }
+  },
+  {
+    "id": 1107,
+    "original_ko": "건강 관리 관리의 내부 영역은 다음 중 어떤 것을 포함합니까?",
+    "original_en": "the internal domain of health care management includes which of the following",
+    "code_switched_versions": {
+      "Case1": "건강 관리 관리의 내부 영역은 다음 중 어떤 것을 포함합니까?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "the internal domain of health care management includes which of the following"
+    }
+  },
+  {
+    "id": 1108,
+    "original_ko": "가지치기가 두뇌 발달의 필수적인 부분인 이유는 무엇인가요?",
+    "original_en": "why is pruning essential part of brain development",
+    "code_switched_versions": {
+      "Case1": "가지치기가 두뇌 발달의 필수적인 부분인 이유는 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "why is pruning essential part of brain development"
+    }
+  },
+  {
+    "id": 1130,
+    "original_ko": "왜 초록 달걀과 햄을 금지했나요?",
+    "original_en": "why did they ban green eggs and ham",
+    "code_switched_versions": {
+      "Case1": "왜 초록 달걀과 햄을 금지했나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "why did they ban green eggs and ham"
+    }
+  },
+  {
+    "id": 1133,
+    "original_ko": "프라임 포토와 아마존 드라이브의 차이점은 무엇인가요?",
+    "original_en": "what is the difference between prime photos and amazon drive",
+    "code_switched_versions": {
+      "Case1": "프라임 포토와 아마존 드라이브의 차이점은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is the difference between prime photos and amazon drive"
+    }
+  },
+  {
+    "id": 1143,
+    "original_ko": "2022년에는 바이오매스로부터 에너지를 생산합니다.",
+    "original_en": "producing power from biomass by the year 2022",
+    "code_switched_versions": {
+      "Case1": "2022년에는 바이오매스로부터 에너지를 생산합니다.",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "producing power from biomass by the year 2022"
+    }
+  },
+  {
+    "id": 1146,
+    "original_ko": "종자에서 종자 껍질은 특정 조직으로 구성됩니다.",
+    "original_en": "in a seed the seed coat is composed of tissues belonging to",
+    "code_switched_versions": {
+      "Case1": "종자에서 종자 껍질은 특정 조직으로 구성됩니다.",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "in a seed the seed coat is composed of tissues belonging to"
+    }
+  },
+  {
+    "id": 1181,
+    "original_ko": "dxc에 있는 컨설팅 조직의 목적은 무엇인가요?",
+    "original_en": "what is the purpose of the consulting organization at dxc",
+    "code_switched_versions": {
+      "Case1": "dxc에 있는 컨설팅 조직의 목적은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is the purpose of the consulting organization at dxc"
+    }
+  },
+  {
+    "id": 1194,
+    "original_ko": "질량 보존의 법칙의 중요성은 무엇인가요?",
+    "original_en": "importance of the law of conservation of mass",
+    "code_switched_versions": {
+      "Case1": "질량 보존의 법칙의 중요성은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "importance of the law of conservation of mass"
+    }
+  },
+  {
+    "id": 1203,
+    "original_ko": "사회 및 행동 과학에 속하는 수업은 무엇인가요?",
+    "original_en": "what classes fall under social and behavioral sciences",
+    "code_switched_versions": {
+      "Case1": "사회 및 행동 과학에 속하는 수업은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what classes fall under social and behavioral sciences"
+    }
+  },
+  {
+    "id": 1206,
+    "original_ko": "생산 함수가 입력 계수 k의 관점에서 규모에 따라 수익이 감소하고 있음을 증명하시오.",
+    "original_en": "prove that production function is decreasing returns to scale in terms of input factor k",
+    "code_switched_versions": {
+      "Case1": "생산 함수가 입력 계수 k의 관점에서 규모에 따라 수익이 감소하고 있음을 증명하시오.",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "prove that production function is decreasing returns to scale in terms of input factor k"
+    }
+  },
+  {
+    "id": 1224,
+    "original_ko": "왜 UFC에 슈퍼 헤비급이 없나요?",
+    "original_en": "why is there no super heavyweight in ufc",
+    "code_switched_versions": {
+      "Case1": "왜 UFC에 슈퍼 헤비급이 없나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "why is there no super heavyweight in ufc"
+    }
+  },
+  {
+    "id": 1226,
+    "original_ko": "위원회의 다양한 종류는 무엇이며, 그들은 어떻게 다른가요?",
+    "original_en": "what are the various types of committees (not the list of committees) how are they different",
+    "code_switched_versions": {
+      "Case1": "위원회의 다양한 종류는 무엇이며, 그들은 어떻게 다른가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what are the various types of committees (not the list of committees) how are they different"
+    }
+  },
+  {
+    "id": 1228,
+    "original_ko": "그린 마일에서 델은 왜 감옥에 있었나요?",
+    "original_en": "why was del in prison in the green mile",
+    "code_switched_versions": {
+      "Case1": "그린 마일에서 델은 왜 감옥에 있었나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "why was del in prison in the green mile"
+    }
+  },
+  {
+    "id": 1233,
+    "original_ko": "조니 캐시의 'When the Man Comes Around'는 어떤 내용인가요?",
+    "original_en": "what is johnny cash song when the man comes around about",
+    "code_switched_versions": {
+      "Case1": "조니 캐시의 'When the Man Comes Around'는 어떤 내용인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is johnny cash song when the man comes around about"
+    }
+  },
+  {
+    "id": 1243,
+    "original_ko": "해리포터 책이 언제 인기를 얻었나요?",
+    "original_en": "when did the harry potter books become popular",
+    "code_switched_versions": {
+      "Case1": "해리포터 책이 언제 인기를 얻었나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "when did the harry potter books become popular"
+    }
+  },
+  {
+    "id": 1249,
+    "original_ko": "1965년 남부 로디지아에서의 일방적인 독립 선언은 무엇이었나요?",
+    "original_en": "what was the unilateral declaration of independence in southern rhodesia in 1965",
+    "code_switched_versions": {
+      "Case1": "1965년 남부 로디지아에서의 일방적인 독립 선언은 무엇이었나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what was the unilateral declaration of independence in southern rhodesia in 1965"
+    }
+  },
+  {
+    "id": 1260,
+    "original_ko": "제품의 목적이 변경될 때 발생하는 혁신 유형입니다.",
+    "original_en": "a type of innovation that occurs when the purpose of a product is changed",
+    "code_switched_versions": {
+      "Case1": "제품의 목적이 변경될 때 발생하는 혁신 유형입니다.",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "a type of innovation that occurs when the purpose of a product is changed"
+    }
+  },
+  {
+    "id": 1264,
+    "original_ko": "어디에서 'it ain't over till the fat lady sings'라는 표현이 왔습니까?",
+    "original_en": "where does it ain't over till the fat lady sings come from",
+    "code_switched_versions": {
+      "Case1": "어디에서 'it ain't over till the fat lady sings'라는 표현이 왔습니까?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where does it ain't over till the fat lady sings come from"
+    }
+  },
+  {
+    "id": 1271,
+    "original_ko": "로코코는 예술과 음악의 한 스타일입니다.",
+    "original_en": "rococo is a style of art and music that was",
+    "code_switched_versions": {
+      "Case1": "로코코는 예술과 음악의 한 스타일입니다.",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "rococo is a style of art and music that was"
+    }
+  },
+  {
+    "id": 1282,
+    "original_ko": "프랑스 혁명의 전 세계와 프랑스에서의 영향",
+    "original_en": "impact of french revolution in france and the world",
+    "code_switched_versions": {
+      "Case1": "프랑스 혁명의 전 세계와 프랑스에서의 영향",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "impact of french revolution in france and the world"
+    }
+  },
+  {
+    "id": 1288,
+    "original_ko": "당파가 다수가 아닌 경우 적절한 해결책은 무엇인가요?",
+    "original_en": "if a faction was not in a majority what was the proper solution for it",
+    "code_switched_versions": {
+      "Case1": "당파가 다수가 아닌 경우 적절한 해결책은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "if a faction was not in a majority what was the proper solution for it"
+    }
+  },
+  {
+    "id": 1290,
+    "original_ko": "빛이 산란되고 흡수되는 것을 유발하는 물의 성질",
+    "original_en": "property of water that causes light to be scattered and absorbed",
+    "code_switched_versions": {
+      "Case1": "빛이 산란되고 흡수되는 것을 유발하는 물의 성질",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "property of water that causes light to be scattered and absorbed"
+    }
+  },
+  {
+    "id": 1293,
+    "original_ko": "오카자키 절편은 다음 중 어떤 것을 가지고 있습니까?",
+    "original_en": "an okazaki fragment has which of the following",
+    "code_switched_versions": {
+      "Case1": "오카자키 절편은 다음 중 어떤 것을 가지고 있습니까?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "an okazaki fragment has which of the following"
+    }
+  },
+  {
+    "id": 1294,
+    "original_ko": "우리는 몇 가지 종류의 종교가 있나요?",
+    "original_en": "how many types of religion do we have",
+    "code_switched_versions": {
+      "Case1": "우리는 몇 가지 종류의 종교가 있나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "how many types of religion do we have"
+    }
+  },
+  {
+    "id": 1296,
+    "original_ko": "스타 트렉 엔터프라이즈 'These Are the Voyages' 리뷰",
+    "original_en": "star trek enterprise these are the voyages review",
+    "code_switched_versions": {
+      "Case1": "스타 트렉 엔터프라이즈 'These Are the Voyages' 리뷰",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "star trek enterprise these are the voyages review"
+    }
+  },
+  {
+    "id": 1297,
+    "original_ko": "A부터 Z까지의 술 이름",
+    "original_en": "name of alcoholic drinks from a to z",
+    "code_switched_versions": {
+      "Case1": "A부터 Z까지의 술 이름",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "name of alcoholic drinks from a to z"
+    }
+  },
+  {
+    "id": 1303,
+    "original_ko": "긍정적 외부효과, 대체효과, 부정적 외부효과, 소득효과",
+    "original_en": "positive externality substitution effect negative externality income effect",
+    "code_switched_versions": {
+      "Case1": "긍정적 외부효과, 대체효과, 부정적 외부효과, 소득효과",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "positive externality substitution effect negative externality income effect"
+    }
+  },
+  {
+    "id": 1309,
+    "original_ko": "페이튼 매닝과 톰 브래디 중 누가 더 나은 기록을 가지고 있나요?",
+    "original_en": "who has better stats peyton manning or tom brady",
+    "code_switched_versions": {
+      "Case1": "페이튼 매닝과 톰 브래디 중 누가 더 나은 기록을 가지고 있나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who has better stats peyton manning or tom brady"
+    }
+  },
+  {
+    "id": 1319,
+    "original_ko": "언제 퀸이 원 트리 힐에 등장하나요?",
+    "original_en": "when does quinn come on one tree hill",
+    "code_switched_versions": {
+      "Case1": "언제 퀸이 원 트리 힐에 등장하나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "when does quinn come on one tree hill"
+    }
+  },
+  {
+    "id": 1321,
+    "original_ko": "BB 총이라는 이름은 어디에서 유래했나요?",
+    "original_en": "where did the name bb gun come from",
+    "code_switched_versions": {
+      "Case1": "BB 총이라는 이름은 어디에서 유래했나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where did the name bb gun come from"
+    }
+  },
+  {
+    "id": 1329,
+    "original_ko": "하루에 50시간이 있다는 의미는 무엇입니까?",
+    "original_en": "there are 50 hours in a day meaning",
+    "code_switched_versions": {
+      "Case1": "하루에 50시간이 있다는 의미는 무엇입니까?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "there are 50 hours in a day meaning"
+    }
+  },
+  {
+    "id": 1342,
+    "original_ko": "시리즈 '겟 다운'은 어떤 내용인가요?",
+    "original_en": "who is the series the get down about",
+    "code_switched_versions": {
+      "Case1": "시리즈 '겟 다운'은 어떤 내용인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who is the series the get down about"
+    }
+  },
+  {
+    "id": 1350,
+    "original_ko": "콜로세움에서 로마 황제는 어디에 앉았나요?",
+    "original_en": "where did the roman emperor sit in the colosseum",
+    "code_switched_versions": {
+      "Case1": "콜로세움에서 로마 황제는 어디에 앉았나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where did the roman emperor sit in the colosseum"
+    }
+  },
+  {
+    "id": 1355,
+    "original_ko": "시각적 검색에서 인식에 대한 반응 시간이 가장 느릴 것으로 예상합니다.",
+    "original_en": "in a visual search we expect reaction times for recognition to be slowest for",
+    "code_switched_versions": {
+      "Case1": "시각적 검색에서 인식에 대한 반응 시간이 가장 느릴 것으로 예상합니다.",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "in a visual search we expect reaction times for recognition to be slowest for"
+    }
+  },
+  {
+    "id": 1360,
+    "original_ko": "DES에서 S-box의 목적은 무엇인가요?",
+    "original_en": "what is the purpose of s-boxes in des",
+    "code_switched_versions": {
+      "Case1": "DES에서 S-box의 목적은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is the purpose of s-boxes in des"
+    }
+  },
+  {
+    "id": 1364,
+    "original_ko": "다양한 세부 수준에서 신체를 연구하는 해부학의 분야",
+    "original_en": "branches of anatomy that study the body at different levels of detail",
+    "code_switched_versions": {
+      "Case1": "다양한 세부 수준에서 신체를 연구하는 해부학의 분야",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "branches of anatomy that study the body at different levels of detail"
+    }
+  },
+  {
+    "id": 1373,
+    "original_ko": "세계의 7대륙과 그 설명",
+    "original_en": "7 continents of the world and its description",
+    "code_switched_versions": {
+      "Case1": "세계의 7대륙과 그 설명",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "7 continents of the world and its description"
+    }
+  },
+  {
+    "id": 1387,
+    "original_ko": "우리가 가장 많은 전기를 어디에서 얻나요?",
+    "original_en": "where do we get most of our electricity energy from",
+    "code_switched_versions": {
+      "Case1": "우리가 가장 많은 전기를 어디에서 얻나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where do we get most of our electricity energy from"
+    }
+  },
+  {
+    "id": 1407,
+    "original_ko": "무엇이 영아돌연사증후군, 즉 sids를 야기하나요?",
+    "original_en": "what causes sudden infant death syndrome also called sids",
+    "code_switched_versions": {
+      "Case1": "무엇이 영아돌연사증후군, 즉 sids를 야기하나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what causes sudden infant death syndrome also called sids"
+    }
+  },
+  {
+    "id": 1422,
+    "original_ko": "1938년 뮌헨 회의 소집으로 이어진 수데텐 문제는 무엇이었나요?",
+    "original_en": "the sudeten question which led to the calling of the munich conference of 1938 centered on",
+    "code_switched_versions": {
+      "Case1": "1938년 뮌헨 회의 소집으로 이어진 수데텐 문제는 무엇이었나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "the sudeten question which led to the calling of the munich conference of 1938 centered on"
+    }
+  },
+  {
+    "id": 1435,
+    "original_ko": "마크 모리슨의 'Return of the Mack' 가사의 의미는 무엇인가요?",
+    "original_en": "mark morrison return of the mack lyrics meaning",
+    "code_switched_versions": {
+      "Case1": "마크 모리슨의 'Return of the Mack' 가사의 의미는 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "mark morrison return of the mack lyrics meaning"
+    }
+  },
+  {
+    "id": 1441,
+    "original_ko": "새로운 키워드의 목적은 무엇인가요?",
+    "original_en": "what is the purpose of the new key word",
+    "code_switched_versions": {
+      "Case1": "새로운 키워드의 목적은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is the purpose of the new key word"
+    }
+  },
+  {
+    "id": 1442,
+    "original_ko": "인도의 카스트 제도에 반대하는 사회 개혁가들의 견해",
+    "original_en": "views of social reformers against caste system in india",
+    "code_switched_versions": {
+      "Case1": "인도의 카스트 제도에 반대하는 사회 개혁가들의 견해",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "views of social reformers against caste system in india"
+    }
+  },
+  {
+    "id": 1443,
+    "original_ko": "통계에서 중앙값의 목적은 무엇인가요?",
+    "original_en": "what is the purpose of median in statistics",
+    "code_switched_versions": {
+      "Case1": "통계에서 중앙값의 목적은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is the purpose of median in statistics"
+    }
+  },
+  {
+    "id": 1444,
+    "original_ko": "아니타 데사이의 소설 '이타카로의 여행' 요약",
+    "original_en": "summary of the novel journey to ithaca by anita desai",
+    "code_switched_versions": {
+      "Case1": "아니타 데사이의 소설 '이타카로의 여행' 요약",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "summary of the novel journey to ithaca by anita desai"
+    }
+  },
+  {
+    "id": 1447,
+    "original_ko": "누가 중동의 석유를 소유하고 있나요?",
+    "original_en": "who owns the oil in the middle east",
+    "code_switched_versions": {
+      "Case1": "누가 중동의 석유를 소유하고 있나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who owns the oil in the middle east"
+    }
+  },
+  {
+    "id": 1464,
+    "original_ko": "귀인두관의 시작은 어디에 위치하고 있습니까?",
+    "original_en": "where are the openings of the auditory tubes located",
+    "code_switched_versions": {
+      "Case1": "귀인두관의 시작은 어디에 위치하고 있습니까?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where are the openings of the auditory tubes located"
+    }
+  },
+  {
+    "id": 1472,
+    "original_ko": "잭 스패로우가 커틀러 베켓에게 남긴 흔적은 무엇인가요?",
+    "original_en": "what mark did jack sparrow leave on lord cutler beckett",
+    "code_switched_versions": {
+      "Case1": "잭 스패로우가 커틀러 베켓에게 남긴 흔적은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what mark did jack sparrow leave on lord cutler beckett"
+    }
+  },
+  {
+    "id": 1473,
+    "original_ko": "HGTV의 'Love It or List It'에 어떻게 접속하나요?",
+    "original_en": "how do you get on hgtv's love it or list it",
+    "code_switched_versions": {
+      "Case1": "HGTV의 'Love It or List It'에 어떻게 접속하나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "how do you get on hgtv's love it or list it"
+    }
+  },
+  {
+    "id": 1475,
+    "original_ko": "언제 헌츠가 케첩에서 카츠업으로 바꿨나요?",
+    "original_en": "when did hunts change from catsup to ketchup",
+    "code_switched_versions": {
+      "Case1": "언제 헌츠가 케첩에서 카츠업으로 바꿨나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "when did hunts change from catsup to ketchup"
+    }
+  },
+  {
+    "id": 1477,
+    "original_ko": "왜 부르키나파소에서 프랑스어를 사용하나요?",
+    "original_en": "why do they speak french in burkina faso",
+    "code_switched_versions": {
+      "Case1": "왜 부르키나파소에서 프랑스어를 사용하나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "why do they speak french in burkina faso"
+    }
+  },
+  {
+    "id": 1484,
+    "original_ko": "보스턴 학살에 얼마나 많은 영국 군인이 있었나요?",
+    "original_en": "how many redcoats were at the boston massacre",
+    "code_switched_versions": {
+      "Case1": "보스턴 학살에 얼마나 많은 영국 군인이 있었나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "how many redcoats were at the boston massacre"
+    }
+  },
+  {
+    "id": 1493,
+    "original_ko": "Joy Division의 'Love Will Tear Us Apart'의 뜻은 무엇인가요?",
+    "original_en": "joy division love will tear us apart meaning",
+    "code_switched_versions": {
+      "Case1": "Joy Division의 'Love Will Tear Us Apart'의 뜻은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "joy division love will tear us apart meaning"
+    }
+  },
+  {
+    "id": 1498,
+    "original_ko": "우리 생애 나날들에서 니콜은 어디에 있었나요?",
+    "original_en": "where is nicole on days of our lives",
+    "code_switched_versions": {
+      "Case1": "우리 생애 나날들에서 니콜은 어디에 있었나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where is nicole on days of our lives"
+    }
+  },
+  {
+    "id": 1500,
+    "original_ko": "배트맨: 돌아온 조커는 어디에 위치하나요?",
+    "original_en": "where does batman beyond return of the joker fit in",
+    "code_switched_versions": {
+      "Case1": "배트맨: 돌아온 조커는 어디에 위치하나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where does batman beyond return of the joker fit in"
+    }
+  },
+  {
+    "id": 1515,
+    "original_ko": "PSC가 적용되는 주요 국제 협약은 무엇인가요?",
+    "original_en": "major international conventions to which psc is applicable",
+    "code_switched_versions": {
+      "Case1": "PSC가 적용되는 주요 국제 협약은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "major international conventions to which psc is applicable"
+    }
+  },
+  {
+    "id": 1518,
+    "original_ko": "정치적 스펙트럼에서 5가지 그룹은 무엇인가요?",
+    "original_en": "what are the five groups on the political spectrum",
+    "code_switched_versions": {
+      "Case1": "정치적 스펙트럼에서 5가지 그룹은 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what are the five groups on the political spectrum"
+    }
+  },
+  {
+    "id": 1524,
+    "original_ko": "왜 스페인어에서 주어 대명사를 생략할 수 있나요?",
+    "original_en": "why can you leave out the subject pronoun in spanish",
+    "code_switched_versions": {
+      "Case1": "왜 스페인어에서 주어 대명사를 생략할 수 있나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "why can you leave out the subject pronoun in spanish"
+    }
+  },
+  {
+    "id": 1525,
+    "original_ko": "누가 바르바리 해적의 문제를 다루었나요?",
+    "original_en": "who dealt with the problems of the barbary pirates",
+    "code_switched_versions": {
+      "Case1": "누가 바르바리 해적의 문제를 다루었나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "who dealt with the problems of the barbary pirates"
+    }
+  },
+  {
+    "id": 1537,
+    "original_ko": "에드윈 스미스 외과 파피루스의 이집트 작가는 무엇을 이해했나요?",
+    "original_en": "​the egyptian author of the edwin smith surgical papyrus understood that",
+    "code_switched_versions": {
+      "Case1": "에드윈 스미스 외과 파피루스의 이집트 작가는 무엇을 이해했나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "​the egyptian author of the edwin smith surgical papyrus understood that"
+    }
+  },
+  {
+    "id": 1555,
+    "original_ko": "인권 선언의 목적은 무엇이었나요?",
+    "original_en": "what was the goal of the declaration of rights of man",
+    "code_switched_versions": {
+      "Case1": "인권 선언의 목적은 무엇이었나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what was the goal of the declaration of rights of man"
+    }
+  },
+  {
+    "id": 1558,
+    "original_ko": "벨은 '미녀와 야수'에서 어디에 살고 있나요?",
+    "original_en": "where does belle live beauty and the beast",
+    "code_switched_versions": {
+      "Case1": "벨은 '미녀와 야수'에서 어디에 살고 있나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where does belle live beauty and the beast"
+    }
+  },
+  {
+    "id": 1566,
+    "original_ko": "사도행전에 나오는 교회의 역사",
+    "original_en": "the history of the church in the book of acts",
+    "code_switched_versions": {
+      "Case1": "사도행전에 나오는 교회의 역사",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "the history of the church in the book of acts"
+    }
+  },
+  {
+    "id": 1573,
+    "original_ko": "2018년 1월 현재 세계 7대 불가사의는 무엇인가요?",
+    "original_en": "seven wonders of the world as of january 2018",
+    "code_switched_versions": {
+      "Case1": "2018년 1월 현재 세계 7대 불가사의는 무엇인가요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "seven wonders of the world as of january 2018"
+    }
+  },
+  {
+    "id": 1575,
+    "original_ko": "인문지리학은 왜 지리학에서 중요한 부분입니까?",
+    "original_en": "영어 질문",
+    "code_switched_versions": {
+      "Case1": "인문지리학은 왜 지리학에서 중요한 부분입니까?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "영어 질문"
+    }
+  },
+  {
+    "id": 1585,
+    "original_ko": "동시에 두 가지를 가질 수 없다는 의미의 동의어",
+    "original_en": "can't have your cake and eat it too synonyms",
+    "code_switched_versions": {
+      "Case1": "동시에 두 가지를 가질 수 없다는 의미의 동의어",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "can't have your cake and eat it too synonyms"
+    }
+  },
+  {
+    "id": 1616,
+    "original_ko": "내가 그녀를 만났을 때 테드의 아내가 죽는 이야기",
+    "original_en": "how i met your mother teds wife dies",
+    "code_switched_versions": {
+      "Case1": "내가 그녀를 만났을 때 테드의 아내가 죽는 이야기",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "how i met your mother teds wife dies"
+    }
+  },
+  {
+    "id": 1620,
+    "original_ko": "해부학에서 '팔'이라는 용어는 어떤 부위를 가리키나요?",
+    "original_en": "the term arm in anatomy refers to what region",
+    "code_switched_versions": {
+      "Case1": "해부학에서 '팔'이라는 용어는 어떤 부위를 가리키나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "the term arm in anatomy refers to what region"
+    }
+  },
+  {
+    "id": 1638,
+    "original_ko": "성경 창조에서 가장 결정적인 사건은 무엇이었나요?",
+    "original_en": "the most decisive event in the creation of the bible was",
+    "code_switched_versions": {
+      "Case1": "성경 창조에서 가장 결정적인 사건은 무엇이었나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "the most decisive event in the creation of the bible was"
+    }
+  },
+  {
+    "id": 1642,
+    "original_ko": "살리나스 성은 어디에서 유래되었습니까?",
+    "original_en": "where did the last name salinas originate from",
+    "code_switched_versions": {
+      "Case1": "살리나스 성은 어디에서 유래되었습니까?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where did the last name salinas originate from"
+    }
+  },
+  {
+    "id": 1646,
+    "original_ko": "입체파 예술은 다음의 주요 특징 중 하나를 가지고 있습니다.",
+    "original_en": "cubist art features one of the following primary characteristics",
+    "code_switched_versions": {
+      "Case1": "입체파 예술은 다음의 주요 특징 중 하나를 가지고 있습니다.",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "cubist art features one of the following primary characteristics"
+    }
+  },
+  {
+    "id": 1654,
+    "original_ko": "성 '웰스'는 어디에서 유래했나요?",
+    "original_en": "where did the last name wells come from",
+    "code_switched_versions": {
+      "Case1": "성 '웰스'는 어디에서 유래했나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "where did the last name wells come from"
+    }
+  },
+  {
+    "id": 1656,
+    "original_ko": "카운슬러가 고객 중심 접근 방식에 속하는 이유와 현재에 중점을 두는 이유를 간단히 논의해 주세요.",
+    "original_en": "why a counselor belongs to client centered approach focus on here and now briefly discuss",
+    "code_switched_versions": {
+      "Case1": "카운슬러가 고객 중심 접근 방식에 속하는 이유와 현재에 중점을 두는 이유를 간단히 논의해 주세요.",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "why a counselor belongs to client centered approach focus on here and now briefly discuss"
+    }
+  },
+  {
+    "id": 1664,
     "original_ko": "자바빈 또는 빈은 자바 클래스입니다.",
     "original_en": "a javabean or bean is a java class that",
     "code_switched_versions": {
@@ -13,7 +3081,20 @@
     }
   },
   {
-    "id": 9,
+    "id": 1669,
+    "original_ko": "골킥이 페널티 지역을 벗어나지 않으면 어떻게 다시 시작하나요?",
+    "original_en": "what is the restart if a goal kick does not leave the penalty area",
+    "code_switched_versions": {
+      "Case1": "골킥이 페널티 지역을 벗어나지 않으면 어떻게 다시 시작하나요?",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "what is the restart if a goal kick does not leave the penalty area"
+    }
+  },
+  {
+    "id": 1670,
     "original_ko": "손바닥도 마주쳐야 소리가 난다는 표현은 어디에서 유래했나요?",
     "original_en": "where did it takes two to tango come from",
     "code_switched_versions": {
@@ -26,16 +3107,29 @@
     }
   },
   {
-    "id": 11,
-    "original_ko": "영국의 5월 초 은행 휴일은 무엇인가요?",
-    "original_en": "what is early may bank holiday in uk",
+    "id": 1692,
+    "original_ko": "뾰루지가 난다는 것은 무슨 뜻인가요?",
+    "original_en": "what does it mean to get a hickey",
     "code_switched_versions": {
-      "Case1": "영국의 5월 초 은행 휴일은 무엇인가요?",
+      "Case1": "뾰루지가 난다는 것은 무슨 뜻인가요?",
       "Case2": null,
       "Case3": null,
       "Case4": null,
       "Case5": null,
-      "Case6": "what is early may bank holiday in uk"
+      "Case6": "what does it mean to get a hickey"
+    }
+  },
+  {
+    "id": 1694,
+    "original_ko": "언제 그레이 아나토미에서 소피아가 태어났나요",
+    "original_en": "when is sophia born in grey's anatomy",
+    "code_switched_versions": {
+      "Case1": "언제 그레이 아나토미에서 소피아가 태어났나요",
+      "Case2": null,
+      "Case3": null,
+      "Case4": null,
+      "Case5": null,
+      "Case6": "when is sophia born in grey's anatomy"
     }
   }
 ]

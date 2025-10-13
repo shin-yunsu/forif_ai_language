@@ -29,36 +29,24 @@ def create_code_switching_prompt(ko_text: str, en_text: str) -> str:
 
 ## 핵심 규칙
 
-### 1️⃣ 의문사는 절대 건드리지 마세요!
-❌ "어디에서" → "where에서" (금지!)
-❌ "무엇" → "what" (금지!)
-❌ "언제" → "when" (금지!)
-
-의문사: 어디, 어디에서, 언제, 왜, 무엇, 누가, 어떤, 어떻게, where, when, why, what, who, which, how
-
 ### 2️⃣ 교체 가능한 것
 ✅ 명사: 사람, 장소, 사물 (예: 병원/hospital, 학생/student)
 ✅ 동사: 행동 (예: 먹다/eat, 가다/go)
 ✅ 고유명사: 이름, 지명 (예: 서울/Seoul)
 ✅ 형용사: 성질 (예: 빠른/fast, 중요한/important)
 
-**문장 길이별 핵심용어 추출 개수**:
-- 짧은 문장 (5~10 단어): 3~5개
-- 중간 문장 (11~20 단어): 5~8개
-- 긴 문장 (21단어 이상): 8~12개
-
 ### 3️⃣ 생성 방법
 
 **Case2-3: 한국어 문장에서 명사/동사를 영어로 바꾸기**
-- Case2: 2~3개 바꾸기 (짧은 문장) / 3~5개 (긴 문장)
-- Case3: 4~6개 바꾸기 (짧은 문장) / 6~9개 (긴 문장) - Case2보다 많이!
+- Case2: 1~2개 바꾸기
+- Case3: 3~4개 바꾸기 - Case2보다 많이!
 - 한국어 어순 유지
 - 하이브리드 OK: "go하다", "eat했어요"
 - **긴 문장일수록 더 많은 단어를 바꾸세요!**
 
 **Case4-5: 영어 문장에서 명사/동사를 한국어로 바꾸기**
-- Case4: 3~4개 바꾸기 (짧은 문장) / 4~6개 (긴 문장)
-- Case5: 5~7개 바꾸기 (짧은 문장) / 7~10개 (긴 문장) - Case4보다 확실히 많이!
+- Case4: 1~2개 바꾸기 
+- Case5: 3~4개 바꾸기 - Case4보다 많이!
 - 영어 어순 유지
 - **중요**: 
   - 일반 명사/동사/형용사를 적극적으로 바꾸세요!
@@ -67,22 +55,21 @@ def create_code_switching_prompt(ko_text: str, en_text: str) -> str:
 
 ## 예시
 
-### 예시 1: 과학 용어 (중요! Case4-5에서 많이 바꾸기)
+### 예시 1
 입력:
-- 한국어: 두 디옥시리보스 뉴클레오타이드 사이에 공유 결합은 어디에서 형성되나요
-- 영어: where do covalent bonds form between two deoxyribose nucleotides
+- 한국어: 스펙트럼에서 ACC 네트워크는 어떤 채널인가요?
+- 영어: what channel is the acc network on spectrum
 
 출력:
 {{
-  "Case2": "두 deoxyribose nucleotides 사이에 공유 결합은 어디에서 형성되나요",
-  "Case3": "두 deoxyribose nucleotides 사이에 covalent bonds는 어디에서 form되나요",
-  "Case4": "where do 공유 결합 form between two 디옥시리보스 nucleotides?",
-  "Case5": "where do 공유 결합 형성 between two 디옥시리보스 뉴클레오타이드?"
+    "Case2": "스펙트럼에서 ACC network는 어떤 채널인가요?",
+    "Case3": "spectrum에서 ACC network는 어떤 채널인가요?",
+    "Case4": "what channel is the acc 네트워크 on spectrum",
+    "Case5": "what 채널 is the acc 네트워크 on 스펙트럼"
 }}
 
-**핵심**: Case5에서 7개 교체 - covalent bonds→공유 결합, form→형성, deoxyribose→디옥시리보스, nucleotides→뉴클레오타이드
 
-### 예시 2 (의료 용어)
+### 예시 2
 입력:
 - 한국어: 인슐린 의존 당뇨병 환자를 위한 계획에서 어떤 요소가 필수인가요?
 - 영어: What factors are essential in the plan for insulin-dependent diabetic patients?
@@ -91,11 +78,11 @@ def create_code_switching_prompt(ko_text: str, en_text: str) -> str:
 {{
   "Case2": "insulin 의존 diabetes 환자를 위한 plan에서 어떤 요소가 필수인가요?",
   "Case3": "insulin-dependent diabetes patients를 위한 plan에서 어떤 factors가 essential인가요?",
-  "Case4": "What factors are 필수 in the 계획 for insulin-dependent 당뇨병 patients?",
-  "Case5": "What 요소 are 필수 in the 계획 for insulin-dependent 당뇨병 환자?"
+  "Case4": "What factors are 필수 in the plan for 인슐린 의존 diabetes patients?",
+  "Case5": "What factors are 필수 in the 계획 for 인슐린 의존 당뇨병 환자?"
 }}
 
-### 예시 3 (의문사 보존 + 동사 교체!)
+### 예시 3 
 입력:
 - 한국어: 1941년 소련의 침공 이후 어떤 일이 일어났나요?
 - 영어: what happened following the invasion of the soviet union in 1941
@@ -105,34 +92,9 @@ def create_code_switching_prompt(ko_text: str, en_text: str) -> str:
   "Case2": "1941년 Soviet Union의 invasion 이후 어떤 일이 일어났나요?",
   "Case3": "1941년 Soviet Union의 invasion 이후 어떤 events가 happened?",
   "Case4": "what happened following the 침공 of the 소련 in 1941?",
-  "Case5": "what 일어났 following the 소련 침공 in 1941?"
+  "Case5": "what happened 이후 the 소련 침공 in 1941?"
 }}
 
-### 예시 4 (동사 교체 중요!)
-입력:
-- 한국어: 누가 금과 노예를 거래했나요?
-- 영어: who traded gold and slaves
-
-출력:
-{{
-  "Case2": "누가 gold와 slaves를 거래했나요?",
-  "Case3": "누가 gold와 slaves를 traded했나요?",
-  "Case4": "who traded 금 and 노예?",
-  "Case5": "who 거래했 금 and 노예?"
-}}
-
-### 예시 5 (바꿀 게 없으면 null)
-입력:
-- 한국어: 보여줘요.
-- 영어: show me
-
-출력:
-{{
-  "Case2": null,
-  "Case3": null,
-  "Case4": null,
-  "Case5": null
-}}
 
 ## 실제 작업
 이제 위 입력에 대해 Case2, Case3, Case4, Case5를 생성하세요.
@@ -146,31 +108,6 @@ JSON만 출력하세요 (설명 없이):
 }}
 """
     return prompt
-
-
-def create_long_sentence_example():
-    """추가 예시: 긴 문장의 경우"""
-    return """
-### 추가 예시: 긴 문장 (더 많은 교체!)
-입력:
-- 한국어: 인슐린 의존 당뇨병 환자를 위한 다이어트 계획에서 어떤 요소가 필수로 고려되나요?
-- 영어: What factors are considered essential in the diet plan for insulin-dependent diabetic patients?
-
-**이 문장은 15단어로 중간 길이입니다. 더 많은 단어를 교체해야 합니다!**
-
-출력:
-{{
-  "Case2": "insulin 의존 diabetic 환자를 위한 diet plan에서 어떤 factors가 필수로 고려되나요?",
-  "Case3": "insulin-dependent diabetic patients를 위한 diet plan에서 어떤 factors가 essential하게 considered되나요?",
-  "Case4": "What factors are considered 필수 in the diet plan for 인슐린 의존 당뇨병 patients?",
-  "Case5": "What 요소가 considered 필수 in the 다이어트 계획 for 인슐린 의존 당뇨병 환자?"
-}}
-
-**Case5에서 5개 이상 교체**: factors→요소, essential→필수, diet plan→다이어트 계획, insulin-dependent diabetic→인슐린 의존 당뇨병, patients→환자
-"""
-
-
-
 
 def validate_code_switching(ko_text: str, en_text: str, result: Dict[str, str]) -> bool:
     """Validate code-switching results with relaxed rules.
@@ -191,17 +128,6 @@ def validate_code_switching(ko_text: str, en_text: str, result: Dict[str, str]) 
     case3 = result["Case3"]
     case4 = result["Case4"]
     case5 = result["Case5"]
-    
-    # 1. CRITICAL: Check Case2-3 don't have mixed interrogatives (한국어 문장에 영어 의문사 혼입)
-    en_interrogatives = ["where", "when", "why", "what", "who", "which", "how"]
-    
-    # Case2-3: 영어 의문사가 단독으로 나타나면 안됨
-    for case_text, case_name in [(case2, "Case2"), (case3, "Case3")]:
-        for en_int in en_interrogatives:
-            # "where에서", "what인가요" 같은 패턴 체크
-            if f"{en_int}에서" in case_text.lower() or f"{en_int}인가요" in case_text.lower():
-                print(f"❌ Validation failed: {case_name} has mixed interrogative '{en_int}'")
-                return False
     
     # 2. Check all cases are different
     if case2 == case3:
@@ -226,14 +152,6 @@ def validate_code_switching(ko_text: str, en_text: str, result: Dict[str, str]) 
         import re
         korean_chars = re.findall(r'[가-힣]+', text)
         return len(korean_chars)
-    
-    # Very basic check: Case3 should have more English than Case2
-    en_case2 = count_english_words(case2)
-    en_case3 = count_english_words(case3)
-    
-    # 완화: 같거나 약간 적어도 OK (이모의 여지)
-    if en_case2 > en_case3:
-        print(f"⚠️ Warning: Case2 ({en_case2} EN) > Case3 ({en_case3} EN), but allowing")
     
     # Case4-5: 매우 느슨한 체크 (한국어가 있기만 하면 OK)
     ko_case4 = count_korean_chars(case4)
