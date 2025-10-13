@@ -5,10 +5,10 @@
     "original_en": "when can sublimation be applied as a process of separation",
     "code_switched_versions": {
       "Case1": "언제 승화가 분리 과정으로 적용될 수 있나요",
-      "Case2": "언제 sublimation이 분리 과정으로 applied될 수 있나요",
-      "Case3": "언제 sublimation이 separation 과정으로 applied될 수 있나요",
-      "Case4": "when can 승화 be applied as a process of 분리?",
-      "Case5": "when can 승화 be 분리 process as applied?",
+      "Case2": "언제 sublimation이 분리 과정으로 적용될 수 있나요?",
+      "Case3": "언제 sublimation이 separation 과정으로 applied될 수 있나요?",
+      "Case4": "when can sublimation be applied as a 분리 process?",
+      "Case5": "when can sublimation be 적용 as a 분리 과정?",
       "Case6": "when can sublimation be applied as a process of separation"
     }
   },
@@ -19,9 +19,9 @@
     "code_switched_versions": {
       "Case1": "두 디옥시리보스 뉴클레오타이드 사이에 공유 결합은 어디에서 형성되나요",
       "Case2": "두 deoxyribose nucleotides 사이에 공유 결합은 어디에서 형성되나요",
-      "Case3": "두 deoxyribose nucleotides 사이에 covalent bonds는 어디에서 form되나요",
-      "Case4": "where do 공유 결합 form between two 디옥시리보스 nucleotides?",
-      "Case5": "where do 공유 결합 형성 between two 디옥시리보스 뉴클레오타이드?",
+      "Case3": "두 deoxyribose nucleotides 사이에 covalent bonds는 어디에서 형성되나요?",
+      "Case4": "where do 공유 결합 form between two deoxyribose nucleotides?",
+      "Case5": "where do covalent 공유 결합 form between two deoxyribose nucleotides?",
       "Case6": "where do covalent bonds form between two deoxyribose nucleotides"
     }
   },
@@ -32,9 +32,9 @@
     "code_switched_versions": {
       "Case1": "누가 DDT의 속성에 관한 연구로 노벨상을 받았나요? 어떤 속성이 그것을 그렇게 가치 있게 만들었나요?",
       "Case2": "DDT의 properties에 관한 research로 who는 nobel prize를 받았나요? 어떤 property가 그것을 그렇게 valuable하게 만들었나요?",
-      "Case3": "DDT의 properties에 관한 research로 who는 nobel prize를 received했나요? 어떤 property가 그것을 so valuable하게 만들었나요?",
-      "Case4": "who는 DDT의 속성에 관한 연구로 nobel prize를 받았나요? 어떤 속성이 그것을 그렇게 valuable하게 만들었나요?",
-      "Case5": "who는 DDT의 속성에 관한 research로 nobel prize를 received했나요? 어떤 속성이 그것을 so valuable하게 만들었나요?",
+      "Case3": "DDT의 properties에 관한 research로 who는 nobel prize를 받았나요? 어떤 property가 그것을 so valuable하게 만들었나요?",
+      "Case4": "who는 DDT의 속성에 관한 research로 nobel prize를 받았나요? 어떤 속성이 그것을 so valuable하게 만들었나요?",
+      "Case5": "who는 DDT의 속성에 관한 연구로 nobel prize를 받았나요? 어떤 속성이 그것을 so valuable하게 만들었나요?",
       "Case6": "who won the nobel prize for work on the properties of ddt what property made it so valuable"
     }
   },
@@ -44,9 +44,9 @@
     "original_en": "what happened following the invasion of the soviet union in 1941",
     "code_switched_versions": {
       "Case1": "1941년 소련의 침공 이후 어떤 일이 일어났나요?",
-      "Case2": "1941년 Soviet Union의 invasion 이후 어떤 일이 일어났나요?",
-      "Case3": "1941년 Soviet Union의 invasion 이후 어떤 events가 happened?",
-      "Case4": "what happened following the 침공 of the 소련 in 1941?",
+      "Case2": "1941년 소련의 invasion 이후 어떤 일이 happened?",
+      "Case3": "1941년 Soviet Union의 invasion 이후 어떤 일이 happened?",
+      "Case4": "what happened following the 소련의 침공 in 1941?",
       "Case5": "what 일어났 following the 소련 침공 in 1941?",
       "Case6": "what happened following the invasion of the soviet union in 1941"
     }
@@ -59,8 +59,8 @@
       "Case1": "누가 중국의 만리장성을 건설했나요?",
       "Case2": "누가 China의 Great Wall을 건설했나요?",
       "Case3": "누가 China의 Great Wall을 built했나요?",
-      "Case4": "who built the 중국의 만리장성?",
-      "Case5": "who 건설했 the 중국 만리장성?",
+      "Case4": "who did the work on the 중국의 만리장성?",
+      "Case5": "who 건설했 the work on the 중국의 만리장성?",
       "Case6": "who did the work on the great wall of china"
     }
   },
@@ -71,9 +71,9 @@
     "code_switched_versions": {
       "Case1": "온라인 실시간 시스템의 필수 조건은 신속한 데이터 처리입니다.",
       "Case2": "온라인 real-time 시스템의 필수 조건은 신속한 data 처리입니다.",
-      "Case3": "온라인 real-time 시스템의 essential requirement는 fast data processing입니다.",
-      "Case4": "a required characteristic of an 온라인 real-time 시스템 is 신속한 data 처리.",
-      "Case5": "a required characteristic of an 온라인 실시간 시스템 is 신속한 처리.",
+      "Case3": "온라인 real-time 시스템의 필수 conditions는 fast data processing입니다.",
+      "Case4": "a required characteristic of an 온라인 real-time 시스템 is 신속한 data 처리입니다.",
+      "Case5": "a required characteristic of an 온라인 real-time 시스템 is 빠른 data 처리입니다.",
       "Case6": "a required characteristic of an online real-time system is"
     }
   },
@@ -85,7 +85,7 @@
       "Case1": "닥터 수스의 고양이 모자 원작 영화",
       "Case2": "닥터 수스의 Cat in the Hat 원작 movie",
       "Case3": "Dr. Seuss의 Cat in the Hat original movie",
-      "Case4": "닥터 수스의 고양이 모자 original 영화",
+      "Case4": "닥터 수스의 Cat in the Hat 원작 영화",
       "Case5": "닥터 수스의 고양이 모자 원작 movie",
       "Case6": "dr seuss cat in the hat original movie"
     }
@@ -98,22 +98,48 @@
       "Case1": "골킥이 페널티 지역을 벗어나지 않으면 어떻게 다시 시작하나요?",
       "Case2": "골킥이 penalty area를 벗어나지 않으면 어떻게 다시 restart하나요?",
       "Case3": "골킥이 penalty area를 벗어나지 않으면 어떻게 다시 start하나요?",
-      "Case4": "what is the restart if a 골킥이 does not leave the penalty area?",
-      "Case5": "what restart is if a 골킥 does not leave the 페널티 area?",
+      "Case4": "what is the restart if a 골킥이 the penalty area를 벗어나지 않으면",
+      "Case5": "what restart is if a 골킥이 the penalty area를 벗어나지 않으면",
       "Case6": "what is the restart if a goal kick does not leave the penalty area"
     }
   },
   {
-    "id": 9,
-    "original_ko": "손바닥도 마주쳐야 소리가 난다는 표현은 어디에서 유래했나요?",
-    "original_en": "where did it takes two to tango come from",
+    "id": 10,
+    "original_ko": "물, 전기, 흙을 보존하는 두 가지 방법",
+    "original_en": "two ways to conserve water electricity and soil",
     "code_switched_versions": {
-      "Case1": "손바닥도 마주쳐야 소리가 난다는 표현은 어디에서 유래했나요?",
-      "Case2": "손바닥도 마주쳐야 소리가 난다는 proverb는 어디에서 유래했나요?",
-      "Case3": "손바닥도 마주쳐야 소리가 난다는 saying은 어디에서 originated했나요?",
-      "Case4": "where did it takes two to 소리가 난다는 proverb come from?",
-      "Case5": "where did it takes two to 소리 come from?",
-      "Case6": "where did it takes two to tango come from"
+      "Case1": "물, 전기, 흙을 보존하는 두 가지 방법",
+      "Case2": "물, electricity, 흙을 보존하는 두 가지 방법",
+      "Case3": "물, electricity, 흙을 conserve하는 two ways",
+      "Case4": "two ways to conserve 물, 전기 and 흙",
+      "Case5": "two ways to 보존 water electricity and 흙",
+      "Case6": "two ways to conserve water electricity and soil"
+    }
+  },
+  {
+    "id": 12,
+    "original_ko": "무엇이 부동산 버블을 터뜨리게 만들었나요?",
+    "original_en": "what caused the real estate bubble to burst",
+    "code_switched_versions": {
+      "Case1": "무엇이 부동산 버블을 터뜨리게 만들었나요?",
+      "Case2": "무엇이 real estate bubble을 터뜨리게 만들었나요?",
+      "Case3": "무엇이 real estate bubble을 burst하게 만들었나요?",
+      "Case4": "what caused the 부동산 bubble to burst?",
+      "Case5": "what 부동산 bubble을 burst하게 만들었나요?",
+      "Case6": "what caused the real estate bubble to burst"
+    }
+  },
+  {
+    "id": 13,
+    "original_ko": "미국에서 외국인의 투표권에 대해 설명해 주세요.",
+    "original_en": "right of foreigners to vote in the united states",
+    "code_switched_versions": {
+      "Case1": "미국에서 외국인의 투표권에 대해 설명해 주세요.",
+      "Case2": "미국에서 foreigners의 투표권에 대해 explain해 주세요.",
+      "Case3": "미국에서 foreigners의 right to vote에 대해 explain해 주세요.",
+      "Case4": "미국에서 외국인의 투표권에 대해 explain해 주세요.",
+      "Case5": "미국에서 외국인의 right to vote에 대해 explain해 주세요.",
+      "Case6": "right of foreigners to vote in the united states"
     }
   }
 ]

@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1274,
+    "original_ko": "다음 중 매사추세츠 만 식민지 헌장을 폐지한 것은?",
+    "original_en": "which of the following repealed the charter of the massachusetts bay colony",
+    "code_switched_versions": {
+      "Case1": "다음 중 매사추세츠 만 식민지 헌장을 폐지한 것은?",
+      "Case2": "다음 중 Massachusetts Bay colony의 charter를 폐지한 것은?",
+      "Case3": "Which of the following 폐지한 매사추세츠 만 식민지 헌장?",
+      "Case4": "Which of the following repealed the 매사추세츠 만 charter?",
+      "Case5": "which of the following repealed the charter of the massachusetts bay colony"
+    },
+    "answers": {
+      "Case1": "매사추세츠 만 식민지 헌장을 폐지한 것은 1684년에 영국 왕권에 의해 폐지되었습니다.",
+      "Case2": "1684년에 King Charles II가 Massachusetts Bay colony의 charter를 폐지했습니다.",
+      "Case3": "매사추세츠 만 식민지 헌장은 폐지되었습니다.",
+      "Case4": "The Massachusetts Government Act of 1774 repealed the Massachusetts Bay Colony's charter.",
+      "Case5": "The Massachusetts Government Act of 1774 repealed the charter of the Massachusetts Bay Colony."
+    }
+  },
+  {
+    "id": 1276,
+    "original_ko": "닷 3과 닷 5 브레이크 액의 차이는 무엇인가요?",
+    "original_en": "whats the difference between dot 3 and dot 5 brake fluid",
+    "code_switched_versions": {
+      "Case1": "닷 3과 닷 5 브레이크 액의 차이는 무엇인가요?",
+      "Case2": "dot 3과 dot 5 브레이크 액의 차이는 무엇인가요?",
+      "Case3": "What's the difference between 닷 3 and 닷 5 브레이크 액?",
+      "Case4": "What's the difference between 닷 3 and 닷 5 brake fluid?",
+      "Case5": "whats the difference between dot 3 and dot 5 brake fluid"
+    },
+    "answers": {
+      "Case1": "닷 3과 닷 5 브레이크 액은 모두 자동차 브레이크 시스템에서 사용되는 유압 액체입니다. 그러나 두 제품 사이에는 몇 가지 중요한 차이가 있습니다.\n\n1. 점도: 닷 3 브레이크 액은 점도가 낮고, 닷 5 브레이크 액은 점도가 높습니다. 이는 닷 5 액체가 더 높은 열 안정성을 제공하고 높은 온도에서 더 잘 작동하는 경향이 있습니다.\n\n2. 습기 흡수: 닷 3 브레이크 액은 빠르게 습기를 흡수하고, 습기가 높은 환경에서는 성능이 저하될 수 있습니다. 반면 닷 5 브레이크 액은 습기 흡수율이 낮아서 성능이 일정하게 유지될 수 있습니다.\n\n3. 호환성: 대부분의 차량은 닷 3 브레이크 액을 사용하도록 설계되어 있지만, 일부 고성능 차량은 닷 5 브레이크 액을 권장할 수 있습니다. 따라서 차량 제조사의 권장 사양을 확인하는 것이 중요합니다.\n\n이러한 차이로 인해 닷 3과 닷 5 브레이크 액은 서로 교체할 수 없으며, 각각의 장단점을 고려하여 차량에 적합한 제품을 선택해야 합니다.",
+      "Case2": "DOT 3과 DOT 5는 모두 자동차 브레이크 시스템에서 사용되는 브레이크 액의 종류이지만, 그들 간에는 몇 가지 중요한 차이점이 있습니다.\n\n1. 화학 성분: DOT 3은 폴리글리콜을 기반으로 하고 있으며, DOT 5는 실리콘을 기반으로 합니다. 이러한 화학 성분의 차이로 인해 DOT 5는 DOT 3보다 더 안정적이며, 물에 민감하지 않습니다.\n\n2. 사용 목적: DOT 3은 일반적으로 승용차와 경차 등의 일반 브레이크 시스템에 사용되며, DOT 5는 고성능 차량이나 경주용 차량에 사용됩니다. DOT 5는 브레이크 시스템이 더 높은 온도에서 작동하는 경우에 특히 유용합니다.\n\n3. 호환성: DOT 3과 DOT 5는 호환되지 않으며, 서로 혼합해서 사용해서는 안됩니다. 브레이크 시스템에 DOT 3를 사용 중이라면, DOT 5로 교체하기 위해서는 시스템을 철저히 플러시해야 합니다.\n\n따라서 브레이크 액을 교체하거나 업그레이드할 때는 자동차 제조사의 권장 사양을 준수하고, DOT 3와 DOT 5의 차이를 이해하여 올바른 제품을 선택하는 것이 중요합니다.",
+      "Case3": "The difference between 닷 3 and 닷 5 brake fluid lies in their respective boiling points and performance characteristics. \n\n닷 3 brake fluid has a lower boiling point compared to 닷 5 brake fluid. This means that 닷 5 brake fluid is able to withstand higher temperatures without boiling, which can help prevent brake fade and maintain consistent braking performance under extreme conditions. \n\nIn general, 닷 5 brake fluid is considered to be a higher performance fluid compared to 닷 3, and is often recommended for vehicles that are driven aggressively or experience high temperatures. However, it is important to always refer to the manufacturer's recommendations for the correct type of brake fluid to use in your vehicle.",
+      "Case4": "The main difference between DOT 3 and DOT 5 brake fluid is their chemical composition. \n\nDOT 3 brake fluid is glycol-based and absorbs water over time, which can lead to a decrease in its boiling point and overall effectiveness. It is recommended to be changed every 2 years or 24,000 miles.\n\nOn the other hand, DOT 5 brake fluid is silicone-based and does not absorb water like glycol-based fluids. This means it has a higher boiling point and is more stable over time. DOT 5 brake fluid is typically used in high-performance vehicles or in situations where water contamination is a concern.\n\nIt is important to note that DOT 5 brake fluid should not be mixed with DOT 3 or DOT 4 fluids, as they are not compatible and can cause damage to the braking system. Always consult your vehicle's manufacturer recommendations before choosing a brake fluid.",
+      "Case5": "DOT 3 and DOT 5 brake fluids are both types of hydraulic brake fluid used in vehicles, but they have some key differences:\n\n1. Chemical Composition: DOT 3 brake fluid is glycol-based, while DOT 5 brake fluid is silicone-based.\n\n2. Compatibility: DOT 3 brake fluid is compatible with most brake systems and is the most commonly used type of brake fluid. DOT 5 brake fluid, on the other hand, is not compatible with most brake systems and is typically used in high-performance vehicles or in older vehicles with specific requirements.\n\n3. Boiling Point: DOT 5 brake fluid has a higher boiling point than DOT 3 brake fluid, making it less likely to boil under high temperatures. This can be beneficial in high-performance or racing applications where brake temperatures can reach extreme levels.\n\n4. Moisture Absorption: DOT 3 brake fluid is hygroscopic, meaning it absorbs moisture from the air over time. This can lead to a decrease in brake performance and potential corrosion in the brake system. DOT 5 brake fluid is not hygroscopic, so it does not absorb moisture and is less prone to contamination.\n\nOverall, the choice between DOT 3 and DOT 5 brake fluid will depend on the specific requirements of your vehicle and its brake system. It is important to consult your vehicle's owner's manual or a professional mechanic to determine the best type of brake fluid for your needs."
+    }
+  },
+  {
+    "id": 1277,
+    "original_ko": "사법시험을 보기 위해서는 학위가 필요한가요?",
+    "original_en": "do you need a degree to take the bar",
+    "code_switched_versions": {
+      "Case1": "사법시험을 보기 위해서는 학위가 필요한가요?",
+      "Case2": "사법시험을 보기 위해서는 degree가 필요한가요?",
+      "Case3": "Do you need a 학위 to take the 사법시험?",
+      "Case4": "Do you need a 학위 to take the bar?",
+      "Case5": "do you need a degree to take the bar"
+    },
+    "answers": {
+      "Case1": "일반적으로 사법시험을 보기 위해서는 법학 학사 학위가 필요합니다. 그러나 몇몇 국가나 지역에서는 법학 학사 학위가 아니더라도 해당 국가나 지역의 법원이나 규정에 따라 다른 학위나 자격증을 보유한 사람도 사법시험을 보거나 변호사 자격을 취득할 수 있는 경우가 있을 수 있습니다. 따라서 해당 국가나 지역의 법원이나 규정을 확인하여 자세한 정보를 얻는 것이 중요합니다.",
+      "Case2": "사법시험을 보기 위해서는 대부분의 경우 법학 학위가 필요합니다. 그러나 몇몇 국가에서는 법학 이외의 학위나 일정 수준의 교육을 받은 사람도 시험을 볼 수 있는 경우가 있을 수 있습니다. 따라서 해당 국가의 법률에 따라 상이할 수 있으니 관련 정보를 정확히 확인해야 합니다.",
+      "Case3": "Yes, to take the 사법시험 (judicial examination) in South Korea, you need to have a 학위 (degree) in law from a recognized university. In addition, you must also meet other eligibility requirements such as completing a certain number of credit hours in law courses and passing a preliminary examination.",
+      "Case4": "Yes, in most countries, you need to have a bachelor's degree or higher in order to take the bar exam and become a licensed attorney. Additionally, you may also need to complete a law degree program or have a certain number of years of legal education or experience before being eligible to take the bar exam.",
+      "Case5": "In most jurisdictions, you do need a degree to take the bar exam. Typically, you need to have completed a law degree from an accredited law school in order to be eligible to sit for the bar exam. However, the specific requirements may vary depending on the jurisdiction, so it is important to check with the relevant state bar association or licensing authority for specific requirements in your area."
+    }
+  },
+  {
+    "id": 1278,
+    "original_ko": "1857년 공황이 남부에 무엇을 장려했는가?",
+    "original_en": "what did the panic of 1857 encouraged for the south",
+    "code_switched_versions": {
+      "Case1": "1857년 공황이 남부에 무엇을 장려했는가?",
+      "Case2": "1857년 panic이 남부에 무엇을 장려했는가?",
+      "Case3": "What did 1857년 공황이 장려했는가 for the 남부?",
+      "Case4": "What did the 1857년 공황 encourage for the 남부?",
+      "Case5": "what did the panic of 1857 encouraged for the south"
+    },
+    "answers": {
+      "Case1": "1857년 공황은 남부 미국에서 노예 노동에 대한 의존을 극심하게 드러낸 것으로 알려져 있습니다. 이 공황은 남부 주인들이 종속 노동력을 잃을 우려 때문에 발생한 것으로, 이후 전국적인 경제 위기로 이어졌습니다.",
+      "Case2": "1857년의 패닉은 남부 미국에서 노예 해방 이후의 경제적 불안을 악화시켰습니다. 패닉으로 인해 남부의 면역력이 약화되었고, 농업 부문과 금융 시스템이 흔들렸습니다. 이는 미국 내전의 발발에 앞서 미국의 정치적 분열을 심화시키는 요인으로 작용했습니다.",
+      "Case3": "In 1857, the Panic of 1857 hit the South. This economic crisis led to widespread unemployment, bankruptcies, and financial hardship for many people in the South. Agricultural prices dropped, banks failed, and businesses struggled, causing significant economic turmoil in the region.",
+      "Case4": "The Panic of 1857 encouraged the South to continue relying on agriculture and slavery as their main economic foundations. The economic downturn in the North caused by the Panic led many in the South to believe that their agrarian economy and reliance on slave labor was more stable and sustainable. This ultimately reinforced their commitment to the institution of slavery and contributed to their resistance against any potential changes or reforms.",
+      "Case5": "The Panic of 1857, which was a financial crisis in the United States, encouraged the South to push for the expansion of slavery in order to stimulate economic growth and recover from the economic downturn. The Southern states believed that slavery was essential to their economy and saw the crisis as an opportunity to strengthen their position and influence in the country. Additionally, the panic led to a decrease in the price of cotton, which was the South's main export, making them more reliant on slavery to maintain their economic stability."
+    }
+  },
+  {
+    "id": 1279,
+    "original_ko": "비즈니스 환경에서 인사할 때 사용되는 다양한 악수",
+    "original_en": "different handshakes used when greeting in a business setting",
+    "code_switched_versions": {
+      "Case1": "비즈니스 환경에서 인사할 때 사용되는 다양한 악수",
+      "Case2": "비즈니스 환경에서 greeting할 때 사용되는 다양한 handshakes",
+      "Case3": "different 악수 used when greeting in a 비즈니스 환경.",
+      "Case4": "different 악수 used when greeting in a business setting",
+      "Case5": "different handshakes used when greeting in a business setting"
+    },
+    "answers": {
+      "Case1": "1. 일반적인 악수: 두 손을 잡고 상대방과 약간 앞으로 숙여서 악수하는 방식. 비즈니스 환경에서 많이 사용되는 악수 방식이다.\n\n2. 강한 악수: 악수할 때 손을 강하게 누르는 방식으로, 자신의 자신감을 나타내고자 할 때 사용된다.\n\n3. 부드러운 악수: 악수할 때 손을 부드럽게 잡아주는 방식으로, 상대방에게 친근함과 따뜻함을 전달하고자 할 때 사용된다.\n\n4. 두 손 악수: 두 손을 사용하여 상대방의 손을 잡고 악수하는 방식으로, 더욱 친밀감을 표현하고자 할 때 사용된다.\n\n5. 손을 끝까지 잡기: 상대방의 손을 잡을 때 손가락을 끝까지 잡는 방식으로, 진심과 성의를 표현하고자 할 때 사용된다.\n\n6. 한 손으로 악수: 한 손으로만 상대방의 손을 잡아주는 방식으로, 간결하고 빠른 인사를 할 때 사용된다.\n\n7. 양손을 사용한 악수: 두 손을 사용하여 상대방의 양손을 잡아주는 방식으로, 더욱 친근하고 진심 어린 인사를 할 때 사용된다.",
+      "Case2": "1. 일반적인 손잡이: 두 사람이 서로 손을 잡고 흔들어주는 일반적인 방식의 greeting\n\n2. 강한 손잡이: 더 강하고 확실한 손잡이로 상대방에게 자신의 결연한 의지를 전달하는 방식\n\n3. 손바닥 위로 손잡이: 상대방의 위로 손을 올려주는 방식으로 존경과 존중을 나타냄\n\n4. 두 손 잡기: 두 손을 잡고 상대방에게 더욱 진심 어린 greeting을 전달하는 방식\n\n5. 어깨를 부딪히는 greeting: 어깨를 부딪히며 손을 잡아주는 방식으로 친밀함을 나타냄\n\n6. 손가락으로 손잡이: 손가락으로 서로의 손을 잡는 방식으로 창의적이고 유쾌한 greeting 방식\n\n7. 옆으로 기울어 손잡이: 옆으로 기울어져 상대방의 손을 잡는 방식으로 친근하고 친밀함을 나타냄\n\n8. 두 손으로 손잡이: 두 손을 이용해 상대방의 손을 잡는 방식으로 믿음과 신뢰를 나타냄",
+      "Case3": "In a business setting, a firm handshake is typically used when greeting someone. It shows professionalism, confidence, and respect. It is important to make eye contact and have a strong grip, but not too firm. This type of handshake is often seen as a sign of trust and can help establish a positive first impression in a business environment.",
+      "Case4": "1. Firm handshake: A firm handshake is a common and professional way to greet someone in a business setting. It shows confidence and respect.\n\n2. Brief nod: In some cultures, a brief nod of the head is considered a polite and respectful way to greet someone in a business setting.\n\n3. Bow: In some Asian cultures, bowing is a traditional and respectful way to greet someone in a business setting. The depth of the bow may vary depending on the level of respect or formality.\n\n4. Handshake with a slight bow: In some cultures, combining a handshake with a slight bow is a sign of respect and formality when greeting someone in a business setting.\n\n5. Handshake with eye contact: Maintaining eye contact during a handshake is important in many business settings as it shows attentiveness and sincerity in the greeting.",
+      "Case5": "1. The firm handshake: This is the most common and widely accepted handshake in a business setting. It involves a strong grip and a brief up and down motion.\n\n2. The double-handed handshake: In this handshake, the greeter places their left hand on top of the recipient's right hand while shaking hands. This gesture conveys warmth and sincerity.\n\n3. The fingertip handshake: This is a more formal and reserved handshake where only the fingertips touch. It is commonly used in more formal or hierarchical business settings.\n\n4. The shoulder pat handshake: This handshake involves a brief pat on the recipient's shoulder with the left hand while shaking hands with the right hand. This gesture conveys friendliness and camaraderie.\n\n5. The finger snap handshake: In this handshake, the greeter snaps their fingers after shaking hands. This is a unique and playful way to greet someone in a business setting.\n\n6. The fist bump handshake: This is a more casual and informal handshake where the greeter and recipient fist bump instead of shaking hands. It is often used in more relaxed or informal business settings."
+    }
+  }
+]

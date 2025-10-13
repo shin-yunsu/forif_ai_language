@@ -1,0 +1,1598 @@
+[
+  {
+    "id": 0,
+    "original_ko": "스펙트럼에서 ACC 네트워크는 어떤 채널인가요?",
+    "original_en": "what channel is the acc network on spectrum",
+    "code_switched_versions": {
+      "Case1": "스펙트럼에서 ACC 네트워크는 어떤 채널인가요?",
+      "Case2": "스펙트럼에서 ACC network는 어떤 채널인가요?",
+      "Case3": "spectrum에서 ACC network는 어떤 채널인가요?",
+      "Case4": "spectrum에서 ACC network는 어떤 channel인가요?",
+      "Case5": "what channel is the acc network on spectrum"
+    }
+  },
+  {
+    "id": 1,
+    "original_ko": "용어 '브레이크 어 레그'는 어디에서 유래되었나요?",
+    "original_en": "where did the term break a leg come from",
+    "code_switched_versions": {
+      "Case1": "용어 '브레이크 어 레그'는 어디에서 유래되었나요?",
+      "Case2": "용어 'Break a leg'는 어디에서 유래되었나요?",
+      "Case3": "term 'Break a leg'는 어디에서 유래되었나요?",
+      "Case4": "term 'Break a leg'는 어디에서 originated 되었나요?",
+      "Case5": "where did the term break a leg come from"
+    }
+  },
+  {
+    "id": 2,
+    "original_ko": "누가 원작 영화 '파리'에서 연기했나요?",
+    "original_en": "who played in the original movie the fly",
+    "code_switched_versions": {
+      "Case1": "누가 원작 영화 '파리'에서 연기했나요?",
+      "Case2": "누가 원작 movie 'The Fly'에서 연기했나요?",
+      "Case3": "누가 original movie 'The Fly'에서 연기했나요?",
+      "Case4": "누가 original movie 'The Fly'에서 acted 했나요?",
+      "Case5": "who played in the original movie the fly"
+    }
+  },
+  {
+    "id": 3,
+    "original_ko": "미국의 수정 헌법을 보여줘요.",
+    "original_en": "show me the amendments of the united states",
+    "code_switched_versions": {
+      "Case1": "미국의 수정 헌법을 보여줘요.",
+      "Case2": "미국의 United States 헌법을 보여줘요.",
+      "Case3": "미국의 United States amendments를 보여줘요.",
+      "Case4": "미국의 United States amendments를 show me 해줘요.",
+      "Case5": "show me the amendments of the united states"
+    }
+  },
+  {
+    "id": 4,
+    "original_ko": "오피스에서 짐이 아시아인인 에피소드는 무슨 에피소드인가요?",
+    "original_en": "what episode of the office is jim asian",
+    "code_switched_versions": {
+      "Case1": "오피스에서 짐이 아시아인인 에피소드는 무슨 에피소드인가요?",
+      "Case2": "The Office에서 짐이 아시아인인 에피소드는 무슨 에피소드인가요?",
+      "Case3": "The Office에서 Jim이 아시아인인 에피소드는 무슨 에피소드인가요?",
+      "Case4": "The Office에서 Jim이 Asian인 에피소드는 무슨 에피소드인가요?",
+      "Case5": "what episode of the office is jim asian"
+    }
+  },
+  {
+    "id": 5,
+    "original_ko": "영화 '보니와 클라이드'에 누가 출연했나요?",
+    "original_en": "who starred in the movie bonnie and clyde",
+    "code_switched_versions": {
+      "Case1": "영화 '보니와 클라이드'에 누가 출연했나요?",
+      "Case2": "영화 'Bonnie and Clyde'에 누가 출연했나요?",
+      "Case3": "movie 'Bonnie and Clyde'에 누가 출연했나요?",
+      "Case4": "movie 'Bonnie and Clyde'에 누가 starred 했나요?",
+      "Case5": "who starred in the movie bonnie and clyde"
+    }
+  },
+  {
+    "id": 6,
+    "original_ko": "르완다에서 후투와 투치의 분류는 어디에서 유래되었나요?",
+    "original_en": "where did the classifications of hutu and tutsi come from in rwanda",
+    "code_switched_versions": {
+      "Case1": "르완다에서 후투와 투치의 분류는 어디에서 유래되었나요?",
+      "Case2": "르완다에서 Hutu와 Tutsi의 분류는 어디에서 유래되었나요?",
+      "Case3": "Rwanda에서 Hutu와 Tutsi의 classification은 어디에서 유래되었나요?",
+      "Case4": "Rwanda에서 Hutu와 Tutsi의 classification은 어디에서 originated 되었나요?",
+      "Case5": "where did the classifications of hutu and tutsi come from in rwanda"
+    }
+  },
+  {
+    "id": 7,
+    "original_ko": "역사상 가장 긴 메이저 리그 야구 경기는 무엇인가요?",
+    "original_en": "what's the longest major league baseball game in history",
+    "code_switched_versions": {
+      "Case1": "역사상 가장 긴 메이저 리그 야구 경기는 무엇인가요?",
+      "Case2": "역사상 가장 긴 Major League Baseball 경기는 무엇인가요?",
+      "Case3": "역사상 가장 긴 Major League Baseball game은 무엇인가요?",
+      "Case4": "역사상 가장 longest Major League Baseball game은 무엇인가요?",
+      "Case5": "what's the longest major league baseball game in history"
+    }
+  },
+  {
+    "id": 8,
+    "original_ko": "미국 국기의 의미는 무엇인가요?",
+    "original_en": "what's the meaning of the american flag",
+    "code_switched_versions": {
+      "Case1": "미국 국기의 의미는 무엇인가요?",
+      "Case2": "미국 flag의 의미는 무엇인가요?",
+      "Case3": "American flag의 의미는 무엇인가요?",
+      "Case4": "American flag의 meaning은 무엇인가요?",
+      "Case5": "what's the meaning of the american flag"
+    }
+  },
+  {
+    "id": 9,
+    "original_ko": "어느 나라가 이름에 글자 a를 가지고 있지 않나요",
+    "original_en": "what country that doesn't have the letter a in its name",
+    "code_switched_versions": {
+      "Case1": "어느 나라가 이름에 글자 a를 가지고 있지 않나요",
+      "Case2": "어느 country가 이름에 글자 a를 가지고 있지 않나요",
+      "Case3": "어느 country가 name에 글자 a를 가지고 있지 않나요",
+      "Case4": "어느 country가 name에 letter a를 가지고 있지 않나요",
+      "Case5": "what country that doesn't have the letter a in its name"
+    }
+  },
+  {
+    "id": 10,
+    "original_ko": "고릴라 접착제를 사려면 왜 18살이 되어야 하나요",
+    "original_en": "why do you have to be 18 to buy gorilla glue",
+    "code_switched_versions": {
+      "Case1": "고릴라 접착제를 사려면 왜 18살이 되어야 하나요",
+      "Case2": "고릴라 glue를 사려면 왜 18살이 되어야 하나요",
+      "Case3": "Gorilla glue를 사려면 왜 18살이 되어야 하나요",
+      "Case4": "Gorilla glue를 buy 하려면 왜 18살이 되어야 하나요",
+      "Case5": "why do you have to be 18 to buy gorilla glue"
+    }
+  },
+  {
+    "id": 11,
+    "original_ko": "어떤 종류의 오토바이가 도로에서 합법인가요?",
+    "original_en": "what type of motorcycle is fully street legal",
+    "code_switched_versions": {
+      "Case1": "어떤 종류의 오토바이가 도로에서 합법인가요?",
+      "Case2": "어떤 종류의 motorcycle가 도로에서 합법인가요?",
+      "Case3": "어떤 type의 motorcycle가 도로에서 합법인가요?",
+      "Case4": "어떤 type의 motorcycle가 street legal인가요?",
+      "Case5": "what type of motorcycle is fully street legal"
+    }
+  },
+  {
+    "id": 13,
+    "original_ko": "허쉬 퍼피라는 용어는 어디에서 유래했나요?",
+    "original_en": "where did the term hush puppies come from",
+    "code_switched_versions": {
+      "Case1": "허쉬 퍼피라는 용어는 어디에서 유래했나요?",
+      "Case2": "Hush Puppies라는 용어는 어디에서 유래했나요?",
+      "Case3": "Hush Puppies라는 term은 어디에서 유래했나요?",
+      "Case4": "Hush Puppies라는 term은 어디에서 originated 했나요?",
+      "Case5": "where did the term hush puppies come from"
+    }
+  },
+  {
+    "id": 14,
+    "original_ko": "프랑스어로 아이스크림 가게는 어떻게 말하나요?",
+    "original_en": "how do you say ice cream shop in french",
+    "code_switched_versions": {
+      "Case1": "프랑스어로 아이스크림 가게는 어떻게 말하나요?",
+      "Case2": "프랑스어로 ice cream shop은 어떻게 말하나요?",
+      "Case3": "French어로 ice cream shop은 어떻게 말하나요?",
+      "Case4": "French어로 ice cream shop은 어떻게 say 하나요?",
+      "Case5": "how do you say ice cream shop in french"
+    }
+  },
+  {
+    "id": 15,
+    "original_ko": "누가 '내 적의 적은 내 친구다'라고 말했나요?",
+    "original_en": "who said the enemy of my enemy is my friend",
+    "code_switched_versions": {
+      "Case1": "누가 '내 적의 적은 내 친구다'라고 말했나요?",
+      "Case2": "누가 'My enemy of my enemy is my friend'라고 말했나요?",
+      "Case3": "누가 'My enemy of my enemy is my friend'라고 said 했나요?",
+      "Case4": "Who가 'My enemy of my enemy is my friend'라고 said 했나요?",
+      "Case5": "who said the enemy of my enemy is my friend"
+    }
+  },
+  {
+    "id": 16,
+    "original_ko": "누가 나의 그리스식 웨딩에 출연하나요?",
+    "original_en": "who stars in my big fat greek wedding",
+    "code_switched_versions": {
+      "Case1": "누가 나의 그리스식 웨딩에 출연하나요?",
+      "Case2": "누가 나의 My Big Fat Greek Wedding에 출연하나요?",
+      "Case3": "누가 My Big Fat Greek Wedding에 stars 하나요?",
+      "Case4": "Who가 My Big Fat Greek Wedding에 stars 하나요?",
+      "Case5": "who stars in my big fat greek wedding"
+    }
+  },
+  {
+    "id": 17,
+    "original_ko": "바람과 함께 사라지다의 출연진을 보여주세요.",
+    "original_en": "show me the cast of gone with the wind",
+    "code_switched_versions": {
+      "Case1": "바람과 함께 사라지다의 출연진을 보여주세요.",
+      "Case2": "바람과 함께 사라지다의 cast를 보여주세요.",
+      "Case3": "Gone with the Wind의 cast를 보여주세요.",
+      "Case4": "Gone with the Wind의 cast를 show 해주세요.",
+      "Case5": "show me the cast of gone with the wind"
+    }
+  },
+  {
+    "id": 18,
+    "original_ko": "왜 국기가 빨간색, 흰색, 파란색인가요?",
+    "original_en": "why is the flag red white and blue",
+    "code_switched_versions": {
+      "Case1": "왜 국기가 빨간색, 흰색, 파란색인가요?",
+      "Case2": "국기가 red, white, blue인가요?",
+      "Case3": "flag가 red, white, blue인가요?",
+      "Case4": "flag가 red, white, blue인가요?",
+      "Case5": "why is the flag red white and blue"
+    }
+  },
+  {
+    "id": 19,
+    "original_ko": "살부타몰은 호흡기의 어느 부분에서 작동합니까",
+    "original_en": "salbutamol works in which area of the respiratory tract",
+    "code_switched_versions": {
+      "Case1": "살부타몰은 호흡기의 어느 부분에서 작동합니까",
+      "Case2": "Salbutamol은 호흡기의 어느 부분에서 작동합니까",
+      "Case3": "Salbutamol은 respiratory tract의 어느 부분에서 작동합니까",
+      "Case4": "Salbutamol은 respiratory tract의 어느 area에서 works 합니까",
+      "Case5": "salbutamol works in which area of the respiratory tract"
+    }
+  },
+  {
+    "id": 20,
+    "original_ko": "버몬트에서 빨간 불에 우회전할 수 있나요",
+    "original_en": "can you turn right on a red light in vermont",
+    "code_switched_versions": {
+      "Case1": "버몬트에서 빨간 불에 우회전할 수 있나요",
+      "Case2": "버몬트에서 red light에 우회전할 수 있나요",
+      "Case3": "Vermont에서 red light에 우회전할 수 있나요",
+      "Case4": "Vermont에서 red light에 right turn할 수 있나요",
+      "Case5": "can you turn right on a red light in vermont"
+    }
+  },
+  {
+    "id": 21,
+    "original_ko": "명예로 졸업했을 때 뭐라고 부르나요",
+    "original_en": "what is it called when you graduate with honors",
+    "code_switched_versions": {
+      "Case1": "명예로 졸업했을 때 뭐라고 부르나요",
+      "Case2": "명예로 graduate했을 때 뭐라고 부르나요",
+      "Case3": "명예로 graduate했을 때 what is it called",
+      "Case4": "honors로 graduate했을 때 what is it called",
+      "Case5": "what is it called when you graduate with honors"
+    }
+  },
+  {
+    "id": 22,
+    "original_ko": "미국의 활화산은 무엇인가요",
+    "original_en": "what are the active volcanoes in the united states",
+    "code_switched_versions": {
+      "Case1": "미국의 활화산은 무엇인가요",
+      "Case2": "미국의 active volcanoes는 무엇인가요",
+      "Case3": "United States의 active volcanoes는 무엇인가요",
+      "Case4": "United States의 active volcanoes는 무엇인가요?",
+      "Case5": "what are the active volcanoes in the united states"
+    }
+  },
+  {
+    "id": 23,
+    "original_ko": "‘까마귀를 먹다’라는 표현은 어디에서 유래했나요",
+    "original_en": "where does the phrase eat crow come from",
+    "code_switched_versions": {
+      "Case1": "‘까마귀를 먹다’라는 표현은 어디에서 유래했나요",
+      "Case2": "‘Eat Crow’라는 표현은 어디에서 유래했나요",
+      "Case3": "‘Eat Crow’라는 phrase는 어디에서 유래했나요",
+      "Case4": "‘Eat Crow’라는 phrase는 어디에서 originated 했나요",
+      "Case5": "where does the phrase eat crow come from"
+    }
+  },
+  {
+    "id": 24,
+    "original_ko": "두개내압 상승의 초기 신호는 무엇인가요",
+    "original_en": "what is the earliest sign of increased intracranial pressure",
+    "code_switched_versions": {
+      "Case1": "두개내압 상승의 초기 신호는 무엇인가요",
+      "Case2": "두개내압 상승의 earliest sign은 무엇인가요",
+      "Case3": "increased intracranial pressure의 earliest sign은 무엇인가요",
+      "Case4": "increased intracranial pressure의 earliest sign은 what인가요",
+      "Case5": "what is the earliest sign of increased intracranial pressure"
+    }
+  },
+  {
+    "id": 25,
+    "original_ko": "슈퍼볼에서 레이더스는 누구를 이겼나요",
+    "original_en": "who did the raiders beat in the super bowl",
+    "code_switched_versions": {
+      "Case1": "슈퍼볼에서 레이더스는 누구를 이겼나요",
+      "Case2": "슈퍼볼에서 Raiders는 누구를 이겼나요",
+      "Case3": "Super Bowl에서 Raiders는 누구를 이겼나요",
+      "Case4": "Super Bowl에서 Raiders는 누구를 beat 했나요",
+      "Case5": "who did the raiders beat in the super bowl"
+    }
+  },
+  {
+    "id": 26,
+    "original_ko": "‘내 프랑스어를 용서해 주세요’라는 표현은 어디에서 유래했나요",
+    "original_en": "where did the term pardon my french come from",
+    "code_switched_versions": {
+      "Case1": "‘내 프랑스어를 용서해 주세요’라는 표현은 어디에서 유래했나요",
+      "Case2": "‘Pardon my French’라는 표현은 어디에서 유래했나요",
+      "Case3": "‘Pardon my French’라는 term은 어디에서 유래했나요",
+      "Case4": "‘Pardon my French’라는 term은 어디에서 come from 했나요",
+      "Case5": "where did the term pardon my french come from"
+    }
+  },
+  {
+    "id": 27,
+    "original_ko": "스마트 알렉이라는 표현은 어디에서 유래했나요",
+    "original_en": "where did the term smart alec come from",
+    "code_switched_versions": {
+      "Case1": "스마트 알렉이라는 표현은 어디에서 유래했나요",
+      "Case2": "스마트 alec이라는 표현은 어디에서 유래했나요",
+      "Case3": "smart alec이라는 표현은 어디에서 유래했나요",
+      "Case4": "smart alec이라는 term은 어디에서 유래했나요",
+      "Case5": "where did the term smart alec come from"
+    }
+  },
+  {
+    "id": 28,
+    "original_ko": "hov 차선은 조지아주 애틀랜타에서 무슨 뜻인가요?",
+    "original_en": "what does hov lane mean in atlanta georgia",
+    "code_switched_versions": {
+      "Case1": "hov 차선은 조지아주 애틀랜타에서 무슨 뜻인가요?",
+      "Case2": "HOV lane은 조지아주 애틀랜타에서 무슨 뜻인가요?",
+      "Case3": "HOV lane은 Georgia주 Atlanta에서 무슨 뜻인가요?",
+      "Case4": "HOV lane은 Georgia주 Atlanta에서 무슨 meaning인가요?",
+      "Case5": "what does hov lane mean in atlanta georgia"
+    }
+  },
+  {
+    "id": 29,
+    "original_ko": "용어 '중국식 소방 훈련'은 어디에서 유래되었나요?",
+    "original_en": "where did the term chinese fire drill come from",
+    "code_switched_versions": {
+      "Case1": "용어 '중국식 소방 훈련'은 어디에서 유래되었나요?",
+      "Case2": "용어 'Chinese fire drill'은 어디에서 유래되었나요?",
+      "Case3": "term 'Chinese fire drill'은 어디에서 유래되었나요?",
+      "Case4": "term 'Chinese fire drill'은 어디에서 originated 되었나요?",
+      "Case5": "where did the term chinese fire drill come from"
+    }
+  },
+  {
+    "id": 30,
+    "original_ko": "햄 혹은 돼지의 어느 부위인가요?",
+    "original_en": "what part of the pig is ham hocks",
+    "code_switched_versions": {
+      "Case1": "햄 혹은 돼지의 어느 부위인가요?",
+      "Case2": "햄 혹은 pig의 어느 부위인가요?",
+      "Case3": "햄 혹은 pig의 어느 part인가요?",
+      "Case4": "ham 혹은 pig의 어느 part인가요?",
+      "Case5": "what part of the pig is ham hocks"
+    }
+  },
+  {
+    "id": 31,
+    "original_ko": "용어 '벼룩 시장'은 어디에서 유래되었나요?",
+    "original_en": "where did the term flea market come from",
+    "code_switched_versions": {
+      "Case1": "용어 '벼룩 시장'은 어디에서 유래되었나요?",
+      "Case2": "용어 'flea market'은 어디에서 유래되었나요?",
+      "Case3": "term 'flea market'은 어디에서 유래되었나요?",
+      "Case4": "term 'flea market'은 어디에서 come from 되었나요?",
+      "Case5": "where did the term flea market come from"
+    }
+  },
+  {
+    "id": 32,
+    "original_ko": "NFL에서 로드니 피트는 어느 팀에서 뛰었나요?",
+    "original_en": "who did rodney peete play for in the nfl",
+    "code_switched_versions": {
+      "Case1": "NFL에서 로드니 피트는 어느 팀에서 뛰었나요?",
+      "Case2": "NFL에서 Rodney Peete는 어느 팀에서 뛰었나요?",
+      "Case3": "NFL에서 Rodney Peete는 어느 team에서 뛰었나요?",
+      "Case4": "NFL에서 Rodney Peete는 어느 team에서 played for 했나요?",
+      "Case5": "who did rodney peete play for in the nfl"
+    }
+  },
+  {
+    "id": 33,
+    "original_ko": "휴대전화가 미국에서 인기를 끌기 시작한 것은 언제인가요?",
+    "original_en": "when did cell phones become popular in the united states",
+    "code_switched_versions": {
+      "Case1": "휴대전화가 미국에서 인기를 끌기 시작한 것은 언제인가요?",
+      "Case2": "휴대전화가 United States에서 인기를 끌기 시작한 것은 언제인가요?",
+      "Case3": "Cell phones가 United States에서 인기를 끌기 시작한 것은 언제인가요?",
+      "Case4": "Cell phones가 United States에서 popularity를 끌기 시작한 것은 언제인가요?",
+      "Case5": "when did cell phones become popular in the united states"
+    }
+  },
+  {
+    "id": 35,
+    "original_ko": "미국의 대통령은 전쟁을 선포할 수 있나요?",
+    "original_en": "can the president of the united states declare war",
+    "code_switched_versions": {
+      "Case1": "미국의 대통령은 전쟁을 선포할 수 있나요?",
+      "Case2": "United States의 대통령은 전쟁을 선포할 수 있나요?",
+      "Case3": "United States의 president는 전쟁을 선포할 수 있나요?",
+      "Case4": "United States의 president는 war를 선포할 수 있나요?",
+      "Case5": "can the president of the united states declare war"
+    }
+  },
+  {
+    "id": 37,
+    "original_ko": "곰돌이 푸의 등장인물은 누구인가요?",
+    "original_en": "who are the characters in winnie the pooh",
+    "code_switched_versions": {
+      "Case1": "곰돌이 푸의 등장인물은 누구인가요?",
+      "Case2": "Winnie the Pooh의 등장인물은 누구인가요?",
+      "Case3": "Winnie the Pooh의 characters는 누구인가요?",
+      "Case4": "Winnie the Pooh의 characters는 누구인가요?",
+      "Case5": "who are the characters in winnie the pooh"
+    }
+  },
+  {
+    "id": 38,
+    "original_ko": "사람은 열 방출 감소 자세에서 어디에 손을 둬야 하나요",
+    "original_en": "where should a person in the heat escape lessening posture place their hands",
+    "code_switched_versions": {
+      "Case1": "사람은 열 방출 감소 자세에서 어디에 손을 둬야 하나요",
+      "Case2": "사람은 열 방출 감소 자세에서 어디에 hands를 둬야 하나요",
+      "Case3": "사람은 heat escape 감소 자세에서 어디에 hands를 둬야 하나요",
+      "Case4": "사람은 heat escape lessening posture에서 어디에 hands를 둬야 하나요",
+      "Case5": "where should a person in the heat escape lessening posture place their hands"
+    }
+  },
+  {
+    "id": 39,
+    "original_ko": "어디에서 '지옥으로 가는 바구니'라는 문구가 나왔나요",
+    "original_en": "where did the phrase going to hell in a handbasket come from",
+    "code_switched_versions": {
+      "Case1": "어디에서 '지옥으로 가는 바구니'라는 문구가 나왔나요",
+      "Case2": "어디에서 'Going to Hell in a Handbasket'라는 문구가 나왔나요",
+      "Case3": "어디에서 'Going to Hell in a Handbasket'라는 phrase가 나왔나요",
+      "Case4": "어디에서 'Going to Hell in a Handbasket'라는 phrase가 came from",
+      "Case5": "where did the phrase going to hell in a handbasket come from"
+    }
+  },
+  {
+    "id": 40,
+    "original_ko": "종을 치는 사람의 이름은 무엇인가요",
+    "original_en": "what is the name of a bell ringer",
+    "code_switched_versions": {
+      "Case1": "종을 치는 사람의 이름은 무엇인가요",
+      "Case2": "종을 치는 person의 이름은 무엇인가요",
+      "Case3": "종을 치는 person의 name은 무엇인가요",
+      "Case4": "bell ringer의 name은 무엇인가요",
+      "Case5": "what is the name of a bell ringer"
+    }
+  },
+  {
+    "id": 41,
+    "original_ko": "밸리 포지 전투에서 무슨 일이 있었나요",
+    "original_en": "what happened at the battle of valley forge",
+    "code_switched_versions": {
+      "Case1": "밸리 포지 전투에서 무슨 일이 있었나요",
+      "Case2": "Valley Forge 전투에서 무슨 일이 있었나요",
+      "Case3": "Battle of Valley Forge에서 무슨 일이 있었나요",
+      "Case4": "Battle of Valley Forge에서 무슨 happened 있었나요",
+      "Case5": "what happened at the battle of valley forge"
+    }
+  },
+  {
+    "id": 42,
+    "original_ko": "어떤 Xbox 360 게임이 Xbox One에서 작동하나요",
+    "original_en": "what xbox 360 games work for xbox one",
+    "code_switched_versions": {
+      "Case1": "어떤 Xbox 360 게임이 Xbox One에서 작동하나요",
+      "Case2": "어떤 Xbox 360 games가 Xbox One에서 작동하나요",
+      "Case3": "어떤 Xbox 360 games가 Xbox One에서 work하나요",
+      "Case4": "어떤 Xbox 360 games가 Xbox One에서 work 하나요",
+      "Case5": "what xbox 360 games work for xbox one"
+    }
+  },
+  {
+    "id": 43,
+    "original_ko": "스위스 물 방법으로 카페인을 제거하는 방법은 무엇인가요",
+    "original_en": "what is the swiss water method of decaffeination",
+    "code_switched_versions": {
+      "Case1": "스위스 물 방법으로 카페인을 제거하는 방법은 무엇인가요",
+      "Case2": "스위스 water method으로 카페인을 제거하는 방법은 무엇인가요",
+      "Case3": "Swiss water method으로 카페인을 제거하는 방법은 무엇인가요",
+      "Case4": "Swiss water method으로 카페인을 decaffeination하는 방법은 무엇인가요",
+      "Case5": "what is the swiss water method of decaffeination"
+    }
+  },
+  {
+    "id": 44,
+    "original_ko": "미터법에서 측정 단위는 무엇인가요",
+    "original_en": "what are the units of measurement in the metric system",
+    "code_switched_versions": {
+      "Case1": "미터법에서 측정 단위는 무엇인가요",
+      "Case2": "metric system에서 측정 단위는 무엇인가요",
+      "Case3": "metric system에서 측정 units은 무엇인가요",
+      "Case4": "metric system에서 units of measurement는 무엇인가요",
+      "Case5": "what are the units of measurement in the metric system"
+    }
+  },
+  {
+    "id": 45,
+    "original_ko": "홍콩은 도시인가요, 나라인가요",
+    "original_en": "is hong kong a city or a country",
+    "code_switched_versions": {
+      "Case1": "홍콩은 도시인가요, 나라인가요",
+      "Case2": "홍콩은 city인가요, 나라인가요",
+      "Case3": "홍콩은 city인가요, country인가요",
+      "Case4": "Hong Kong은 city인가요, country인가요",
+      "Case5": "is hong kong a city or a country"
+    }
+  },
+  {
+    "id": 46,
+    "original_ko": "어디에서 '나무를 두드리다'라는 표현이 나왔나요",
+    "original_en": "where did the saying knock on wood come from",
+    "code_switched_versions": {
+      "Case1": "어디에서 '나무를 두드리다'라는 표현이 나왔나요",
+      "Case2": "어디에서 'knock on wood'라는 표현이 나왔나요",
+      "Case3": "어디에서 'knock on wood'라는 saying이 나왔나요",
+      "Case4": "어디에서 'knock on wood'라는 saying이 come from 했나요",
+      "Case5": "where did the saying knock on wood come from"
+    }
+  },
+  {
+    "id": 47,
+    "original_ko": "어디에서 마운틴 타임에서 센트럴 타임으로 바뀌나요",
+    "original_en": "where does it change from mountain time to central time",
+    "code_switched_versions": {
+      "Case1": "어디에서 마운틴 타임에서 센트럴 타임으로 바뀌나요",
+      "Case2": "어디에서 Mountain Time에서 Central Time으로 바뀌나요",
+      "Case3": "어디에서 Mountain Time에서 Central Time으로 change하나요",
+      "Case4": "어디에서 Mountain Time에서 Central Time으로 change하나요",
+      "Case5": "where does it change from mountain time to central time"
+    }
+  },
+  {
+    "id": 48,
+    "original_ko": "행운을 빌다라는 표현은 어디에서 유래했나요",
+    "original_en": "where did the expression break a leg originate",
+    "code_switched_versions": {
+      "Case1": "행운을 빌다라는 표현은 어디에서 유래했나요",
+      "Case2": "행운을 빌다라는 expression은 어디에서 유래했나요",
+      "Case3": "행운을 빌다라는 expression은 어디에서 originate했나요",
+      "Case4": "break a leg라는 expression은 어디에서 originate했나요",
+      "Case5": "where did the expression break a leg originate"
+    }
+  },
+  {
+    "id": 49,
+    "original_ko": "누가 성경에서 요셉의 아버지인가요",
+    "original_en": "who is the father of joseph in the bible",
+    "code_switched_versions": {
+      "Case1": "누가 성경에서 요셉의 아버지인가요",
+      "Case2": "누가 성경에서 Joseph의 아버지인가요",
+      "Case3": "누가 Bible에서 Joseph의 아버지인가요",
+      "Case4": "누가 Bible에서 Joseph의 father인가요",
+      "Case5": "who is the father of joseph in the bible"
+    }
+  },
+  {
+    "id": 50,
+    "original_ko": "집정관이 떠났을 때 누가 로마를 책임지고 있었나요",
+    "original_en": "who was in charge of rome when the consuls were away",
+    "code_switched_versions": {
+      "Case1": "집정관이 떠났을 때 누가 로마를 책임지고 있었나요",
+      "Case2": "집정관이 떠났을 때 누가 Rome을 책임지고 있었나요",
+      "Case3": "Consuls이 떠났을 때 누가 Rome을 책임지고 있었나요",
+      "Case4": "Consuls이 떠났을 때 누가 Rome을 in charge of 하고 있었나요",
+      "Case5": "who was in charge of rome when the consuls were away"
+    }
+  },
+  {
+    "id": 51,
+    "original_ko": "문신을 할 수 있는 나이는 몇 살인가요",
+    "original_en": "what's the age you can get a tattoo",
+    "code_switched_versions": {
+      "Case1": "문신을 할 수 있는 나이는 몇 살인가요",
+      "Case2": "문신을 할 수 있는 age는 몇 살인가요",
+      "Case3": "문신을 할 수 있는 age는 몇 살인가요",
+      "Case4": "문신을 할 수 있는 age는 몇 살인가요",
+      "Case5": "what's the age you can get a tattoo"
+    }
+  },
+  {
+    "id": 52,
+    "original_ko": "가톨릭 신앙의 일곱 가지 성례는 무엇인가요",
+    "original_en": "what are the seven sacraments of the catholic faith",
+    "code_switched_versions": {
+      "Case1": "가톨릭 신앙의 일곱 가지 성례는 무엇인가요",
+      "Case2": "가톨릭 faith의 일곱 가지 성례는 무엇인가요",
+      "Case3": "Catholic faith의 일곱 가지 sacraments는 무엇인가요",
+      "Case4": "Catholic faith의 seven sacraments는 무엇인가요",
+      "Case5": "what are the seven sacraments of the catholic faith"
+    }
+  },
+  {
+    "id": 53,
+    "original_ko": "누가 007: 뷰 투 어 킬에 출연하나요",
+    "original_en": "who stars in a view to a kill",
+    "code_switched_versions": {
+      "Case1": "누가 007: 뷰 투 어 킬에 출연하나요",
+      "Case2": "누가 007: A View to a Kill에 출연하나요",
+      "Case3": "누가 movie 007: A View to a Kill에 출연하나요",
+      "Case4": "누가 movie 007: A View to a Kill에 stars 하나요",
+      "Case5": "who stars in a view to a kill"
+    }
+  },
+  {
+    "id": 54,
+    "original_ko": "레스토랑에서 86이라는 용어는 어디에서 유래했나요",
+    "original_en": "where did the term 86 come from in restaurants",
+    "code_switched_versions": {
+      "Case1": "레스토랑에서 86이라는 용어는 어디에서 유래했나요",
+      "Case2": "레스토랑에서 86이라는 term은 어디에서 유래했나요",
+      "Case3": "restaurant에서 86이라는 term은 어디에서 유래했나요",
+      "Case4": "restaurant에서 term 86은 어디에서 originated 했나요",
+      "Case5": "where did the term 86 come from in restaurants"
+    }
+  },
+  {
+    "id": 55,
+    "original_ko": "8볼 당구에서 스누커는 무엇인가요",
+    "original_en": "what is a snooker in 8 ball pool",
+    "code_switched_versions": {
+      "Case1": "8볼 당구에서 스누커는 무엇인가요",
+      "Case2": "8볼 당구에서 snooker는 무엇인가요",
+      "Case3": "8 ball pool에서 snooker는 무엇인가요",
+      "Case4": "8 ball pool에서 snooker는 what 인가요",
+      "Case5": "what is a snooker in 8 ball pool"
+    }
+  },
+  {
+    "id": 56,
+    "original_ko": "동남아시아에는 어떤 국가들이 있나요?",
+    "original_en": "what are the countries in south east asia",
+    "code_switched_versions": {
+      "Case1": "동남아시아에는 어떤 국가들이 있나요?",
+      "Case2": "동남아시아에는 어떤 countries가 있나요?",
+      "Case3": "South East Asia에는 어떤 countries가 있나요?",
+      "Case4": "South East Asia에는 어떤 countries가 exist하나요?",
+      "Case5": "what are the countries in south east asia"
+    }
+  },
+  {
+    "id": 57,
+    "original_ko": "뇌에서 해마는 어떤 역할을 하나요?",
+    "original_en": "what does the hippocampus do in your brain",
+    "code_switched_versions": {
+      "Case1": "뇌에서 해마는 어떤 역할을 하나요?",
+      "Case2": "뇌에서 hippocampus는 어떤 역할을 하나요?",
+      "Case3": "brain에서 hippocampus는 어떤 역할을 하나요?",
+      "Case4": "brain에서 hippocampus는 어떤 role을 하나요?",
+      "Case5": "what does the hippocampus do in your brain"
+    }
+  },
+  {
+    "id": 58,
+    "original_ko": "세서미 스트리트 등장인물의 이름은 뭔가요?",
+    "original_en": "what are the names of the sesame street characters",
+    "code_switched_versions": {
+      "Case1": "세서미 스트리트 등장인물의 이름은 뭔가요?",
+      "Case2": "Sesame Street 등장인물의 이름은 뭔가요?",
+      "Case3": "Sesame Street characters의 이름은 뭔가요?",
+      "Case4": "Sesame Street characters의 names는 뭔가요?",
+      "Case5": "what are the names of the sesame street characters"
+    }
+  },
+  {
+    "id": 59,
+    "original_ko": "미국 주를 알파벳 순서로 나열하면?",
+    "original_en": "states in the united states in alphabetical order",
+    "code_switched_versions": {
+      "Case1": "미국 주를 알파벳 순서로 나열하면?",
+      "Case2": "미국 states를 알파벳 순서로 나열하면?",
+      "Case3": "United States states를 알파벳 순서로 나열하면?",
+      "Case4": "United States states를 alphabetical order로 나열하면?",
+      "Case5": "states in the united states in alphabetical order"
+    }
+  },
+  {
+    "id": 60,
+    "original_ko": "팍스 앤 레크리에이션의 출연자는 누구인가요?",
+    "original_en": "who are the actors in parks and recreation",
+    "code_switched_versions": {
+      "Case1": "팍스 앤 레크리에이션의 출연자는 누구인가요?",
+      "Case2": "팍스 앤 레크리에이션의 actors는 누구인가요?",
+      "Case3": "Parks and Recreation의 actors는 누구인가요?",
+      "Case4": "Parks and Recreation의 actors는 who 인가요?",
+      "Case5": "who are the actors in parks and recreation"
+    }
+  },
+  {
+    "id": 61,
+    "original_ko": "통의 부피를 어떻게 구하나요?",
+    "original_en": "how do you find the volume of a container",
+    "code_switched_versions": {
+      "Case1": "통의 부피를 어떻게 구하나요?",
+      "Case2": "통의 volume을 어떻게 구하나요?",
+      "Case3": "container의 volume을 어떻게 구하나요?",
+      "Case4": "container의 volume을 어떻게 find 하나요?",
+      "Case5": "how do you find the volume of a container"
+    }
+  },
+  {
+    "id": 62,
+    "original_ko": "스타워즈 영화의 순서는 무엇인가요?",
+    "original_en": "what's the order of the star wars movies",
+    "code_switched_versions": {
+      "Case1": "스타워즈 영화의 순서는 무엇인가요?",
+      "Case2": "스타워즈 movies의 순서는 무엇인가요?",
+      "Case3": "Star Wars movies의 순서는 무엇인가요?",
+      "Case4": "Star Wars movies의 order는 무엇인가요?",
+      "Case5": "what's the order of the star wars movies"
+    }
+  },
+  {
+    "id": 63,
+    "original_ko": "그리스 신들의 목록을 주세요.",
+    "original_en": "give me a list of the greek gods",
+    "code_switched_versions": {
+      "Case1": "그리스 신들의 목록을 주세요.",
+      "Case2": "그리스 gods의 목록을 주세요.",
+      "Case3": "Greek gods의 목록을 주세요.",
+      "Case4": "Greek gods의 list를 주세요.",
+      "Case5": "give me a list of the greek gods"
+    }
+  },
+  {
+    "id": 64,
+    "original_ko": "용어 '룸 앤 보드'는 어디에서 유래되었나요?",
+    "original_en": "where did the term room and board come from",
+    "code_switched_versions": {
+      "Case1": "용어 '룸 앤 보드'는 어디에서 유래되었나요?",
+      "Case2": "용어 'Room and Board'는 어디에서 유래되었나요?",
+      "Case3": "term 'Room and Board'는 어디에서 유래되었나요?",
+      "Case4": "term 'Room and Board'는 어디에서 originated 되었나요?",
+      "Case5": "where did the term room and board come from"
+    }
+  },
+  {
+    "id": 65,
+    "original_ko": "언제 실제 신분증을 가져야 하나요?",
+    "original_en": "when do you have to have a real id",
+    "code_switched_versions": {
+      "Case1": "언제 실제 신분증을 가져야 하나요?",
+      "Case2": "언제 real ID를 가져야 하나요?",
+      "Case3": "언제 real ID를 have to 가져야 하나요?",
+      "Case4": "언제 real ID를 have to carry 해야 하나요?",
+      "Case5": "when do you have to have a real id"
+    }
+  },
+  {
+    "id": 66,
+    "original_ko": "플리트우드 맥의 밴드 멤버는 누구인가요?",
+    "original_en": "who are the band members in fleetwood mac",
+    "code_switched_versions": {
+      "Case1": "플리트우드 맥의 밴드 멤버는 누구인가요?",
+      "Case2": "Fleetwood Mac의 밴드 멤버는 누구인가요?",
+      "Case3": "Fleetwood Mac의 band 멤버는 누구인가요?",
+      "Case4": "Fleetwood Mac의 band members는 누구인가요?",
+      "Case5": "who are the band members in fleetwood mac"
+    }
+  },
+  {
+    "id": 67,
+    "original_ko": "너의 곁에는 내가 있어, 토이스토리 노래",
+    "original_en": "you got a friend in me toy story song",
+    "code_switched_versions": {
+      "Case1": "너의 곁에는 내가 있어, 토이스토리 노래",
+      "Case2": "너의 곁에는 내가 있어, Toy Story 노래",
+      "Case3": "너의 곁에는 내가 있어, Toy Story song",
+      "Case4": "You got a friend in me, Toy Story song",
+      "Case5": "you got a friend in me toy story song"
+    }
+  },
+  {
+    "id": 68,
+    "original_ko": "제임스 본드 영화의 순서는 무엇인가요?",
+    "original_en": "what is the order of the james bond movies",
+    "code_switched_versions": {
+      "Case1": "제임스 본드 영화의 순서는 무엇인가요?",
+      "Case2": "James Bond 영화의 순서는 무엇인가요?",
+      "Case3": "James Bond movies의 순서는 무엇인가요?",
+      "Case4": "James Bond movies의 order는 무엇인가요?",
+      "Case5": "what is the order of the james bond movies"
+    }
+  },
+  {
+    "id": 69,
+    "original_ko": "진저브레드맨 이야기를 말해줘",
+    "original_en": "tell me the story of the gingerbread man",
+    "code_switched_versions": {
+      "Case1": "진저브레드맨 이야기를 말해줘",
+      "Case2": "진저브레드맨 story를 말해줘",
+      "Case3": "The Gingerbread Man story를 말해줘",
+      "Case4": "The Gingerbread Man story를 tell me 해줘",
+      "Case5": "tell me the story of the gingerbread man"
+    }
+  },
+  {
+    "id": 70,
+    "original_ko": "성조기 노래 가사를 줘",
+    "original_en": "give me the words to the star-spangled banner",
+    "code_switched_versions": {
+      "Case1": "성조기 노래 가사를 줘",
+      "Case2": "성조기 song 가사를 줘",
+      "Case3": "성조기 song lyrics를 줘",
+      "Case4": "The Star-Spangled Banner song lyrics를 줘",
+      "Case5": "give me the words to the star-spangled banner"
+    }
+  },
+  {
+    "id": 71,
+    "original_ko": "식사의 주요 요리는 무엇인가요?",
+    "original_en": "what is the main course of a meal",
+    "code_switched_versions": {
+      "Case1": "식사의 주요 요리는 무엇인가요?",
+      "Case2": "식사의 main course는 무엇인가요?",
+      "Case3": "meal의 main course는 무엇인가요?",
+      "Case4": "meal의 main course는 what인가요?",
+      "Case5": "what is the main course of a meal"
+    }
+  },
+  {
+    "id": 73,
+    "original_ko": "미국의 모든 대통령은 누구인가요?",
+    "original_en": "who are all the presidents of the united states of america",
+    "code_switched_versions": {
+      "Case1": "미국의 모든 대통령은 누구인가요?",
+      "Case2": "United States의 모든 대통령은 누구인가요?",
+      "Case3": "United States의 모든 presidents는 누구인가요?",
+      "Case4": "United States의 모든 presidents는 who 인가요?",
+      "Case5": "who are all the presidents of the united states of america"
+    }
+  },
+  {
+    "id": 74,
+    "original_ko": "주기율표에서 비금속은 어디에 위치하나요?",
+    "original_en": "where are nonmetals found on the periodic table",
+    "code_switched_versions": {
+      "Case1": "주기율표에서 비금속은 어디에 위치하나요?",
+      "Case2": "주기율표에서 nonmetals는 어디에 위치하나요?",
+      "Case3": "periodic table에서 nonmetals는 어디에 위치하나요?",
+      "Case4": "periodic table에서 nonmetals는 어디에 found 있나요?",
+      "Case5": "where are nonmetals found on the periodic table"
+    }
+  },
+  {
+    "id": 75,
+    "original_ko": "왜 펜 스테이트는 니타니 라이언즈라고 불리나요?",
+    "original_en": "why is penn state called the nittany lions",
+    "code_switched_versions": {
+      "Case1": "왜 펜 스테이트는 니타니 라이언즈라고 불리나요?",
+      "Case2": "Penn State는 Nittany Lions라고 불리나요?",
+      "Case3": "Penn State는 Nittany Lions라고 called 되나요?",
+      "Case4": "Why는 Penn State가 Nittany Lions라고 called 되나요?",
+      "Case5": "why is penn state called the nittany lions"
+    }
+  },
+  {
+    "id": 76,
+    "original_ko": "언제 베니스의 상인이 벌어졌나요?",
+    "original_en": "when does the merchant of venice take place",
+    "code_switched_versions": {
+      "Case1": "언제 베니스의 상인이 벌어졌나요?",
+      "Case2": "언제 Venice의 상인이 벌어졌나요?",
+      "Case3": "언제 The Merchant of Venice가 벌어졌나요?",
+      "Case4": "언제 The Merchant of Venice가 take place 했나요?",
+      "Case5": "when does the merchant of venice take place"
+    }
+  },
+  {
+    "id": 77,
+    "original_ko": "로스앤젤레스 다저스의 기록은 무엇인가요?",
+    "original_en": "what's the record of the los angeles dodgers",
+    "code_switched_versions": {
+      "Case1": "로스앤젤레스 다저스의 기록은 무엇인가요?",
+      "Case2": "Los Angeles Dodgers의 기록은 무엇인가요?",
+      "Case3": "Los Angeles Dodgers의 record는 무엇인가요?",
+      "Case4": "Los Angeles Dodgers의 record는 what인가요?",
+      "Case5": "what's the record of the los angeles dodgers"
+    }
+  },
+  {
+    "id": 78,
+    "original_ko": "미국에서 여권 없이 캐나다로 갈 수 있나요?",
+    "original_en": "can you enter canada from us without a passport",
+    "code_switched_versions": {
+      "Case1": "미국에서 여권 없이 캐나다로 갈 수 있나요?",
+      "Case2": "미국에서 passport 없이 캐나다로 갈 수 있나요?",
+      "Case3": "US에서 passport 없이 캐나다로 갈 수 있나요?",
+      "Case4": "US에서 passport 없이 Canada로 갈 수 있나요?",
+      "Case5": "can you enter canada from us without a passport"
+    }
+  },
+  {
+    "id": 79,
+    "original_ko": "누가 영화 '분노의 포도'에 출연했나요?",
+    "original_en": "who starred in the movie grapes of wrath",
+    "code_switched_versions": {
+      "Case1": "누가 영화 '분노의 포도'에 출연했나요?",
+      "Case2": "영화 'Grapes of Wrath'에 누가 출연했나요?",
+      "Case3": "movie 'Grapes of Wrath'에 누가 출연했나요?",
+      "Case4": "movie 'Grapes of Wrath'에 누가 starred 했나요?",
+      "Case5": "who starred in the movie grapes of wrath"
+    }
+  },
+  {
+    "id": 80,
+    "original_ko": "윔피 키드의 배경은 어디였나요?",
+    "original_en": "where was diary of a wimpy kid set",
+    "code_switched_versions": {
+      "Case1": "윔피 키드의 배경은 어디였나요?",
+      "Case2": "Diary of a Wimpy Kid의 배경은 어디였나요?",
+      "Case3": "Diary of a Wimpy Kid의 setting은 어디였나요?",
+      "Case4": "Diary of a Wimpy Kid의 setting은 where였나요?",
+      "Case5": "where was diary of a wimpy kid set"
+    }
+  },
+  {
+    "id": 81,
+    "original_ko": "클리블랜드 브라운스는 어떻게 이름을 갖게 되었나요?",
+    "original_en": "how did the cleveland browns get their name",
+    "code_switched_versions": {
+      "Case1": "클리블랜드 브라운스는 어떻게 이름을 갖게 되었나요?",
+      "Case2": "Cleveland Browns는 어떻게 이름을 갖게 되었나요?",
+      "Case3": "Cleveland Browns는 어떻게 name을 갖게 되었나요?",
+      "Case4": "Cleveland Browns는 어떻게 name을 get 했나요?",
+      "Case5": "how did the cleveland browns get their name"
+    }
+  },
+  {
+    "id": 82,
+    "original_ko": "혼다 CR-V는 어떤 종류의 엔진을 가지고 있나요?",
+    "original_en": "what kind of engine does a honda crv have",
+    "code_switched_versions": {
+      "Case1": "혼다 CR-V는 어떤 종류의 엔진을 가지고 있나요?",
+      "Case2": "혼다 CR-V는 어떤 kind of engine을 가지고 있나요?",
+      "Case3": "Honda CR-V는 어떤 kind of engine을 가지고 있나요?",
+      "Case4": "Honda CR-V는 어떤 kind of engine을 have 가지고 있나요?",
+      "Case5": "what kind of engine does a honda crv have"
+    }
+  },
+  {
+    "id": 83,
+    "original_ko": "준벅은 어디에서 이름을 얻었나요?",
+    "original_en": "where did the june bug get its name",
+    "code_switched_versions": {
+      "Case1": "준벅은 어디에서 이름을 얻었나요?",
+      "Case2": "준벅은 어디에서 name을 얻었나요?",
+      "Case3": "준벅은 where에서 name을 얻었나요?",
+      "Case4": "준벅은 where에서 name을 got 했나요?",
+      "Case5": "where did the june bug get its name"
+    }
+  },
+  {
+    "id": 84,
+    "original_ko": "프레지던트 카드 게임은 어떻게 하나요?",
+    "original_en": "how do you play the card game president",
+    "code_switched_versions": {
+      "Case1": "프레지던트 카드 게임은 어떻게 하나요?",
+      "Case2": "President 카드 게임은 어떻게 하나요?",
+      "Case3": "President card game은 어떻게 하나요?",
+      "Case4": "President card game은 how do you play 하나요?",
+      "Case5": "how do you play the card game president"
+    }
+  },
+  {
+    "id": 85,
+    "original_ko": "점성수 별자리 양자리의 의미는 무엇인가요?",
+    "original_en": "what is the meaning of the zodiac sign aries",
+    "code_switched_versions": {
+      "Case1": "점성수 별자리 양자리의 의미는 무엇인가요?",
+      "Case2": "점성수 별자리 Aries의 의미는 무엇인가요?",
+      "Case3": "점성수 sign Aries의 의미는 무엇인가요?",
+      "Case4": "점성수 sign Aries의 meaning은 무엇인가요?",
+      "Case5": "what is the meaning of the zodiac sign aries"
+    }
+  },
+  {
+    "id": 86,
+    "original_ko": "상어 지느러미의 목적은 무엇인가요?",
+    "original_en": "what is the purpose of a shark fin",
+    "code_switched_versions": {
+      "Case1": "상어 지느러미의 목적은 무엇인가요?",
+      "Case2": "상어 fin의 목적은 무엇인가요?",
+      "Case3": "shark fin의 purpose는 무엇인가요?",
+      "Case4": "shark fin의 purpose는 무엇인가요?",
+      "Case5": "what is the purpose of a shark fin"
+    }
+  },
+  {
+    "id": 87,
+    "original_ko": "분만의 첫 단계는 언제 시작하나요?",
+    "original_en": "when does the first stage of labor begin",
+    "code_switched_versions": {
+      "Case1": "분만의 첫 단계는 언제 시작하나요?",
+      "Case2": "분만의 first stage는 언제 시작하나요?",
+      "Case3": "first stage of labor는 언제 시작하나요?",
+      "Case4": "first stage of labor는 언제 begin하나요?",
+      "Case5": "when does the first stage of labor begin"
+    }
+  },
+  {
+    "id": 88,
+    "original_ko": "실사 라이온 킹의 출연진은 누구인가요?",
+    "original_en": "the cast of the live action lion king",
+    "code_switched_versions": {
+      "Case1": "실사 라이온 킹의 출연진은 누구인가요?",
+      "Case2": "실사 The Lion King의 출연진은 누구인가요?",
+      "Case3": "live action The Lion King의 출연진은 누구인가요?",
+      "Case4": "live action The Lion King의 cast는 누구인가요?",
+      "Case5": "the cast of the live action lion king"
+    }
+  },
+  {
+    "id": 90,
+    "original_ko": "몸이 글리코겐 저장의 가장 높은 비율을 경험하는 시점은 언제인가요?",
+    "original_en": "when does the body experience the highest rate of glycogen storage",
+    "code_switched_versions": {
+      "Case1": "몸이 글리코겐 저장의 가장 높은 비율을 경험하는 시점은 언제인가요?",
+      "Case2": "몸이 glycogen storage의 가장 높은 비율을 경험하는 시점은 언제인가요?",
+      "Case3": "몸이 glycogen storage의 highest rate를 경험하는 시점은 언제인가요?",
+      "Case4": "body가 glycogen storage의 highest rate를 경험하는 시점은 언제인가요?",
+      "Case5": "when does the body experience the highest rate of glycogen storage"
+    }
+  },
+  {
+    "id": 91,
+    "original_ko": "노래 'You Can't Take That Away from Me'는 무엇인가요?",
+    "original_en": "the song you can't take that away from me",
+    "code_switched_versions": {
+      "Case1": "노래 'You Can't Take That Away from Me'는 무엇인가요?",
+      "Case2": "노래 'You Can't Take That Away from Me'는 무엇인가요?",
+      "Case3": "song 'You Can't Take That Away from Me'는 무엇인가요?",
+      "Case4": "song 'You Can't Take That Away from Me'는 what인가요?",
+      "Case5": "the song you can't take that away from me"
+    }
+  },
+  {
+    "id": 92,
+    "original_ko": "성경에서 바벨탑은 어디에 등장하나요?",
+    "original_en": "where is the tower of babel found in the bible",
+    "code_switched_versions": {
+      "Case1": "성경에서 바벨탑은 어디에 등장하나요?",
+      "Case2": "바벨탑은 Bible에서 어디에 등장하나요?",
+      "Case3": "바벨탑은 Bible에서 어디에 found 되나요?",
+      "Case4": "Tower of Babel은 Bible에서 어디에 found 되나요?",
+      "Case5": "where is the tower of babel found in the bible"
+    }
+  },
+  {
+    "id": 93,
+    "original_ko": "글자 'D'로 시작하는 영화의 이름은 무엇인가요?",
+    "original_en": "name of a movie that starts with the letter d",
+    "code_switched_versions": {
+      "Case1": "글자 'D'로 시작하는 영화의 이름은 무엇인가요?",
+      "Case2": "D로 시작하는 movie의 이름은 무엇인가요?",
+      "Case3": "D로 시작하는 movie의 name은 무엇인가요?",
+      "Case4": "letter 'D'로 시작하는 movie의 name은 무엇인가요?",
+      "Case5": "name of a movie that starts with the letter d"
+    }
+  },
+  {
+    "id": 94,
+    "original_ko": "왜 쌀쌀한 다리라고 불리나요",
+    "original_en": "why do they call it a charlie horse",
+    "code_switched_versions": {
+      "Case1": "왜 쌀쌀한 다리라고 불리나요",
+      "Case2": "왜 쌀쌀한 Charlie horse라고 불리나요",
+      "Case3": "왜 Charlie horse라고 불리나요",
+      "Case4": "왜 Charlie horse라고 call 하나요",
+      "Case5": "why do they call it a charlie horse"
+    }
+  },
+  {
+    "id": 95,
+    "original_ko": "어디에서 행운을 빌라는 표현이 나왔나요",
+    "original_en": "where does the expression break a leg come from",
+    "code_switched_versions": {
+      "Case1": "어디에서 행운을 빌라는 표현이 나왔나요",
+      "Case2": "어디에서 break a leg 표현이 나왔나요",
+      "Case3": "어디에서 break a leg expression이 나왔나요",
+      "Case4": "어디에서 break a leg expression이 come from 했나요",
+      "Case5": "where does the expression break a leg come from"
+    }
+  },
+  {
+    "id": 96,
+    "original_ko": "새와 벌이라는 용어는 어디에서 왔나요",
+    "original_en": "where did the term birds and bees come from",
+    "code_switched_versions": {
+      "Case1": "새와 벌이라는 용어는 어디에서 왔나요",
+      "Case2": "새와 bees라는 용어는 어디에서 왔나요",
+      "Case3": "birds와 bees라는 용어는 어디에서 왔나요",
+      "Case4": "birds와 bees라는 term은 어디에서 왔나요",
+      "Case5": "where did the term birds and bees come from"
+    }
+  },
+  {
+    "id": 97,
+    "original_ko": "신시내티 레즈는 어디에서 이름을 얻었나요",
+    "original_en": "where did the cincinnati reds get their name",
+    "code_switched_versions": {
+      "Case1": "신시내티 레즈는 어디에서 이름을 얻었나요",
+      "Case2": "Cincinnati Reds는 어디에서 이름을 얻었나요",
+      "Case3": "Cincinnati Reds는 어디에서 name을 얻었나요",
+      "Case4": "Cincinnati Reds는 where에서 name을 얻었나요",
+      "Case5": "where did the cincinnati reds get their name"
+    }
+  },
+  {
+    "id": 98,
+    "original_ko": "국제단위계는 어디에서 사용되나요",
+    "original_en": "where is the international system of units used",
+    "code_switched_versions": {
+      "Case1": "국제단위계는 어디에서 사용되나요",
+      "Case2": "국제단위계는 International System of Units에서 사용되나요",
+      "Case3": "International System of Units는 International System of Units에서 사용되나요",
+      "Case4": "International System of Units는 International System of Units에서 used 되나요",
+      "Case5": "where is the international system of units used"
+    }
+  },
+  {
+    "id": 99,
+    "original_ko": "40 winks는 어디에서 온 표현인가요",
+    "original_en": "where does the saying 40 winks come from",
+    "code_switched_versions": {
+      "Case1": "40 winks는 어디에서 온 표현인가요",
+      "Case2": "40 winks는 어디에서 온 expression인가요",
+      "Case3": "40 winks는 어디에서 온 saying인가요",
+      "Case4": "where does the saying 40 winks come from",
+      "Case5": "where does the saying 40 winks come from"
+    }
+  },
+  {
+    "id": 100,
+    "original_ko": "에어 포스 투는 어떤 종류의 비행기인가요",
+    "original_en": "what kind of plane is air force two",
+    "code_switched_versions": {
+      "Case1": "에어 포스 투는 어떤 종류의 비행기인가요",
+      "Case2": "Air Force Two는 어떤 종류의 비행기인가요",
+      "Case3": "Air Force Two는 어떤 kind의 비행기인가요",
+      "Case4": "Air Force Two는 어떤 kind of plane인가요",
+      "Case5": "what kind of plane is air force two"
+    }
+  },
+  {
+    "id": 101,
+    "original_ko": "장미를 둘러싼 고리는 진짜 의미가 무엇인가요",
+    "original_en": "what is the true meaning of ring around the rosie",
+    "code_switched_versions": {
+      "Case1": "장미를 둘러싼 고리는 진짜 의미가 무엇인가요",
+      "Case2": "장미를 둘러싼 ring은 진짜 의미가 무엇인가요",
+      "Case3": "장미를 둘러싼 ring은 true meaning이 무엇인가요",
+      "Case4": "장미를 둘러싼 ring은 true meaning이 무엇인가요",
+      "Case5": "what is the true meaning of ring around the rosie"
+    }
+  },
+  {
+    "id": 102,
+    "original_ko": "누가 리치몬드 고등학교의 빠른 시간에 출연했나요",
+    "original_en": "who starred in fast times at ridgemont high",
+    "code_switched_versions": {
+      "Case1": "누가 리치몬드 고등학교의 빠른 시간에 출연했나요",
+      "Case2": "누가 Richmond High School의 빠른 시간에 출연했나요",
+      "Case3": "누가 Richmond High School의 Fast Times에 출연했나요",
+      "Case4": "누가 Richmond High School의 Fast Times에 starred 했나요",
+      "Case5": "who starred in fast times at ridgemont high"
+    }
+  },
+  {
+    "id": 103,
+    "original_ko": "북아메리카의 다양한 지역은 무엇인가요",
+    "original_en": "what are the different regions of north america",
+    "code_switched_versions": {
+      "Case1": "북아메리카의 다양한 지역은 무엇인가요",
+      "Case2": "North America의 다양한 지역은 무엇인가요",
+      "Case3": "North America의 different regions은 무엇인가요",
+      "Case4": "North America의 different regions은 무엇인가요",
+      "Case5": "what are the different regions of north america"
+    }
+  },
+  {
+    "id": 104,
+    "original_ko": "도미니카 공화국에는 어떤 종류의 음식이 있나요?",
+    "original_en": "what kind of food do they have in dominican republic",
+    "code_switched_versions": {
+      "Case1": "도미니카 공화국에는 어떤 종류의 음식이 있나요?",
+      "Case2": "도미니카 공화국에는 어떤 kind of food가 있나요?",
+      "Case3": "Dominican Republic에는 어떤 kind of food가 있나요?",
+      "Case4": "Dominican Republic에는 어떤 kind of food가 have 있나요?",
+      "Case5": "what kind of food do they have in dominican republic"
+    }
+  },
+  {
+    "id": 105,
+    "original_ko": "어느 주가 산악 표준시에 있나요?",
+    "original_en": "what states are in the mountain time zone",
+    "code_switched_versions": {
+      "Case1": "어느 주가 산악 표준시에 있나요?",
+      "Case2": "어느 states가 산악 표준시에 있나요?",
+      "Case3": "어느 states가 Mountain Time Zone에 있나요?",
+      "Case4": "어느 states가 Mountain Time Zone에 있나요?",
+      "Case5": "what states are in the mountain time zone"
+    }
+  },
+  {
+    "id": 106,
+    "original_ko": "케이크를 가지면서 먹을 수 있다는 말은 어디에서 나왔나요?",
+    "original_en": "where does the saying have your cake and eat it too come from",
+    "code_switched_versions": {
+      "Case1": "케이크를 가지면서 먹을 수 있다는 말은 어디에서 나왔나요?",
+      "Case2": "케이크를 가지면서 eat it too는 어디에서 나왔나요?",
+      "Case3": "have your cake를 가지면서 eat it too는 어디에서 나왔나요?",
+      "Case4": "have your cake and eat it too는 어디에서 나왔나요?",
+      "Case5": "where does the saying have your cake and eat it too come from"
+    }
+  },
+  {
+    "id": 108,
+    "original_ko": "알라모 전투에서 누가 죽었나요?",
+    "original_en": "who was killed in the battle of the alamo",
+    "code_switched_versions": {
+      "Case1": "알라모 전투에서 누가 죽었나요?",
+      "Case2": "알라모 전투에서 who died?",
+      "Case3": "The Alamo 전투에서 who died?",
+      "Case4": "The Alamo battle에서 who died?",
+      "Case5": "who was killed in the battle of the alamo"
+    }
+  },
+  {
+    "id": 109,
+    "original_ko": "시간의 바퀴 책들의 순서는 무엇인가요?",
+    "original_en": "what is the order of the wheel of time books",
+    "code_switched_versions": {
+      "Case1": "시간의 바퀴 책들의 순서는 무엇인가요?",
+      "Case2": "The Wheel of Time 책들의 순서는 무엇인가요?",
+      "Case3": "The Wheel of Time books의 순서는 무엇인가요?",
+      "Case4": "The Wheel of Time books의 order는 무엇인가요?",
+      "Case5": "what is the order of the wheel of time books"
+    }
+  },
+  {
+    "id": 110,
+    "original_ko": "오피스의 어느 에피소드에서 아시안 짐이 나오나요?",
+    "original_en": "which episode of the office has asian jim",
+    "code_switched_versions": {
+      "Case1": "오피스의 어느 에피소드에서 아시안 짐이 나오나요?",
+      "Case2": "The Office의 어느 에피소드에서 아시안 짐이 나오나요?",
+      "Case3": "The Office의 episode에서 Asian Jim이 나오나요?",
+      "Case4": "The Office의 episode에서 Asian Jim이 appeared 하나요?",
+      "Case5": "which episode of the office has asian jim"
+    }
+  },
+  {
+    "id": 111,
+    "original_ko": "멕시코 만은 바다의 일부로 간주되나요?",
+    "original_en": "is the gulf of mexico considered part of the ocean",
+    "code_switched_versions": {
+      "Case1": "멕시코 만은 바다의 일부로 간주되나요?",
+      "Case2": "멕시코만은 Gulf of Mexico로 간주되나요?",
+      "Case3": "멕시코만은 Gulf of Mexico로 part of the ocean 간주되나요?",
+      "Case4": "Gulf of Mexico는 part of the ocean으로 considered 되나요?",
+      "Case5": "is the gulf of mexico considered part of the ocean"
+    }
+  },
+  {
+    "id": 112,
+    "original_ko": "숫자가 약수라고 불리는 경우는 언제인가요?",
+    "original_en": "when is a number called a divisor of a number",
+    "code_switched_versions": {
+      "Case1": "숫자가 약수라고 불리는 경우는 언제인가요?",
+      "Case2": "숫자가 divisor라고 불리는 경우는 언제인가요?",
+      "Case3": "숫자가 divisor라고 불리는 경우는 언제인가요?",
+      "Case4": "number가 divisor라고 불리는 경우는 언제인가요?",
+      "Case5": "when is a number called a divisor of a number"
+    }
+  },
+  {
+    "id": 113,
+    "original_ko": "아칸소 주는 무엇으로 유명하나요?",
+    "original_en": "what is the state of arkansas known for",
+    "code_switched_versions": {
+      "Case1": "아칸소 주는 무엇으로 유명하나요?",
+      "Case2": "Arkansas 주는 무엇으로 유명하나요?",
+      "Case3": "Arkansas 주는 무엇으로 known for 하나요?",
+      "Case4": "Arkansas 주는 what으로 known for 하나요?",
+      "Case5": "what is the state of arkansas known for"
+    }
+  },
+  {
+    "id": 114,
+    "original_ko": "n 지도 학습 훈련 샘플의 클래스 레이블은",
+    "original_en": "n supervised learning class labels of the training samples are",
+    "code_switched_versions": {
+      "Case1": "n 지도 학습 훈련 샘플의 클래스 레이블은",
+      "Case2": "n supervised learning 훈련 샘플의 클래스 레이블은",
+      "Case3": "n supervised learning 훈련 샘플의 class 레이블은",
+      "Case4": "n supervised learning 훈련 samples의 class 레이블은",
+      "Case5": "n supervised learning class labels of the training samples are"
+    }
+  },
+  {
+    "id": 115,
+    "original_ko": "어디에서 산타클로스의 이야기가 왔나요?",
+    "original_en": "where did the story of father christmas come from",
+    "code_switched_versions": {
+      "Case1": "어디에서 산타클로스의 이야기가 왔나요?",
+      "Case2": "어디에서 Santa Claus의 이야기가 왔나요?",
+      "Case3": "어디에서 Santa Claus의 story가 왔나요?",
+      "Case4": "Where에서 Santa Claus의 story가 come from 했나요?",
+      "Case5": "where did the story of father christmas come from"
+    }
+  },
+  {
+    "id": 116,
+    "original_ko": "반지의 제왕에서 코끼리는 어디에서 오나요?",
+    "original_en": "where did the elephants come from in lord of the rings",
+    "code_switched_versions": {
+      "Case1": "반지의 제왕에서 코끼리는 어디에서 오나요?",
+      "Case2": "반지의 제왕에서 elephants는 어디에서 오나요?",
+      "Case3": "Lord of the Rings에서 elephants는 어디에서 오나요?",
+      "Case4": "Lord of the Rings에서 elephants는 어디에서 come from 하나요?",
+      "Case5": "where did the elephants come from in lord of the rings"
+    }
+  },
+  {
+    "id": 117,
+    "original_ko": "피의 캔자스는 어떤 입법의 잘못된 가정에서 비롯된 것입니다.",
+    "original_en": "bleeding kansas resulted from the incorrect assumptions of which piece of legislation",
+    "code_switched_versions": {
+      "Case1": "피의 캔자스는 어떤 입법의 잘못된 가정에서 비롯된 것입니다.",
+      "Case2": "Bleeding Kansas는 어떤 입법의 잘못된 가정에서 비롯된 것입니다.",
+      "Case3": "Bleeding Kansas는 incorrect assumptions의 어떤 입법에서 비롯된 것입니다.",
+      "Case4": "Bleeding Kansas는 incorrect assumptions의 어떤 legislation에서 비롯된 것입니다.",
+      "Case5": "bleeding kansas resulted from the incorrect assumptions of which piece of legislation"
+    }
+  },
+  {
+    "id": 118,
+    "original_ko": "미국과 한국의 관계는 무엇입니까?",
+    "original_en": "what is south korea relationship with the united states",
+    "code_switched_versions": {
+      "Case1": "미국과 한국의 관계는 무엇입니까?",
+      "Case2": "미국과 South Korea의 관계는 무엇입니까?",
+      "Case3": "United States와 South Korea의 관계는 무엇입니까?",
+      "Case4": "United States와 South Korea의 relationship은 무엇입니까?",
+      "Case5": "what is south korea relationship with the united states"
+    }
+  },
+  {
+    "id": 119,
+    "original_ko": "빅뱅이론 시즌 10에 무슨 일이 일어났나요?",
+    "original_en": "what happens in big bang theory season 10",
+    "code_switched_versions": {
+      "Case1": "빅뱅이론 시즌 10에 무슨 일이 일어났나요?",
+      "Case2": "빅뱅이론 Season 10에 무슨 일이 일어났나요?",
+      "Case3": "The Big Bang Theory Season 10에 무슨 일이 일어났나요?",
+      "Case4": "The Big Bang Theory Season 10에 무슨 일이 happened 했나요?",
+      "Case5": "what happens in big bang theory season 10"
+    }
+  },
+  {
+    "id": 120,
+    "original_ko": "비행기의 조종은 어떻게 작용하나요?",
+    "original_en": "how do the controls of an airplane work",
+    "code_switched_versions": {
+      "Case1": "비행기의 조종은 어떻게 작용하나요?",
+      "Case2": "비행기의 controls는 어떻게 작용하나요?",
+      "Case3": "비행기의 controls는 어떻게 work하나요?",
+      "Case4": "airplane의 controls는 어떻게 work하나요?",
+      "Case5": "how do the controls of an airplane work"
+    }
+  },
+  {
+    "id": 121,
+    "original_ko": "중앙정부와 주정부 간의 재정 권한 분배는 어떻게 되나요?",
+    "original_en": "distribution of financial powers between centre and state",
+    "code_switched_versions": {
+      "Case1": "중앙정부와 주정부 간의 재정 권한 분배는 어떻게 되나요?",
+      "Case2": "중앙정부와 주정부 간의 financial 권한 분배는 어떻게 되나요?",
+      "Case3": "centre와 주정부 간의 financial 권한 분배는 어떻게 되나요?",
+      "Case4": "centre와 state 간의 financial 권한 분배는 어떻게 되나요?",
+      "Case5": "distribution of financial powers between centre and state"
+    }
+  },
+  {
+    "id": 122,
+    "original_ko": "어떻게 휠과 축이 힘을 증가시키나요?",
+    "original_en": "how does a wheel and axle increase force",
+    "code_switched_versions": {
+      "Case1": "어떻게 휠과 축이 힘을 증가시키나요?",
+      "Case2": "어떻게 wheel과 axle이 힘을 증가시키나요?",
+      "Case3": "어떻게 wheel과 axle이 force를 증가시키나요?",
+      "Case4": "어떻게 wheel과 axle이 force를 increase시키나요?",
+      "Case5": "how does a wheel and axle increase force"
+    }
+  },
+  {
+    "id": 123,
+    "original_ko": "영화 '라 이스토리아 오피시알'은 아르헨티나 역사에서 어떤 시대에 관한 건가요?",
+    "original_en": "the film la historia oficial is about which period in argentina's history",
+    "code_switched_versions": {
+      "Case1": "영화 '라 이스토리아 오피시알'은 아르헨티나 역사에서 어떤 시대에 관한 건가요?",
+      "Case2": "영화 'La Historia Oficial'은 아르헨티나 역사에서 어떤 시대에 관한 건가요?",
+      "Case3": "film 'La Historia Oficial'은 아르헨티나 역사에서 어떤 시대에 관한 건가요?",
+      "Case4": "film 'La Historia Oficial'은 Argentina 역사에서 어떤 period에 관한 건가요?",
+      "Case5": "the film la historia oficial is about which period in argentina's history"
+    }
+  },
+  {
+    "id": 124,
+    "original_ko": "아프리카와 아시아 사이의 국경은 무엇인가요?",
+    "original_en": "what is the border between africa and asia",
+    "code_switched_versions": {
+      "Case1": "아프리카와 아시아 사이의 국경은 무엇인가요?",
+      "Case2": "아프리카와 Asia 사이의 국경은 무엇인가요?",
+      "Case3": "Africa와 Asia 사이의 국경은 무엇인가요?",
+      "Case4": "Africa와 Asia 사이의 border는 무엇인가요?",
+      "Case5": "what is the border between africa and asia"
+    }
+  },
+  {
+    "id": 125,
+    "original_ko": "브릴 빌딩의 작곡가 팀들이 만든 노래들은 전형적으로 무엇에 관한 것이었나요?",
+    "original_en": "songs by brill building songwriting teams were typically about",
+    "code_switched_versions": {
+      "Case1": "브릴 빌딩의 작곡가 팀들이 만든 노래들은 전형적으로 무엇에 관한 것이었나요?",
+      "Case2": "Brill Building의 작곡가 팀들이 만든 노래들은 전형적으로 무엇에 관한 것이었나요?",
+      "Case3": "Brill Building의 songwriting teams들이 만든 노래들은 전형적으로 무엇에 관한 것이었나요?",
+      "Case4": "Brill Building의 songwriting teams들이 만든 songs들은 전형적으로 무엇에 관한 것이었나요?",
+      "Case5": "songs by brill building songwriting teams were typically about"
+    }
+  },
+  {
+    "id": 126,
+    "original_ko": "법인격 부인론의 일반적인 법리",
+    "original_en": "common law doctrine of piercing the corporate veil",
+    "code_switched_versions": {
+      "Case1": "법인격 부인론의 일반적인 법리",
+      "Case2": "법인격 부인론의 common law doctrine은 무엇인가요?",
+      "Case3": "법인격 부인론의 common law doctrine은 일반적인 법리인가요?",
+      "Case4": "법인격 부인론의 common law doctrine은 일반적인 legal principle인가요?",
+      "Case5": "common law doctrine of piercing the corporate veil"
+    }
+  },
+  {
+    "id": 127,
+    "original_ko": "버지니아 하원과 버지니아 결의안",
+    "original_en": "the virginia house of burgesses the virginia resolves",
+    "code_switched_versions": {
+      "Case1": "버지니아 하원과 버지니아 결의안",
+      "Case2": "Virginia House of Burgesses와 Virginia Resolves",
+      "Case3": "Virginia House of Burgesses와 Virginia Resolves",
+      "Case4": "Virginia House of Burgesses와 Virginia Resolves",
+      "Case5": "the virginia house of burgesses the virginia resolves"
+    }
+  },
+  {
+    "id": 128,
+    "original_ko": "캔자스-네브래스카 법의 결과 중 하나는 무엇인가요?",
+    "original_en": "what was one result of the kansas nebraska act",
+    "code_switched_versions": {
+      "Case1": "캔자스-네브래스카 법의 결과 중 하나는 무엇인가요?",
+      "Case2": "Kansas-Nebraska Act의 결과 중 하나는 무엇인가요?",
+      "Case3": "Kansas-Nebraska Act의 one result는 무엇인가요?",
+      "Case4": "Kansas-Nebraska Act의 one result는 what인가요?",
+      "Case5": "what was one result of the kansas nebraska act"
+    }
+  },
+  {
+    "id": 129,
+    "original_ko": "대법원은 우스터 대 조지아 사건에서 어떤 결정을 내렸습니까?",
+    "original_en": "what decision did the supreme court make in the worcester vs. georgia case",
+    "code_switched_versions": {
+      "Case1": "대법원은 우스터 대 조지아 사건에서 어떤 결정을 내렸습니까?",
+      "Case2": "대법원은 Worcester v. Georgia 사건에서 어떤 결정을 내렸습니까?",
+      "Case3": "Supreme Court는 Worcester v. Georgia case에서 어떤 결정을 내렸습니까?",
+      "Case4": "Supreme Court는 Worcester v. Georgia case에서 어떤 decision을 내렸습니까?",
+      "Case5": "what decision did the supreme court make in the worcester vs. georgia case"
+    }
+  },
+  {
+    "id": 131,
+    "original_ko": "전자 서명 행위에 따른 전자 서명의 정의는 무엇인가요?",
+    "original_en": "what is the definition of an electronic signature according to the e sign act",
+    "code_switched_versions": {
+      "Case1": "전자 서명 행위에 따른 전자 서명의 정의는 무엇인가요?",
+      "Case2": "전자 서명 행위에 따른 electronic signature의 정의는 무엇인가요?",
+      "Case3": "e-Sign Act에 따른 electronic signature의 정의는 무엇인가요?",
+      "Case4": "e-Sign Act에 따른 definition of an electronic signature는 무엇인가요?",
+      "Case5": "what is the definition of an electronic signature according to the e sign act"
+    }
+  },
+  {
+    "id": 132,
+    "original_ko": "연방 공개 시장 위원회의 어떤 회의에서 위원회의 투표 회원은 다음과 같이 구성됩니다.",
+    "original_en": "at any meeting of the federal open market committee that committee’s voting members consist of",
+    "code_switched_versions": {
+      "Case1": "연방 공개 시장 위원회의 어떤 회의에서 위원회의 투표 회원은 다음과 같이 구성됩니다.",
+      "Case2": "연방 공개 시장 위원회의 어떤 회의에서 위원회의 투표 회원은 다음과 같이 구성됩니다.",
+      "Case3": "Federal Open Market Committee의 어떤 회의에서 위원회의 투표 회원은 다음과 같이 구성됩니다.",
+      "Case4": "Federal Open Market Committee의 어떤 meeting에서 위원회의 투표 회원은 다음과 같이 구성됩니다.",
+      "Case5": "at any meeting of the federal open market committee that committee’s voting members consist of"
+    }
+  },
+  {
+    "id": 133,
+    "original_ko": "과도한 알코올 소비가 사회에 어떤 유형의 문제를 야기하는가",
+    "original_en": "what types of problems would excessive consumption of alcohol cause for society",
+    "code_switched_versions": {
+      "Case1": "과도한 알코올 소비가 사회에 어떤 유형의 문제를 야기하는가",
+      "Case2": "과도한 alcohol 소비가 사회에 어떤 유형의 문제를 야기하는가",
+      "Case3": "과도한 alcohol 소비가 society에 어떤 유형의 문제를 야기하는가",
+      "Case4": "과도한 alcohol 소비가 society에 어떤 types의 문제를 야기하는가",
+      "Case5": "what types of problems would excessive consumption of alcohol cause for society"
+    }
+  },
+  {
+    "id": 134,
+    "original_ko": "환경에서 평형은 어떤 역할을 하는가",
+    "original_en": "how does equilibrium play a role in the environment",
+    "code_switched_versions": {
+      "Case1": "환경에서 평형은 어떤 역할을 하는가",
+      "Case2": "환경에서 equilibrium은 어떤 역할을 하는가",
+      "Case3": "environment에서 equilibrium은 어떤 역할을 하는가",
+      "Case4": "environment에서 equilibrium은 어떤 role을 하는가",
+      "Case5": "how does equilibrium play a role in the environment"
+    }
+  },
+  {
+    "id": 135,
+    "original_ko": "라이프 오브 파이에서 호랑이는 무엇을 나타내는가",
+    "original_en": "who does the tiger represent in life of pi",
+    "code_switched_versions": {
+      "Case1": "라이프 오브 파이에서 호랑이는 무엇을 나타내는가",
+      "Case2": "Life of Pi에서 호랑이는 무엇을 나타내는가",
+      "Case3": "Life of Pi에서 tiger는 무엇을 나타내는가",
+      "Case4": "Life of Pi에서 tiger는 무엇을 represent 하는가",
+      "Case5": "who does the tiger represent in life of pi"
+    }
+  },
+  {
+    "id": 136,
+    "original_ko": "소화계통의 어느 부분에서 산성 환경을 가지고 있는가",
+    "original_en": "which of the following parts of the digestive system have an acidic environment",
+    "code_switched_versions": {
+      "Case1": "소화계통의 어느 부분에서 산성 환경을 가지고 있는가",
+      "Case2": "소화계통의 digestive system에서 산성 환경을 가지고 있는가",
+      "Case3": "digestive system의 parts에서 산성 environment를 가지고 있는가",
+      "Case4": "digestive system의 parts에서 acidic environment를 가지고 있는가",
+      "Case5": "which of the following parts of the digestive system have an acidic environment"
+    }
+  },
+  {
+    "id": 137,
+    "original_ko": "축구에서 심판의 책임에는 어떤 것들이 있는가",
+    "original_en": "what are the responsibilities of a referee in football",
+    "code_switched_versions": {
+      "Case1": "축구에서 심판의 책임에는 어떤 것들이 있는가",
+      "Case2": "축구에서 referee의 책임에는 어떤 것들이 있는가",
+      "Case3": "football에서 referee의 책임에는 어떤 것들이 있는가",
+      "Case4": "football에서 referee의 responsibilities에는 어떤 것들이 있는가",
+      "Case5": "what are the responsibilities of a referee in football"
+    }
+  },
+  {
+    "id": 138,
+    "original_ko": "경제는 분배 문제를 어떻게 해결하는가",
+    "original_en": "how does an economy solve the problems of distribution",
+    "code_switched_versions": {
+      "Case1": "경제는 분배 문제를 어떻게 해결하는가",
+      "Case2": "경제는 distribution 문제를 어떻게 해결하는가",
+      "Case3": "경제는 distribution problems를 어떻게 해결하는가",
+      "Case4": "economy는 distribution problems를 어떻게 해결하는가",
+      "Case5": "how does an economy solve the problems of distribution"
+    }
+  },
+  {
+    "id": 139,
+    "original_ko": "정신적 성숙과 사랑하는 능력은 언제 시작되는가",
+    "original_en": "when do psychosexual maturity and the ability to love begin",
+    "code_switched_versions": {
+      "Case1": "정신적 성숙과 사랑하는 능력은 언제 시작되는가",
+      "Case2": "psychosexual maturity와 사랑하는 능력은 언제 시작되는가",
+      "Case3": "psychosexual maturity와 the ability to love는 언제 시작되는가",
+      "Case4": "psychosexual maturity와 the ability to love는 언제 begin 되는가",
+      "Case5": "when do psychosexual maturity and the ability to love begin"
+    }
+  }
+]

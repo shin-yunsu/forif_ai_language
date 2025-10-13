@@ -115,5 +115,44 @@
       "Case5": "where did it takes two to 소리 come from?",
       "Case6": "where did it takes two to tango come from"
     }
+  },
+  {
+    "id": 10,
+    "original_ko": "물, 전기, 흙을 보존하는 두 가지 방법",
+    "original_en": "two ways to conserve water electricity and soil",
+    "code_switched_versions": {
+      "Case1": "물, 전기, 흙을 보존하는 두 가지 방법",
+      "Case2": "물, electricity, 흙을 보존하는 두 가지 방법",
+      "Case3": "물, electricity, soil을 conserve하는 two ways",
+      "Case4": "물, 전기, 흙을 conserve하는 two ways",
+      "Case5": "물, 전기, 흙을 보존하는 two ways",
+      "Case6": "two ways to conserve water electricity and soil"
+    }
+  },
+  {
+    "id": 12,
+    "original_ko": "무엇이 부동산 버블을 터뜨리게 만들었나요?",
+    "original_en": "what caused the real estate bubble to burst",
+    "code_switched_versions": {
+      "Case1": "무엇이 부동산 버블을 터뜨리게 만들었나요?",
+      "Case2": "무엇이 real estate bubble을 터뜨리게 만들었나요?",
+      "Case3": "무엇이 real estate bubble을 burst하게 만들었나요?",
+      "Case4": "what이 부동산 bubble을 터뜨리게 만들었나요?",
+      "Case5": "what 터뜨리게 만들었 the 부동산 bubble?",
+      "Case6": "what caused the real estate bubble to burst"
+    }
+  },
+  {
+    "id": 13,
+    "original_ko": "미국에서 외국인의 투표권에 대해 설명해 주세요.",
+    "original_en": "right of foreigners to vote in the united states",
+    "code_switched_versions": {
+      "Case1": "미국에서 외국인의 투표권에 대해 설명해 주세요.",
+      "Case2": "미국에서 foreigners의 투표권에 대해 explain해 주세요.",
+      "Case3": "미국에서 foreigners의 right to vote에 대해 explain해 주세요.",
+      "Case4": "미국에서 외국인의 투표권에 대해 explain해 주세요.",
+      "Case5": "미국에서 외국인의 right to vote에 대해 explain해 주세요.",
+      "Case6": "right of foreigners to vote in the united states"
+    }
   }
 ]

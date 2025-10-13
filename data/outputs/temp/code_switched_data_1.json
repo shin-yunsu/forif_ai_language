@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "original_ko": "인슐린 의존 당뇨병 환자를 위한 다이어트 계획에서 어떤 요소가 필수로 고려되나요?",
+    "original_en": "what factors are considered essential in the diet plan for the insulin dependent diabetic",
+    "code_switched_versions": {
+      "Case1": "인슐린 의존 당뇨병 환자를 위한 다이어트 계획에서 어떤 요소가 필수로 고려되나요?",
+      "Case2": "insulin dependent diabetic를 위한 다이어트 계획에서 어떤 요소가 필수로 고려되나요?",
+      "Case3": "insulin dependent diabetic를 위한 diet plan에서 어떤 요소가 필수로 고려되나요?",
+      "Case4": "what 요소 are considered essential in the 다이어트 계획 for the 인슐린 의존 당뇨병 환자",
+      "Case5": "what factors are considered essential in the diet plan for the 인슐린 의존 당뇨병 환자",
+      "Case6": "what factors are considered essential in the diet plan for the insulin dependent diabetic"
+    }
+  }
+]

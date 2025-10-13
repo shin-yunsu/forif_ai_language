@@ -15301,10 +15301,10 @@
   },
   {
     "id": 1275,
-    "original_ko": "쿠키 항아리에서 쿠키를 누가 먹었나요?",
+    "original_ko": "쿠키 항아리에서 쿠키를 누가 먹었나요? 노래의 가사를 알려줘",
     "original_en": "who ate the cookies from the cookie jar song lyrics",
     "code_switched_versions": {
-      "Case1": "쿠키 항아리에서 쿠키를 누가 먹었나요?",
+      "Case1": "쿠키 항아리에서 쿠키를 누가 먹었나요? 노래의 가사를 알려줘",
       "Case2": "쿠키 jar에서 쿠키를 누가 먹었나요?",
       "Case3": "Who ate 쿠키 from the 항아리?",
       "Case4": "Who ate the 쿠키 from the jar?",
@@ -15426,7 +15426,7 @@
     "code_switched_versions": {
       "Case1": "다빈치 로봇은 어떤 수술을 하나요",
       "Case2": "다빈치 robot은 어떤 수술을 하나요?",
-      "Case3": "What surgeries does 다빈치 로봇 do?",
+      "Case3": "What 수술 does the 다빈치 로봇 do?",
       "Case4": "What surgeries does the 다빈치 로봇 do?",
       "Case5": "what surgeries does the da vinci robot do"
     }
@@ -15439,7 +15439,7 @@
       "Case1": "가톨릭에서 성령의 열매의 정의",
       "Case2": "가톨릭에서 holy spirit의 fruits의 정의",
       "Case3": "definition of 가톨릭에서 성령의 열매.",
-      "Case4": "definition of the 성령의 열매 in 가톨릭",
+      "Case4": "definition of the 성령의 열매 in catholic",
       "Case5": "definition of the fruits of the holy spirit catholic"
     }
   },
@@ -15451,7 +15451,7 @@
       "Case1": "가스 브룩스는 왜 '더 댄스'라는 노래를 썼나요?",
       "Case2": "가스 브룩스는 왜 'the dance'라는 노래를 썼나요?",
       "Case3": "Why did 가스 브룩스 write the 노래 '더 댄스'?",
-      "Case4": "Why did Garth Brooks 노래 the song \"The Dance\"?",
+      "Case4": "Why did Garth Brooks write the 노래 'The Dance'?",
       "Case5": "why did garth brooks write the song the dance"
     }
   },
@@ -15463,20 +15463,8 @@
       "Case1": "당파가 다수가 아닌 경우 적절한 해결책은 무엇인가요?",
       "Case2": "당파가 majority가 아닌 경우 적절한 해결책은 무엇인가요?",
       "Case3": "If 당파가 다수가 아닌 경우, what was the 적절한 해결책?",
-      "Case4": "If a 당파 was not in a majority, what was the proper 해결책 for it?",
+      "Case4": "If a 당파 was not in a 다수, what was the proper 해결책 for it?",
       "Case5": "if a faction was not in a majority what was the proper solution for it"
-    }
-  },
-  {
-    "id": 1289,
-    "original_ko": "이미 정렬된 병합 정렬의 시간 복잡성",
-    "original_en": "영어 질문",
-    "code_switched_versions": {
-      "Case1": "이미 정렬된 병합 정렬의 시간 복잡성",
-      "Case2": "이미 정렬된 merge sort의 시간 복잡성",
-      "Case3": "What is 이미 정렬된 병합 정렬의 시간 복잡성?",
-      "Case4": "What is the 시간 복잡성 of merge sort that is already sorted?",
-      "Case5": "영어 질문"
     }
   },
   {
@@ -15492,25 +15480,13 @@
     }
   },
   {
-    "id": 1291,
-    "original_ko": "인도 정부는 교육의 권리를 도입했습니다.",
-    "original_en": "government of india introduced the right to education on",
-    "code_switched_versions": {
-      "Case1": "인도 정부는 교육의 권리를 도입했습니다.",
-      "Case2": "인도 government는 교육의 right을 도입했습니다.",
-      "Case3": "The 인도 정부 introduced the 교육의 권리.",
-      "Case4": "The 인도 정부 introduced the right to education.",
-      "Case5": "government of india introduced the right to education on"
-    }
-  },
-  {
     "id": 1292,
     "original_ko": "Deadliest Catch에서 그들은 게를 어떻게 잡나요?",
     "original_en": "how do they catch crabs on deadliest catch",
     "code_switched_versions": {
       "Case1": "Deadliest Catch에서 그들은 게를 어떻게 잡나요?",
       "Case2": "Deadliest Catch에서 그들은 crabs를 어떻게 잡나요?",
-      "Case3": "How do they catch 게 on Deadliest Catch?",
+      "Case3": "How do they 게를 잡나 on Deadliest Catch?",
       "Case4": "How do they catch 게 on Deadliest Catch?",
       "Case5": "how do they catch crabs on deadliest catch"
     }
@@ -15523,7 +15499,7 @@
       "Case1": "오카자키 절편은 다음 중 어떤 것을 가지고 있습니까?",
       "Case2": "오카자키 fragment는 다음 중 어떤 것을 가지고 있습니까?",
       "Case3": "Does an 오카자키 절편 have 어떤 것을 가지고 있습니까?",
-      "Case4": "An okazaki 절편 has which of the following?",
+      "Case4": "An 오카자키 절편 has which of the following?",
       "Case5": "an okazaki fragment has which of the following"
     }
   },
@@ -15541,24 +15517,24 @@
   },
   {
     "id": 1295,
-    "original_ko": "'A Change of Seasons'의 가사 의미",
+    "original_ko": "'찬스 오브 시즌스'의 가사 의미",
     "original_en": "dream theater a change of seasons lyrics meaning",
     "code_switched_versions": {
-      "Case1": "'A Change of Seasons'의 가사 의미",
-      "Case2": "'A Change of Seasons'의 lyrics 의미",
-      "Case3": "What is 'A Change of Seasons'의 가사 의미?",
+      "Case1": "'찬스 오브 시즌스'의 가사 의미",
+      "Case2": "'찬스 오브 시즌스'의 lyrics 의미",
+      "Case3": "What is '찬스 오브 시즌스'의 lyrics 의미?",
       "Case4": "What is the 'A Change of Seasons'의 가사 의미?",
       "Case5": "dream theater a change of seasons lyrics meaning"
     }
   },
   {
     "id": 1296,
-    "original_ko": "스타 트렉 엔터프라이즈 'These Are the Voyages' 리뷰",
+    "original_ko": "스타 트렉 엔터프라이즈 '디즈 아 더 보이저스' 리뷰",
     "original_en": "star trek enterprise these are the voyages review",
     "code_switched_versions": {
-      "Case1": "스타 트렉 엔터프라이즈 'These Are the Voyages' 리뷰",
+      "Case1": "스타 트렉 엔터프라이즈 '디즈 아 더 보이저스' 리뷰",
       "Case2": "스타 트렉 enterprise 'These Are the Voyages' 리뷰",
-      "Case3": "star trek enterprise 'These Are the Voyages' 리뷰",
+      "Case3": "star trek 엔터프라이즈 '디즈 아 더 보이저스' 리뷰",
       "Case4": "star trek enterprise 'These Are the Voyages' 리뷰",
       "Case5": "star trek enterprise these are the voyages review"
     }
@@ -15577,13 +15553,13 @@
   },
   {
     "id": 1298,
-    "original_ko": "터무니없는 운의 은유인 슬링과 화살",
+    "original_ko": "터무니없는 운명의 투석구와 화살 은유는?", 
     "original_en": "the slings and arrows of outrageous fortune metaphor",
     "code_switched_versions": {
-      "Case1": "터무니없는 운의 은유인 슬링과 화살",
-      "Case2": "터무니없는 운의 은유인 slings와 arrows",
-      "Case3": "the 터무니없는 운의 슬링과 화살 metaphor.",
-      "Case4": "the 슬링과 화살 of outrageous fortune metaphor",
+      "Case1": "터무니없는 운명의 투석구와 화살 은유는?",
+      "Case2": "터무니없는 운명의 slings와 arrows 은유는?",
+      "Case3": "the 터무니없는 운의 투석구와 화살 metaphor.",
+      "Case4": "the 투석구과 화살 of outrageous fortune metaphor",
       "Case5": "the slings and arrows of outrageous fortune metaphor"
     }
   },
@@ -15593,8 +15569,8 @@
     "original_en": "list and describe the various irrigation project in nigeria",
     "code_switched_versions": {
       "Case1": "나이지리아의 여러 관개 사업을 나열하고 설명해라",
-      "Case2": "나이지리아의 여러 irrigation 사업을 나열하고 설명해라.",
-      "Case3": "List and describe the 여러 관개 사업 in 나이지리아.",
+      "Case2": "나이지리아의 여러 irrigation project를 나열하고 설명해라.",
+      "Case3": "List and 설명 the 여러 관개 사업 in 나이지리아.",
       "Case4": "List and describe the 여러 관개 사업 in Nigeria.",
       "Case5": "list and describe the various irrigation project in nigeria"
     }
@@ -15605,9 +15581,9 @@
     "original_en": "how did the japanese treat their new colonies",
     "code_switched_versions": {
       "Case1": "일본은 그들의 새로운 식민지를 어떻게 대했나요",
-      "Case2": "일본은 그들의 new 식민지를 어떻게 대했나요?",
-      "Case3": "How did 일본은 그들의 새로운 식민지를 대했나요?",
-      "Case4": "How did the 일본 treat their new colonies?",
+      "Case2": "일본은 그들의 new colonies를 어떻게 대했나요?",
+      "Case3": "How did japenese treat 그들의 새로운 식민지",
+      "Case4": "How did the 일본 treat their new 식민지?",
       "Case5": "how did the japanese treat their new colonies"
     }
   },
@@ -15630,45 +15606,33 @@
     "code_switched_versions": {
       "Case1": "워싱턴에서 에어포스 원은 어디에 착륙하나요",
       "Case2": "워싱턴에서 air force one은 어디에 착륙하나요?",
-      "Case3": "Where does 에어포스 원 land in 워싱턴?",
+      "Case3": "Where does 에어포스 원 착륙 in 워싱턴?",
       "Case4": "Where does 에어포스 원 land in 워싱턴?",
       "Case5": "where does air force one land in washington"
     }
   },
   {
-    "id": 1303,
-    "original_ko": "긍정적 외부효과, 대체효과, 부정적 외부효과, 소득효과",
-    "original_en": "positive externality substitution effect negative externality income effect",
-    "code_switched_versions": {
-      "Case1": "긍정적 외부효과, 대체효과, 부정적 외부효과, 소득효과",
-      "Case2": "positive 외부효과, 대체효과, 부정적 외부효과, income 효과",
-      "Case3": "What are 긍정적 외부효과, 대체효과, 부정적 외부효과, and 소득효과?",
-      "Case4": "positive 외부효과, 대체효과, 부정적 외부효과, 소득효과.",
-      "Case5": "positive externality substitution effect negative externality income effect"
-    }
-  },
-  {
     "id": 1304,
-    "original_ko": "속담 '인간의 가장 친한 친구'는 어디에서 유래했나요",
-    "original_en": "where did the saying man best friend come from",
+    "original_ko": "속담 '개는 인간의 가장 친한 친구'는 어디에서 유래했나요",
+    "original_en": "where did the saying A dog is a man's best friend come from",
     "code_switched_versions": {
-      "Case1": "속담 '인간의 가장 친한 친구'는 어디에서 유래했나요",
-      "Case2": "속담 'man의 가장 친한 친구'는 어디에서 유래했나요?",
-      "Case3": "Where did 속담 '인간의 가장 친한 친구' come from?",
-      "Case4": "Where did the 속담 'man’s best friend' come from?",
-      "Case5": "where did the saying man best friend come from"
+      "Case1": "속담 '개는 인간의 가장 친한 친구'는 어디에서 유래했나요",
+      "Case2": "속담 'A dog is a man's best friend'는 어디에서 유래했나요?",
+      "Case3": "Where did 속담 '개는 인간의 가장 친한 친구' come from?",
+      "Case4": "Where did the 속담 'A dog is a man’s best friend' come from?",
+      "Case5": "where did the saying A dog is a man best friend come from"
     }
   },
-  {
-    "id": 1305,
-    "original_ko": "탄광 건강 및 안전법은 누구에게 적용되나요",
-    "original_en": "who does the coal mining safety & health act apply to",
-    "code_switched_versions": {
-      "Case1": "탄광 건강 및 안전법은 누구에게 적용되나요",
-      "Case2": "탄광 safety & health 법은 누구에게 적용되나요?",
-      "Case3": "Who does 탄광 건강 및 안전법 apply to?",
-      "Case4": "Who does the 탄광 건강 및 안전법 apply to?",
-      "Case5": "who does the coal mining safety & health act apply to"
+ {
+  "id": 1305,
+  "original_ko": "탄광 건강 및 안전법은 누구에게 적용되나요",
+  "original_en": "who does the coal mining safety & health act apply to",
+  "code_switched_versions": {
+    "Case1": "탄광 건강 및 안전법은 누구에게 적용되나요?",
+    "Case2": "탄광 safety & health act은 누구에게 적용되나요?",
+    "Case3": "Who does 탄광 안전법 apply to?",
+    "Case4": "Who does the coal mining 안전법 apply to?",
+    "Case5": "who does the coal mining safety & health act apply to"
     }
   },
   {
@@ -15679,7 +15643,7 @@
       "Case1": "용어 '립 시티'는 어디에서 유래했나요",
       "Case2": "용어 'rip city'는 어디에서 유래했나요?",
       "Case3": "Where did the 용어 '립 시티' come from?",
-      "Case4": "Where did the 용어 '립 시티' come from?",
+      "Case4": "Where did the 용어 'rip city' come from?",
       "Case5": "where did the term rip city come from"
     }
   },
@@ -15713,23 +15677,11 @@
     "original_en": "who has better stats peyton manning or tom brady",
     "code_switched_versions": {
       "Case1": "페이튼 매닝과 톰 브래디 중 누가 더 나은 기록을 가지고 있나요?",
-      "Case2": "페이튼 매닝과 톰 브래디 중 누가 더 나은 stats를 가지고 있나요?",
-      "Case3": "Who has 더 나은 기록, 페이튼 매닝 아니면 톰 브래디?",
-      "Case4": "Who has better 기록, Peyton Manning or Tom Brady?",
+      "Case2": "페이튼 매닝과 톰 브래디 중 누가 더 좋은 stats를 갖고 있나요?",
+      "Case3": "Who has 더 뛰어난 기록, 페이튼 매닝 아니면 톰 브래디?",
+      "Case4": "Who has better stats, 페이튼 매닝과 톰 브래디 중?",
       "Case5": "who has better stats peyton manning or tom brady"
-    }
-  },
-  {
-    "id": 1310,
-    "original_ko": "신과 싸우기에는 팔이 너무 짧습니다.",
-    "original_en": "arms are too short to box with god",
-    "code_switched_versions": {
-      "Case1": "신과 싸우기에는 팔이 너무 짧습니다.",
-      "Case2": "신과 싸우기에는 arms이 너무 짧습니다.",
-      "Case3": "arms는 신과 싸우기에는 너무 짧습니다.",
-      "Case4": "팔이 너무 짧아서 신과 싸우기에는.",
-      "Case5": "arms are too short to box with god"
-    }
+    }   
   },
   {
     "id": 1311,
@@ -15737,9 +15689,9 @@
     "original_en": "not guilty by reason of insanity washington state",
     "code_switched_versions": {
       "Case1": "정신 이상으로 무죄인 워싱턴 주",
-      "Case2": "정신 이상으로 not guilty인 워싱턴 주",
-      "Case3": "not guilty by reason of 정신 이상으로 워싱턴 주.",
-      "Case4": "not guilty by reason of 정신 이상 워싱턴 주",
+      "Case2": "워싱턴 주, 정신 이상으로 not guilty 판결",
+      "Case3": "Not guilty by reason of 정신 이상 in 워싱턴 주",
+      "Case4": "Not guilty by reason of 정신 이상 in washington state",
       "Case5": "not guilty by reason of insanity washington state"
     }
   },
@@ -15749,9 +15701,9 @@
     "original_en": "what is the type of particle formed by covalent bonds",
     "code_switched_versions": {
       "Case1": "공유 결합에 의해 형성되는 입자의 종류는 무엇인가요?",
-      "Case2": "covalent bond에 의해 형성되는 입자의 종류는 무엇인가요?",
-      "Case3": "What is 공유 결합에 의해 형성되는 입자의 종류?",
-      "Case4": "What is the 종류 of particle formed by 공유 결합?",
+      "Case2": "Covalent bond로 형성된 입자의 종류는 무엇인가요?",
+      "Case3": "What kind of particle is formed by 공유 결합?",
+      "Case4": "What is the type of particle 공유 결합이 만든?",
       "Case5": "what is the type of particle formed by covalent bonds"
     }
   },
@@ -15761,9 +15713,9 @@
     "original_en": "when is a function said to be measurable",
     "code_switched_versions": {
       "Case1": "함수가 측정 가능하다고 말해지는 것은 언제인가요?",
-      "Case2": "함수가 measurable하다고 말해지는 것은 언제인가요?",
-      "Case3": "When is 함수가 측정 가능하다고 말해지는?",
-      "Case4": "when is a 함수 said to be measurable?",
+      "Case2": "함수가 measurable이라고 불리는 건 언제인가요?",
+      "Case3": "When is 함수 said to be 측정 가능",
+      "Case4": "When is 함수 said to be measurable",
       "Case5": "when is a function said to be measurable"
     }
   },
@@ -15773,33 +15725,33 @@
     "original_en": "when does a tv show go into syndication",
     "code_switched_versions": {
       "Case1": "TV 프로그램이 언제 신디케이션에 들어가나요?",
-      "Case2": "TV 프로그램이 언제 syndication에 들어가나요?",
-      "Case3": "When does TV 프로그램이 신디케이션에 들어가나요?",
-      "Case4": "When does a TV 프로그램 go into syndication?",
+      "Case2": "TV 프로그램은 언제 syndication에 들어가나요?",
+      "Case3": "When does a TV 프로그램 신디케이션에 들어가나요?",
+      "Case4": "When does a TV show가 syndication에 들어가게 되나요?",
       "Case5": "when does a tv show go into syndication"
     }
   },
   {
     "id": 1315,
-    "original_ko": "파인애플과 감자의 원산지는 어디인가요?",
+    "original_ko": "파인애플과 감자의 원산지는 어디인가요",
     "original_en": "where did pineapples and potatoes originally come from",
     "code_switched_versions": {
-      "Case1": "파인애플과 감자의 원산지는 어디인가요?",
-      "Case2": "파인애플과 potato의 원산지는 어디인가요?",
-      "Case3": "Where did 파인애플과 감자 originally come from?",
+      "Case1": "파인애플과 감자의 원산지는 어디인가요",
+      "Case2": "파인애플과 potato의 원산지는 어디인가요",
+      "Case3": "Where is the 파인애플과 감자의 원산지",
       "Case4": "Where did 파인애플 and 감자 originally come from?",
       "Case5": "where did pineapples and potatoes originally come from"
     }
   },
   {
     "id": 1316,
-    "original_ko": "\"하우스 오브 골드\"의 뮤직비디오가 의미하는 것은?",
+    "original_ko": "'하우스 오브 골드'의 뮤직비디오가 의미하는 것은?",
     "original_en": "what does the house of gold music video mean",
     "code_switched_versions": {
-      "Case1": "\"하우스 오브 골드\"의 뮤직비디오가 의미하는 것은?",
-      "Case2": "\"하우스 오브 골드\"의 music video가 의미하는 것은?",
-      "Case3": "What does \"하우스 오브 골드\"의 뮤직비디오 mean?",
-      "Case4": "What does the \"하우스 오브 골드\" 뮤직비디오 mean?",
+      "Case1": "'하우스 오브 골드'의 뮤직비디오가 의미하는 것은?",
+      "Case2": "'하우스 오브 골드'의 music video가 의미하는 것은?",
+      "Case3": "What does '하우스 오브 골드'의 뮤직비디오 mean?",
+      "Case4": "What does the house of gold 뮤직비디오 mean?",
       "Case5": "what does the house of gold music video mean"
     }
   },
@@ -15822,7 +15774,7 @@
     "code_switched_versions": {
       "Case1": "레노르는 누구이며 그녀에게 무슨 일이 있었습니까?",
       "Case2": "lenore는 누구이며 그녀에게 무슨 일이 있었습니까?",
-      "Case3": "Who is 레노르 and what has happened to 그녀?",
+      "Case3": "Who is 레노르 and 무슨 일이 happened to 그녀?",
       "Case4": "Who is 레노르 and what has happened to her?",
       "Case5": "who is lenore and what has happened to her"
     }
@@ -15853,11 +15805,11 @@
   },
   {
     "id": 1321,
-    "original_ko": "BB 총이라는 이름은 어디에서 유래했나요?",
+    "original_ko": "비비탄총이라는 이름은 어디에서 유래했나요?",
     "original_en": "where did the name bb gun come from",
     "code_switched_versions": {
-      "Case1": "BB 총이라는 이름은 어디에서 유래했나요?",
-      "Case2": "BB 총이라는 name은 어디에서 유래했나요?",
+      "Case1": "비비탄총이라는 이름은 어디에서 유래했나요?",
+      "Case2": "비비탄총이라는 name은 어디에서 유래했나요?",
       "Case3": "Where did the 이름 BB 총 come from?",
       "Case4": "Where did the 이름 bb gun come from?",
       "Case5": "where did the name bb gun come from"
@@ -15877,13 +15829,13 @@
   },
   {
     "id": 1323,
-    "original_ko": "노래 '내가 알지 못했던 가장 위대한 남자'는 무엇에 관한 것인가요?",
+    "original_ko": "노래 '더 그레이티스트 맨 아이 네버 뉴 어바웃'은 무엇에 관한 것인가요?",
     "original_en": "what is the song greatest man i never knew about",
     "code_switched_versions": {
-      "Case1": "노래 '내가 알지 못했던 가장 위대한 남자'는 무엇에 관한 것인가요?",
+      "Case1": "노래 '더 그레이티스트 맨 아이 네버 뉴 어바웃'은 무엇에 관한 것인가요?",
       "Case2": "노래 'greatest man I never knew'는 무엇에 관한 것인가요?",
-      "Case3": "What is 노래 '내가 알지 못했던 가장 위대한 남자'에 관한 것인가요?",
-      "Case4": "What is the 노래 '내가 알지 못했던 가장 위대한 남자' about?",
+      "Case3": "What is 노래 '더 그레이티스트 맨 아이 네버 뉴 어바웃' about",
+      "Case4": "What is the 노래 greatest man I never knew about",
       "Case5": "what is the song greatest man i never knew about"
     }
   },
@@ -15919,7 +15871,7 @@
       "Case1": "아일랜드의 유니폼에는 왜 3이 있습니까?",
       "Case2": "아일랜드의 uniform에는 왜 3이 있습니까?",
       "Case3": "Why is there a 3 on 아일랜드의 유니폼?",
-      "Case4": "Why is there a 3 on the 아일랜드 유니폼?",
+      "Case4": "Why is there a 3 on the 아일랜드 uniform?",
       "Case5": "why is there a 3 on the ireland jerseys"
     }
   },
