@@ -11882,19 +11882,6 @@
     }
   },
   {
-    "id": 1074,
-    "original_ko": "2017년 FIFA 17세 이하 월드컵에 출전한 팀들",
-    "original_en": "teams playing in fifa under 17 world cup 2017",
-    "code_switched_versions": {
-      "Case1": "2017년 FIFA 17세 이하 월드컵에 출전한 팀들",
-      "Case2": "2017년 FIFA under 17 world cup에 출전한 teams들",
-      "Case3": "2017년 FIFA under 17 world cup에 출전한 teams들이 play했어요",
-      "Case4": "2017년 FIFA 17세 이하 월드컵에 출전한 teams들이 play했어요",
-      "Case5": "2017년 FIFA 17세 이하 월드컵에 출전한 teams들",
-      "Case6": "teams playing in fifa under 17 world cup 2017"
-    }
-  },
-  {
     "id": 1075,
     "original_ko": "척골신경은 어디에서 시작하고 끝나나요?",
     "original_en": "where does the ulnar nerve start and end",
@@ -11954,7 +11941,7 @@
       "Case1": "80일간의 세계일주에 대한 위키피디아 요약",
       "Case2": "80일간의 world trip에 대한 Wikipedia 요약",
       "Case3": "80일간의 world trip에 대한 Wikipedia summary",
-      "Case4": "around the world in 80 days summary 위키피디아",
+      "Case4": "around the world in 80 days 요약 위키피디아",
       "Case5": "around the world in 80 days 요약 wikipedia",
       "Case6": "around the world in 80 days summary wikipedia"
     }
@@ -12018,7 +12005,7 @@
     "code_switched_versions": {
       "Case1": "실리콘 밸리는 어디에 위치해 있고 무엇으로 유명한가요?",
       "Case2": "실리콘 Valley는 어디에 위치해 있고 무엇으로 famous한가요?",
-      "Case3": "Silicon Valley는 어디에 위치해 있고 무엇으로 famous한가요?",
+      "Case3": "Silicon Valley는 어디에 located해 있고 무엇으로 famous한가요?",
       "Case4": "where is the 실리콘 밸리 situated and what is it famous for",
       "Case5": "where is the silicon 밸리 situated what is it famous for",
       "Case6": "where is the silicon valley situated what is it famous for"
@@ -12058,7 +12045,7 @@
       "Case1": "어떻게 다양한 종류의 대마초를 얻나요?",
       "Case2": "어떻게 different strains of weed를 얻나요?",
       "Case3": "어떻게 different strains of weed를 get하나요?",
-      "Case4": "how do you 얻나요 different strains of 대마초?",
+      "Case4": "how do you get 다양한 종류 of 대마초?",
       "Case5": "how do you get different strains of 대마초?",
       "Case6": "how do you get different strains of weed"
     }
@@ -12090,39 +12077,13 @@
     }
   },
   {
-    "id": 1092,
-    "original_ko": "풀잎의 첫 번째 판 서문",
-    "original_en": "preface to the first edition of leaves of grass",
-    "code_switched_versions": {
-      "Case1": "풀잎의 첫 번째 판 서문",
-      "Case2": "풀잎의 first edition 서문",
-      "Case3": "first edition of leaves of grass 서문",
-      "Case4": "preface to the first edition of 풀잎 grass",
-      "Case5": "preface to the first edition of 풀잎",
-      "Case6": "preface to the first edition of leaves of grass"
-    }
-  },
-  {
-    "id": 1093,
-    "original_ko": "J. B. S. 홀데인의 자연의 법칙 요약",
-    "original_en": "the laws of nature by jbs haldane summary",
-    "code_switched_versions": {
-      "Case1": "J. B. S. 홀데인의 자연의 법칙 요약",
-      "Case2": "J. B. S. 홀데인의 laws of nature 요약",
-      "Case3": "J. B. S. Haldane의 laws of nature 요약",
-      "Case4": "J. B. S. 홀데인의 자연의 법칙 summary",
-      "Case5": "J. B. S. 홀데인의 자연의 laws 요약",
-      "Case6": "the laws of nature by jbs haldane summary"
-    }
-  },
-  {
     "id": 1094,
     "original_ko": "스페인어에서 유래된 미국의 지명 5개를 나열하세요.",
     "original_en": "list 5 place names in the usa that are derived from the spanish language",
     "code_switched_versions": {
       "Case1": "스페인어에서 유래된 미국의 지명 5개를 나열하세요.",
-      "Case2": "스페인어에서 유래된 USA의 지명 5개를 나열하세요.",
-      "Case3": "스페인어에서 유래된 5 place names in the USA를 list하세요.",
+      "Case2": "spanish에서 유래된 USA의 지명 5개를 나열하세요.",
+      "Case3": "spanish에서 유래된 5 place names in the USA를 list하세요.",
       "Case4": "list 5 지명 in the USA that are derived from the 스페인어 language",
       "Case5": "list 5 place names in the USA that are derived from the 스페인어 language",
       "Case6": "list 5 place names in the usa that are derived from the spanish language"
